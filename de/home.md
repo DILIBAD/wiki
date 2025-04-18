@@ -2,63 +2,73 @@
 title: Startseite
 description: 
 published: true
-date: 2025-04-17T21:45:45.151Z
+date: 2025-04-18T10:07:14.214Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:45:38.952Z
 ---
 
-# 🎮 Projekt-Wiki: DILIBAD
+# 🎮 Willkommen im offiziellen Wiki von **DILIBAD**
 
-Willkommen im zentralen Wiki unseres Spieleprojekts!  
-Dieses Wiki dient als zentrale Anlaufstelle für alle Bereiche der Entwicklung – von Organisation und Game Design über Marketing und Community-Strukturen bis hin zur technischen Architektur.
+> *Discover. Liberate. Build. Automate. Defend.*
 
----
+Dieses Wiki ist die zentrale Anlaufstelle für alles rund um **DILIBAD** – unser genreübergreifendes Videospielprojekt, das Strategie, Action und Aufbau in einer fantastischen Spielwelt vereint.
 
-## 📁 Inhaltsverzeichnis
-
-### 🏢 Organisation
-- Teamstruktur  
-- Projektmanagement & Tools  
-- Kommunikationswege  
-- Meeting-Protokolle  
-
-### 🎨 Game Design Dokument (GDD)
-- Spielidee & Vision  
-- Gameplay-Mechaniken  
-- Leveldesign  
-- Charaktere & Lore  
-- UI/UX-Konzept  
-- Audio & Musik  
-
-### 📈 Marketing & Analysen
-- Zielgruppenanalyse  
-- Markt- & Wettbewerbsanalyse  
-- Marketingstrategie  
-- Branding & Assets  
-- Social Media Planung  
-
-### 👥 Community & Kommunikation
-- Community-Plattformen  
-- Moderationsrichtlinien  
-- Community Events & Interaktion  
-- Feedback-Management  
-
-### 🛠️ Technische Architektur
-- Technologie-Stack  
-- Systemarchitektur  
-- Build-Prozesse & Deployment  
-- Versionsverwaltung  
-- DevOps & Infrastruktur  
+Hier findest du Informationen zur Spielidee, Mechaniken, Welt, Entwicklung und Zukunftsvision.  
+Ob neugierige Spieler:innen, interessierte Entwickler:innen oder Unterstützer:innen – du bist hier genau richtig.
 
 ---
 
-## 📌 Hinweise
+## 📌 Was ist DILIBAD?
 
-- Dieses Wiki befindet sich im Aufbau. Inhalte werden schrittweise ergänzt.
-- Für Fragen oder Anregungen bitte an das Projektteam wenden.
-- Einheitliche Struktur und klare Sprache helfen uns allen – bitte mitdenken beim Schreiben!
+**DILIBAD** steht für:  
+**Discover. Liberate. Build. Automate. Defend.**  
+Fünf Kernprinzipien, die das Gameplay prägen:
+
+1. **Discover** – Erkunde eine geheimnisvolle Welt voller Biome, Ressourcen und Bedrohungen  
+2. **Liberate** – Befreie besetzte Gebiete von gegnerischen Kräften  
+3. **Build** – Errichte eine eigene Basis und entwickle sie weiter  
+4. **Automate** – Nutze Technologie, um Produktions- und Verteidigungsprozesse zu automatisieren  
+5. **Defend** – Wehre Gegnerwellen taktisch ab – bis zum finalen Bosskampf
 
 ---
 
-## 🚀 Let’s build something awesome together!
+## 🌍 Setting & Spielwelt
+
+- **Stil**: 2.5D mit Top-Down-Perspektive  
+- **Welt**: Prozedural kombinierte Biome (Wald, Lava, Eis, uvm.)  
+- **Kämpfe**: Dynamisch, aktiv und lesbar – mit Bossmechaniken, Combos & Ausweichmanövern  
+- **Aufbau**: Ressourcenabbau, strategisches Bauen & automatisiertes Produktionssystem  
+- **Fortschritt**: Jede Karte endet in einem epischen Bosskampf – danach wird das Gebiet als „befreit“ markiert
+
+---
+
+## 🧩 Kernfeatures
+
+- 🎮 **Koop-Spielerlebnis**: Gemeinsam mit anderen befreien, bauen, verteidigen  
+- ⚔️ **Klassensystem & Fähigkeiten**: Verschiedene Spielstile und Spezialisierungen  
+- 🧱 **Bauen & Verteidigen**: Kombiniere Türme, Fallen und eigene Kampffähigkeiten  
+- 🔁 **Wellenbasierte Dynamik**: Jeder Fortschritt provoziert Gegenwehr  
+- 🗺️ **Erkunden & Automatisieren**: Finde Hinweise, erweitere die Karte, optimiere Abläufe
+
+---
+
+## 📖 Was du hier im Wiki findest
+
+- Eine vollständige [Übersicht aller Features und Systeme](./index.md)  
+- Details zu [Spielmechaniken, Aktionen & dem Kampfsystem](./features/Kampf/Kampfsystem.md)  
+- Infos zu [Spielerklassen, Fähigkeiten & NPCs](./features/Entitaeten/Spieler.md)  
+- Alles über die [Welt, Karten & Biome](./features/Welt/Welt.md)  
+- Unser Zielsystem & die [strukturierte Progression durch Bosskämpfe](./features/Zielsystem/Progression.md)
+
+---
+
+## 💬 Mitmachen oder Feedback geben?
+
+Du willst mitgestalten oder hast Fragen?  
+Wir freuen uns über jede Form von Beteiligung, Ideen und Diskussionen.  
+Schreib uns über unsere offiziellen Kanäle oder stelle Fragen direkt im Wiki (wenn freigeschaltet).
+
+---
+
+*Danke, dass du Teil von **DILIBAD** bist – entdecke, befreie, baue, automatisiere und verteidige!*
