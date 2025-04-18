@@ -2,7 +2,7 @@
 title: Startseite
 description: 
 published: true
-date: 2025-04-18T10:07:14.214Z
+date: 2025-04-18T10:07:30.850Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:45:38.952Z
@@ -51,15 +51,7 @@ Fünf Kernprinzipien, die das Gameplay prägen:
 - 🔁 **Wellenbasierte Dynamik**: Jeder Fortschritt provoziert Gegenwehr  
 - 🗺️ **Erkunden & Automatisieren**: Finde Hinweise, erweitere die Karte, optimiere Abläufe
 
----
 
-## 📖 Was du hier im Wiki findest
-
-- Eine vollständige [Übersicht aller Features und Systeme](./index.md)  
-- Details zu [Spielmechaniken, Aktionen & dem Kampfsystem](./features/Kampf/Kampfsystem.md)  
-- Infos zu [Spielerklassen, Fähigkeiten & NPCs](./features/Entitaeten/Spieler.md)  
-- Alles über die [Welt, Karten & Biome](./features/Welt/Welt.md)  
-- Unser Zielsystem & die [strukturierte Progression durch Bosskämpfe](./features/Zielsystem/Progression.md)
 
 ---
 
