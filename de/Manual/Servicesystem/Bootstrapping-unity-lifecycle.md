@@ -2,7 +2,7 @@
 title: Bootstrapping & Unity Lifecycle
 description: 
 published: true
-date: 2025-04-18T10:38:46.155Z
+date: 2025-04-18T10:39:42.608Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-18T10:38:46.155Z
@@ -14,7 +14,7 @@ Diese Seite beschreibt, wie das Spiel beim Start systematisch initialisiert wird
 ---
 
 ## 📅 Unity Load-Phasen
-Unity bietet verschiedene Einstiegszeitpunkte für die Initialisierung:
+Unity bietet verschiedene Einstiegszeitpunkte für die Initialisierung [Unity Scripting API](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RuntimeInitializeLoadType.html) :
 
 | Phase                    | Zeitpunkt                         | Einsatzzweck |
 |-------------------------|-----------------------------------|--------------|
