@@ -2,7 +2,7 @@
 title: Service System
 description: 
 published: true
-date: 2025-04-18T10:37:29.060Z
+date: 2025-04-18T10:47:44.375Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-18T10:37:29.060Z
@@ -11,13 +11,23 @@ dateCreated: 2025-04-18T10:37:29.060Z
 # 🧩 Servicesystem
 
 ## ✨ Ziel
-Das Servicesystem bildet das modulare Herzstück der Anwendung. Es erlaubt, lose gekoppelte Komponenten über einen gemeinsamen ServiceManager zu registrieren, zu initialisieren und im globalen Kontext verfügbar zu machen.
+Das Servicesystem stellt eine flexible, modulare Infrastruktur bereit, mit der sowohl Client- als auch Serverkomponenten lose gekoppelt über gemeinsame Interfaces verwaltet und genutzt werden können. Die Grundlage bilden `IService`, `ServiceManager` und der globale `ServiceLocator`.
 
 ---
 
-## 🧱 Struktur
+## 🧱 Architekturübersicht
 
-### Interfaces
+### Ziele des Systems
+- 💡 **Lose Kopplung** zwischen Spielsystemen
+- 🔁 **Lebenszyklus-Management** (Init / Shutdown)
+- 🧪 **Testbarkeit** durch optionale Abhängigkeiten und Fallbacks
+- 🌐 **Zentraler Zugriff** über globalen ServiceLocator
+
+---
+
+## 🧩 Schnittstellen
+
+### `IService`
 ```csharp
 public interface IService
 {
@@ -29,7 +39,10 @@ public interface IService
     void Initialize(IServiceLocator locator);
     void Shutdown();
 }
+```
 
+### `IServiceLocator`
+```csharp
 public interface IServiceLocator
 {
     T Get<T>() where T : class, IService;
@@ -38,58 +51,87 @@ public interface IServiceLocator
 }
 ```
 
-### ServiceManager
-Verwaltet Registrierung, Initialisierung und Auflösung von Services.
+---
+
+## 🧰 ServiceManager – zentrales Management
+Der `ServiceManager` verwaltet Registrierung, Initialisierung und Abhängigkeitsauflösung von Services. Dabei werden Services zunächst registriert und **gecached**, bevor sie bei Bedarf oder beim Aufruf von `InitializeAll()` initialisiert und in die aktiven Services überführt werden.
 
 ```csharp
 public class ServiceManager : IServiceLocator
 {
-    private Dictionary<Type, IService> _services = new();
+    private Dictionary<Type, IService> _activeServices = new();
+    private Dictionary<Type, IService> _registeredCache = new();
     private Dictionary<Type, IService> _fallbacks = new();
 
     public void RegisterService(IService service, bool isFallback = false)
     {
         var type = service.GetType();
         if (isFallback)
+        {
             _fallbacks[type] = service;
+        }
         else
-            _services[type] = service;
+        {
+            if (_activeServices.ContainsKey(type) || _registeredCache.ContainsKey(type)) return;
+            _registeredCache[type] = service;
+        }
     }
 
     public void InitializeAll()
     {
-        foreach (var service in _services.Values)
-            InitializeService(service);
+        foreach (var type in _registeredCache.Keys.ToList())
+        {
+            InitializeService(type);
+        }
     }
 
-    private void InitializeService(IService service)
+    private void InitializeService(Type type)
     {
-        if (service.IsInitialized) return;
+        if (_activeServices.ContainsKey(type)) return;
+
+        if (!_registeredCache.TryGetValue(type, out var service))
+        {
+            if (_fallbacks.TryGetValue(type, out var fallback))
+            {
+                service = fallback;
+                _registeredCache[type] = service;
+            }
+            else
+            {
+                throw new InvalidOperationException($"Service of type {type} not found.");
+            }
+        }
 
         foreach (var dep in service.Dependencies)
         {
-            if (!_services.TryGetValue(dep, out var dependency))
-            {
-                if (_fallbacks.TryGetValue(dep, out var fallback))
-                    RegisterService(fallback);
-
-                dependency = _services[dep];
-            }
-            InitializeService(dependency);
+            InitializeService(dep);
         }
 
         service.Initialize(this);
+        _registeredCache.Remove(type);
+        _activeServices[type] = service;
     }
 
-    public T Get<T>() where T : class, IService => _services[typeof(T)] as T;
-    public IService Get(Type type) => _services.TryGetValue(type, out var s) ? s : null;
-    public bool IsAvailable(Type type) => _services.ContainsKey(type);
+    public T Get<T>() where T : class, IService => Get(typeof(T)) as T;
+
+    public IService Get(Type type)
+    {
+        if (_activeServices.TryGetValue(type, out var service)) return service;
+        if (_registeredCache.ContainsKey(type))
+        {
+            InitializeService(type);
+            return _activeServices[type];
+        }
+        return null;
+    }
+
+    public bool IsAvailable(Type type) => _activeServices.ContainsKey(type);
 }
 ```
 
-### GlobalServiceLocator
-Globale Zugriffsmöglichkeit auf Services (Singleton-Style).
+---
 
+## 🌐 GlobalServiceLocator – globaler Zugriff
 ```csharp
 public static class GlobalServiceLocator
 {
@@ -127,53 +169,61 @@ public static class GlobalServiceLocator
 
 ---
 
-## 👀 Verknüpfung zum Bootstrap
-Das Servicesystem wird im `Bootstrapper` verwendet, um Services in verschiedenen Unity-Load-Phasen bereitzustellen:
+## 🔁 Lebenszyklus der Services
+Services durchlaufen folgende Phasen:
+1. **Registrierung** über `RegisterService()` (Cache)
+2. **Initialisierung** durch `Initialize()` – inkl. Abhängigkeitsauflösung → Übergabe in aktiven Servicebereich
+3. **Laufzeitnutzung** – Zugriff über ServiceLocator oder Injection
+4. **Shutdown** durch explizite Deinitialisierung
 
-- `SubsystemRegistration`: Fallbacks, Logging, Systeminfo
-- `BeforeSceneLoad`: Core-Services, Headless-Prüfung, PreServer/Client
-- `AfterSceneLoad`: szenenabhängige Services (UI, Spawner, World)
-
-**Details siehe:** `Bootstrapping & Unity Lifecycle`
+Mehr Details dazu findest du in: [Service Lifecycle](service-lifecycle.md)
 
 ---
 
-## ✂ Eigene Services schreiben
+## ⚙️ Integration im Bootstrapprozess
+Das Servicesystem wird vom `Bootstrapper` in mehreren Unity-Phasen verwendet:
+
+- `SubsystemRegistration`: Frühe Fallbacks & Logging
+- `BeforeSceneLoad`: Core-Services, Server/Client-Kontext
+- `AfterSceneLoad`: szenenbezogene Services (UI, Spawner, Game-World)
+
+Siehe: [Bootstrapping & Unity Lifecycle](bootstrapping-unity-lifecycle.md)
+
+---
+
+## ✏️ Beispiel: Eigener Service
 ```csharp
-public class MyService : IService
+public class ExampleService : IService
 {
-    public string Name => "MyService";
+    public string Name => "ExampleService";
     public Type[] Dependencies => new[] { typeof(ConfigService) };
-    public Type[] OptionalDependencies => new Type[0];
+    public Type[] OptionalDependencies => Array.Empty<Type>();
     public bool IsInitialized { get; private set; }
 
     public void Initialize(IServiceLocator locator)
     {
         var config = locator.Get<ConfigService>();
-        // Initialisiere mit Config
         IsInitialized = true;
     }
 
-    public void Shutdown()
-    {
-        // Cleanup
-        IsInitialized = false;
-    }
+    public void Shutdown() => IsInitialized = false;
 }
 ```
 
-Dann im Bootstrap:
+Registrierung:
 ```csharp
-serviceManager.RegisterService(new MyService());
+serviceManager.RegisterService(new ExampleService());
 ```
 
 ---
 
-## ℹ Hinweise
-- Services müssen idempotent sein: `Initialize()` darf mehrfach sicher aufgerufen werden
-- OptionalDependencies erlauben Flexibilität bei Feature-Toggles oder Testumgebungen
-- Fallbacks werden verwendet, wenn echte Abhängigkeiten fehlen
+## 📌 Hinweise
+- Services sollten **idempotent** sein (Mehrfach-Init sicher)
+- `OptionalDependencies` erlauben alternative Implementierungen für Tests oder Feature-Toggles
+- Fallbacks decken fehlende Abhängigkeiten ab
+- Zugriff immer über Interfaces (`IService`, `IServiceLocator`), nie direkte Instanzen verwenden
 
 ---
 
 Letzte Aktualisierung: April 2025
+
