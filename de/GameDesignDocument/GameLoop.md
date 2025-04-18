@@ -2,16 +2,71 @@
 title: GameLoop
 description: 
 published: true
-date: 2025-04-17T21:49:33.289Z
+date: 2025-04-18T10:10:24.025Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:49:27.280Z
 ---
 
-Der Spieler baut Rohstoffe ab und bringt sie zur Basis, um diese zu errichten, zu erweitern oder bessere Ausrüstungen herzustellen. Das Abbauen von Rohstoffen führt dazu, dass eine Angriffswelle näher rückt. Während der Angriffswelle muss sich der Spieler zurückziehen und die angreifenden Gegner besiegen.
+# 🔁 Gameloop – Spielablauf in DILIBAD
 
-Nach dem erfolgreichen Abwehren der Welle kann der Spieler Loot einsammeln, die Basis reparieren und erneut Rohstoffe abbauen. Mit dem weiteren Abbau von Rohstoffen vergrößert sich der erkundbare Spielbereich.
+## TL;DR
 
-Der Spieler versucht durch das Finden von Hinweisen den richtigen Weg zum Boss-Monster zu entdecken. Gleichzeitig muss er genügend Rohstoffe erwirtschaften und seine Ausrüstung so anpassen, dass er den Bosskampf bestehen kann.
+- 🔨 Rohstoffe abbauen → Basis errichten & Ausrüstung herstellen  
+- ⚠️ Ressourcenabbau → triggert Gegnerwellen  
+- 🛡️ Gegner besiegen → Loot einsammeln & reparieren  
+- 🌍 Gebiet erweitern → Hinweise zum Boss entdecken  
+- 🧠 Ausrüstung optimieren → Boss besiegen & Level abschließen  
 
-Wird das Boss-Monster besiegt, ist die Runde geschafft und das Level abgeschlossen.
+---
+
+## 🧩 Ausführlicher Ablauf
+
+### 1. ⛏️ Ressourcen sammeln
+Der Spieler beginnt damit, **Rohstoffe in der Welt abzubauen** – z. B. Holz, Stein oder Metalle.  
+Diese Materialien dienen als Grundlage für den Aufbau der eigenen [Basis](./features/Bauen/Bausystem.md), neue [Ausrüstungen](./features/Entitaeten/Spieler.md) oder [Verteidigungsanlagen](./features/Bauen/Bausystem.md).
+
+> **Hinweis:** Je mehr Rohstoffe gesammelt werden, desto stärker und schneller werden Gegnerwellen aktiviert.
+
+---
+
+### 2. ⚠️ Gegnerwellen & Verteidigung
+Jede Ressourcengewinnung zieht **eine neue Gegnerwelle** an.  
+Sobald die Welle ausgelöst wird, muss der Spieler seine Erkundung abbrechen und sich auf die Verteidigung konzentrieren.
+
+- Aktives Kampfsystem mit Bewegung, Blocken, Skills
+- Unterstützung durch [Tower](./features/Bauen/Bausystem.md) und automatisierte Abwehrsysteme
+- Ressourcenmanagement und [Aktionen](./features/Aktionen/Aktionen.md) entscheidend für das Überleben
+
+---
+
+### 3. 🧹 Nach der Welle
+Nach dem erfolgreichen Abwehren einer Welle:
+- Kann der Spieler **Loot aufsammeln** (Ressourcen, Materialien, Ausrüstungsteile)
+- Wird die **Basis repariert oder erweitert**
+- Beginnt ein neuer Kreislauf mit erneutem Abbau
+
+Mit jedem Zyklus vergrößert sich der **zugängliche Bereich der Karte**, neue Rohstoffvorkommen und Hinweise werden freigeschaltet.
+
+---
+
+### 4. 🔍 Hinweise & Bosskampf-Vorbereitung
+Durch Erkundung kann der Spieler **Hinweise** auf den Standort des Boss-Monsters finden.  
+Gleichzeitig bereitet er sich vor:
+- Verbessert seine Ausrüstung (Waffen, Rüstung, [Fähigkeiten](./features/Entitaeten/Spieler.md))
+- Stärkt die Basis, um letzte Wellen zu überstehen
+- Optional: Automatisierung für spätere Phasen aufbauen
+
+---
+
+### 5. 💥 Bosskampf & Abschluss
+Sobald alle Hinweise gesammelt und die Vorbereitungen abgeschlossen sind, kann der Spieler den Bossbereich betreten.  
+Dort erwartet ihn ein **einmaliger, stufenbasierter Bosskampf** mit einzigartigen Mechaniken und Mustern.
+
+> **Wird der Boss besiegt, gilt das Gebiet als befreit und das Level ist abgeschlossen.**
+
+Der Fortschritt wird gespeichert, Belohnungen werden verteilt – und das nächste Gebiet kann betreten werden.
+
+---
+
+*Der Gameloop von DILIBAD basiert auf einem dynamischen Wechselspiel zwischen Risiko, Ressourcen, Kampf und strategischem Ausbau.*
