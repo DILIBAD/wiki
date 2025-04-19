@@ -2,7 +2,7 @@
 title: Unity Knowledge
 description: 
 published: true
-date: 2025-04-19T21:04:05.692Z
+date: 2025-04-19T21:15:52.845Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T17:53:30.220Z
@@ -83,6 +83,7 @@ Erfassung und Verwaltung von Eingaben über Tastatur oder Controller. Unterstüt
 Resources:
 
 Im Sandbox Projekt genutzt.
+[git-amend InputActions Tutorial] (https://www.youtube.com/watch?v=z5zShkCR0mg)
 [Unity&#39;s NEW input system in 13 minutes - YouTube](https://www.youtube.com/watch?v=ONlMEZs9Rgw)
 
 ### 📱 UI & UX Design (Erforderlich)
