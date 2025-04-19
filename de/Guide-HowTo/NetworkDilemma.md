@@ -2,7 +2,7 @@
 title: Network Dilemma
 description: 
 published: true
-date: 2025-04-19T14:53:08.333Z
+date: 2025-04-19T15:00:07.490Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T14:53:08.333Z
@@ -13,7 +13,7 @@ dateCreated: 2025-04-19T14:53:08.333Z
 > **TL;DR:**  
 > In Mirror kommuniziert der Client über **[Command]**-Methoden mit dem Server.  
 > Der Server informiert Clients mit **[ClientRpc]** oder **[TargetRpc]**.  
-> Nutze das Open-Source-Projekt **[uMMORPG2D](https://github.com/MirrorNetworking/uMMORPG2D)** als Best-Practice-Beispiel.  
+> Nutze das Projekt **[uMMORPG2D]()** als Best-Practice-Beispiel.  
 > 📚 Doku: [mirror-networking.gitbook.io/docs](https://mirror-networking.gitbook.io/docs)
 
 ---
@@ -118,7 +118,7 @@ void CmdFire()
 
 ## 📦 Best Practices mit uMMORPG2D
 
-👉 [uMMORPG2D](https://github.com/MirrorNetworking/uMMORPG2D) ist ein vollständiges Mirror-basiertes Projekt mit:
+👉 [uMMORPG2D]() ist ein vollständiges Mirror-basiertes Projekt mit:
 
 - Netzwerkbasiertem Kampfsystem
 - Inventar und Item Sync
