@@ -2,13 +2,33 @@
 title: Bereiche Sprint 1
 description: 
 published: true
-date: 2025-04-19T11:58:28.296Z
+date: 2025-04-19T12:05:57.498Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T11:55:31.233Z
 ---
 
-# 🔷 Allgemeine Idee
+## 📌 Vorbereitung vor Sprint 1
+
+Bevor mit der technischen Umsetzung gestartet wird, sind folgende kreative und konzeptionelle Aufgaben notwendig:
+
+### 🔮 Lore & Weltaufbau
+
+- **Hintergrund-Lore entwickeln**
+  - Ursprung der Spielwelt, Fraktionen, Bedrohungen
+  - Warum gibt es Angriffswellen? Was ist das Ziel der Spieler?
+
+- **Game-Lore + World-Beschreibung**
+  - Biome, Ressourcenverteilung, Feindtypen
+  - Verlorene Technologie? Alte Zivilisationen?
+
+- **World-Skizze anfertigen**
+  - Karte mit Bereichen (Startzone, Progressionsbereiche, Boss-Areal)
+  - Optional: grafisch oder beschreibend
+
+> **Ziel:** Das Team soll ein gemeinsames Bild der Spielwelt & Atmosphäre bekommen, um konsistent designen zu können.
+
+# 🔷 Bereiche in Sprint 1
 
 - **Konstantin** übernimmt einen **Kernbereich mit hoher Systemtiefe** (z. B. Bereich **B: Core-Systeme & Technik**).
 - Zusätzlich kümmert sich Konstantin um die **übergreifende Architektur**, z. B.:
