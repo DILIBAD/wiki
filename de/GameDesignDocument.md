@@ -2,7 +2,7 @@
 title: Game Design Dokument
 description: 
 published: true
-date: 2025-04-19T19:09:07.286Z
+date: 2025-04-19T19:16:19.131Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:46:46.966Z
@@ -44,9 +44,91 @@ Windows First
 - Dedicated Server Option für größere Gruppen und längere Runden
 
 **Kurze Beschreibung:**  
-Ein Kooperativem Spiel, bei dem Spieler gemeinsam Rohstoffe abbauen, eine Basis errichten, Wellen angreifender Gegner abwehren und sich auf einen  epischen Bosskampf vorbereiten.
+Ein Kooperativem Spiel, bei dem Spieler gemeinsam Rohstoffe abbauen, eine Basis errichten, Wellen angreifender Gegner abwehren und sich auf einen epischen Bosskampf vorbereiten.
 
 ---
+## 1.1 Bezug von Name zu Features
+Die hier genannten Bezüge sind WIP und nur als Referenz gedacht. Diese müssen validiert und überarbeitet werden. Diese dienen nur als erste Ausgangsbasis zur weiteren Ausarbeitung.
+## 🧭 DI – Discover  
+*Die Welt erkunden, Wissen und Ressourcen entdecken*
+
+**Mögliche Mechaniken:**
+- Erkundung unbekannter Gebiete (Nebel des Krieges)
+- Abbau und Sammeln von Ressourcen (Erze, Pflanzen, magische Kristalle)
+- Entdeckung alter Ruinen, Schriftrollen und magischer Artefakte
+- Hinweise und Fragmente sammeln, um den Weg zum Boss zu entschlüsseln
+- Nutzung magischer Fähigkeiten (z. B. Seher-Zauber, Offenbarungsspruch)
+- Magische Karten, Visionen oder runenbasierte Wegweiser
+
+---
+
+## ⚔️ LI – Liberate  
+*Zonen von dunklen Mächten befreien und reinigen*
+
+**Mögliche Mechaniken:**
+- Dunkle Präsenz wird durch Ressourcenabbau gestärkt
+- Angriffswellen als Reaktion auf Spielaktionen
+- Befreiung verseuchter Gebiete durch Kampf oder magische Rituale
+- Zerstörung von Totems, Bannkreisen oder dunklen Ankern
+- Rückgewinnung von Land für Ressourcen oder Basenerweiterung
+- Freischaltung neuer Mechaniken durch befreite Gebiete
+
+---
+
+## 🏰 B – Build  
+*Errichtung und Ausbau einer magischen Basis*
+
+**Mögliche Mechaniken:**
+- Modularer Basisbau (Mauern, Türme, Werkstätten, magische Felder)
+- Ressourcenmanagement (Holz, Stein, Mana, seltene Materialien)
+- Gebäudetypen: Alchemielabor, Runenschmiede, Beschwörungszirkel, Lagerhaus
+- Verteidigungsstrukturen: Ballisten, Manatürme, Golem-Wächter
+- Upgrades mit Runen, Essenzen oder verbesserten Materialien
+
+
+---
+
+## ⚙️ A – Automate  
+*Magisch unterstützte Automatisierung für Effizienz und Fortschritt*
+
+**Mögliche Mechaniken:**
+- NPCs zum betreiben von Gebäuden und Türmen
+- Produktionszyklen durch Runenkreise, Alchemierituale oder Magieströme?
+- Konstrukte zur Ressourcengewinnung und Veredelung
+- Selbstregulierende Systeme über Manazufuhr
+- Erweiterung durch Forschung und neue magische Systeme
+
+**Hinweis:**  
+Spätere Einbindung von techno-magischen Mechaniken (Arkan-Technologie, Steampunk) denkbar.
+
+---
+
+## 🛡️ D – Defend  
+*Schutz der Basis vor Angriffen aus der Schattenwelt*
+
+**Mögliche Mechaniken:**
+- Angriffswellen mit eskalierendem Schwierigkeitsgrad
+- Gegnerarten: Schattenwesen, Untote, Fluchkreaturen, Dämonen
+- Verteidigung durch:
+  - Türme, Barrieren, magische Fallen
+  - Golem-Wächter, Beschwörungsmagie
+  - Schutzrituale, Flächenzauber
+- Tag-Nacht-Zyklen beeinflussen Angriffshäufigkeit?
+- (Mini)Bosswellen als zusätzlich große Herausforderung evtl. bedingt an etwas Alternativ als Abbruchbedingung der Session unbezwingbarer Bossangriff
+- Koop: Spielerrollen im Kampf (Tank, Magier, Heiler, Fernkampf)
+
+---
+
+## 🧩 Erweiterungspotenzial (Lore-basiert)
+
+**Themen für zukünftige Updates / DLCs:**
+- **Steampunk:** Dampfbetriebene Artefakte, Runenmaschinen
+- **Arkan-Tech:** Alte Hochtechnologie, Magie in Maschinenform
+- **Sci-Fi-Einflüsse:** Dimensionsrisse, fremde Technologien, Zeitmagie
+
+Diese Elemente lassen sich schrittweise über die Lore, entdeckte Artefakte oder verlorene Zivilisationen einführen.
+
+
 
 ## 2. 🔁 Gameplay Loop 
 
