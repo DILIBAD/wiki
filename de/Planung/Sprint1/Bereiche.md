@@ -2,7 +2,7 @@
 title: Bereiche Sprint 1
 description: 
 published: true
-date: 2025-04-19T11:57:46.799Z
+date: 2025-04-19T11:58:28.296Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T11:55:31.233Z
