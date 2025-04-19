@@ -2,99 +2,130 @@
 title: Sprint 1
 description: 
 published: true
-date: 2025-04-18T23:14:28.702Z
+date: 2025-04-19T00:32:33.999Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-18T23:14:28.702Z
 ---
 
-# Übersicht
-Zu Ende von Sprint 1 soll eine simple Version der Gameloop im Multiplayer umgesetzt sein.
+# Sprint 1 – Ziel & Feature-Übersicht
 
+## Zielsetzung
+Bis Ende von **Sprint 1** soll eine einfache, aber funktionale **Multiplayer-Spielschleife** stehen. Fokus liegt auf:
+- Kampf
+- Basisbau
+- Angriffswellen
+- Ressourcenmanagement
+- Grundlegender UI/UX
+- Multiplayer mit Mirror
 
+---
 
+## 1. Spielstruktur
 
+> **TL;DR:** Einstieg ins Spiel über Lore-Intro, Menü und Tutorial – danach Start einer Multiplayer-Session.
 
-## Funktionalitäten
+### Einstieg & Menüs
+- Lore-Intro (Bilder + Audio)
+- Hauptmenü
+- Tutorial (Grundmechaniken)
+- Start einer Game-Session (Multiplayer-fähig)
 
-Lore Intro als Video durch Bilder mit Untermalung von Audio
-Hauptmenü
-Tutorial
-GameSession
+---
 
-### UI
-Der Spieler kann seine Leben sehen
-Der Spieler sieht Cooldown auf Skills
-Der Spieler sieht seine Skills
-Der Spieler sieht einen Indikator für die Angriffswelle
-Der Spieler sieht wenn das Spiel gewonnwn wurde
-Der Spieler sieht wenn das Spiel verloren wurde
-Der Spieler sieht den verursachten Schaden
-Der Spieler kann Leben der Gegner sehen
-Der Spieler kann sehen welche Waffe hergestellt werden kann
-Der Spieler kann sehen wie viel Materialien in der Base sind
-Der Spieler kann sehen wie viel Materialien benötigt werden um ein Upgrade durchzuführen
-Der Spieler kann sehen wie viel Materilaen benötigt werden um etwas zu bauen
+## 2. Gameplay-Systeme
 
-### UX
-Spieler muss sehen wenn Aktionen möglich oder nicht Möglich sind.
-Spieler muss sehen wenn Interaktionen möglich sind
+> **TL;DR:** Spieler können kämpfen, sammeln, bauen und die Basis ausbauen – Angriffswellen reagieren auf Spieleraktionen.
 
+### 2.1 Spielerfunktionen
+- Klassen: Tank, DPS, Healer, Ranged
+- Aktionen: Skills casten, kämpfen, looten, sammeln, interagieren
+- Respawn in der Basis nach Tod
 
-### Music & Atmospähre
-Es werden Grundlegende SFX und Musikelemente benötigt sodass eine Immersion entstehen kann
+### 2.2 Basis & Fortschritt
+- Zentrale Basis mit Lager, Upgrades und Verteidigung
+- Herstellung von Ausrüstung und Gebäuden
 
-### Basis
-Verbessern der Basis
-Anfertigen von besserem Equipment zu Progression Zwecken
-Verteidigungsstrukturen
-Basis Kern
+### 2.3 Angriffswellen
+- Wellen starten **durch Spieleraktionen**, nicht Timer
+- Gegner kommen aus mehreren Richtungen
+- Ziele: Basis & Umgebung
+- Steigende Schwierigkeit
 
-### Angriffswellen
-Durch ein Indiklator wird angezeigt wie viel Zeit zur nächsten Angriffswelle verbleibt. 
-Der Indikatot ist nicht Zeitgebunden sondern Aktiongebunden
-Wenn eine Angriffswelle ausgelöst wird, kommt eine bestimmte Anzahl an Wellen mit vorgegebenen Gegnern.
-Die Gegner spawnen an verschiedenen Punkten und greifen die Basis des Spieler an. 
-Nebenziele die auf dem Weg zur Basis gefunden werden, werden angegriffen.
-Angriffswellen werden im Verlauf der Session schwerer.
+### 2.4 Kampfsystem
+- Skill-Casting mit Zielindikator
+- Gegnerangriffe visuell erkennbar & ausweichbar
 
-### Kampfsystem
-Für das Kampfsystem werden Indikatoren benötigt die Anzeigen wo ein Skill gecastet wird.
-Für das Kampfsystem müssen gegnerische Attaccken visualisiert werden, sodass der Spieler diesen ausweichen kann.
+---
 
-### Spieler
-Auswahl zwischen verschiedenen Klassen (Tank, Melle DPS, Healer/Support, Ranged)
-Jede Klasse kommt mit mehreren Angriffen
-Spieler können Rohstoffe einsammeln
-Spieler können Loot aufheben
-Spieler können laufen
-Spieler können Aktionen durchführen, welche die Angriffswelle näher rücken lässt.
-Spieler spawnen in der Basis neu wenn sie gestorben sind (Cooldown/Respawnzeit)
-Spieler können ohne Ziel angreifen
-Spieler können Casten
-Spieler können Zielpunkt für Skill festlegen
+## 3. NPCs & Gegner
 
+> **TL;DR:** Einheitliches NPC-System für Freunde & Feinde – Boss-Gegner bringt spielerische Herausforderung.
 
-### NPCs
-Es wird zwischen freundlichen und feindlichen NPCs unterschieden.
-Beide NPCs nutzen das gleiche StateMachine System und teilen sich alle States
-Basierend auf Konfiguration von Sensoren werden unterschiedliche Entitäten als Fein erkannt.
-NPCs haben grundlegende Angriffsmuster
-Die Einstellungen der Stats einer Einheit können Konfiguriert werden.
+### Gemeinsames System
+- Alle NPCs teilen sich StateMachine & Sensorik
+- Konfigurierbare Werte & Angriffsmuster
 
-#### Friendly NPCs
-Es gibt eine erste Itteration von freundlichen NPCs welche Teil der Basis sind
+### Freundliche NPCs
+- Unterstützen die Basis
+- Erste einfache Iteration
 
+### Feindliche NPCs
+- Für Angriffswellen
+- Einfaches Kampfverhalten
 
-#### Enemy NPCs
-Es gibt eine gegnerische Monster Eintät welche innerhalb der Angriffswellen genutzt wird.
+### Boss-Gegner
+- Komplexe Angriffe
+- Siegziel der Session
 
-### Boss NPCs
-Es gibt einen Boss gegner der mehr bzw. Komplexere Angriffsmuster hat
+---
 
-### Win Condition
-Wenn der Boss NPC besiegt worde ist die Session erfolgreich zu ende.
+## 4. Benutzeroberfläche (UI)
 
-### Lose Condition
-Wenn die Basis des Spielers zerstört wurde ist das Spiel zuende.
+> **TL;DR:** Spieler bekommt alle Infos zu Zustand, Kampf, Ressourcen und Zielerreichung übersichtlich dargestellt.
 
+### Spielerinformationen
+- Leben, Cooldowns, Skills
+- Angriffswellen-Indikator
+- Schaden & Respawn
+
+### Gegnerinformationen
+- Lebensanzeige
+
+### Ressourcen & Basis
+- Sichtbare Lagerbestände & Materialanforderungen
+
+### Spielzustand
+- Klar erkennbare Sieg/Niederlage-Anzeigen
+
+---
+
+## 5. Benutzererlebnis (UX)
+
+> **TL;DR:** Sichtbare Rückmeldung bei Interaktionen & blockierten Aktionen für klare Spielbarkeit.
+
+- Feedback für mögliche Aktionen
+- Hinweise bei Interaktionen
+- Verhinderung von Fehlbedienung
+
+---
+
+## 6. Audio & Atmosphäre
+
+> **TL;DR:** Erste Sounds & Musik für Kämpfe, Basis & Umgebung sorgen für Immersion.
+
+- Grundlegende SFX
+- Musik zur Stimmung
+- Soundeffekte für Kampf & Umgebung
+
+---
+
+## 7. Spielende
+
+> **TL;DR:** Spiel ist gewonnen durch Boss-Kill, verloren durch Zerstörung des Basiskerns.
+
+### Sieg
+- Boss wurde besiegt → Spiel gewonnen
+
+### Niederlage
+- Basis-Kern zerstört → Spiel verloren
