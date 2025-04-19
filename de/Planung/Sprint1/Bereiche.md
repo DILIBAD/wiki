@@ -2,7 +2,7 @@
 title: Bereiche Sprint 1
 description: 
 published: true
-date: 2025-04-19T11:55:31.233Z
+date: 2025-04-19T11:56:21.978Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T11:55:31.233Z
@@ -13,9 +13,9 @@ dateCreated: 2025-04-19T11:55:31.233Z
 - **Konstantin** übernimmt einen **Kernbereich mit hoher Systemtiefe** (z. B. Bereich **B: Core-Systeme & Technik**).
 - Zusätzlich kümmert sich Konstantin um die **übergreifende Architektur**, z. B.:
   - Struktur der Services
-  - Architekturentscheidungen
+  - Architekturempfehlungen
   - Aufbau des `ServiceLocator`
-  - Ordnungsgemäße Trennung zwischen Client/Server/Shared
+  - Ordnungsgemäße Trennung zwischen Zuständigkeiten
 
 ---
 
