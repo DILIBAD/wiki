@@ -2,7 +2,7 @@
 title: Game Design Dokument
 description: 
 published: true
-date: 2025-04-19T19:16:19.131Z
+date: 2025-04-19T19:18:43.525Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:46:46.966Z
@@ -29,7 +29,7 @@ Jede Komponente basiert auf dem Fantasy-Setting und wird durch Magie, mittelalte
 DILIBAD -  Discover. Liberate. Build. Automate. Defend
 
 **Genre:**  
-2.5D Top-Down | Coop | Multiplayer | Action RPG | Survival | Base-Building
+2.5D Top-Down | Coop | Multiplayer | Action RPG | (Survival) | Base-Building
 
 **Plattform(en):**  
 Windows First
