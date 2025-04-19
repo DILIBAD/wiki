@@ -2,7 +2,7 @@
 title: Sprint 1
 description: 
 published: true
-date: 2025-04-19T00:32:33.999Z
+date: 2025-04-19T10:47:27.244Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-18T23:14:28.702Z
@@ -88,6 +88,7 @@ Bis Ende von **Sprint 1** soll eine einfache, aber funktionale **Multiplayer-Spi
 - Leben, Cooldowns, Skills
 - Angriffswellen-Indikator
 - Schaden & Respawn
+- Inventar oder/und Equipment
 
 ### Gegnerinformationen
 - Lebensanzeige
