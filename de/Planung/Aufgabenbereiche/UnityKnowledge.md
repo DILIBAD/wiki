@@ -2,7 +2,7 @@
 title: Unity Knowledge
 description: 
 published: true
-date: 2025-04-19T17:53:30.220Z
+date: 2025-04-19T20:31:03.284Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T17:53:30.220Z
@@ -48,7 +48,7 @@ Netzwerkstruktur und Spiellogik für Mehrspieler mit Mirror. Synchronisation von
 ### 🛠️ Asset-Erstellung & Import (Erforderlich)
 
 Einbindung von 2D-Assets wie Sprites, Tilesets und Animationen aus externen Tools für die visuelle Gestaltung von Spielfiguren, Umgebungen und Interfaces. Nutzung von Asset Forge Repository und der Generierung von Assets mit [Pixelate](https://assetstore.unity.com/packages/tools/sprite-management/pixelate-pixel-art-converter-194727)
-
+[Normal Maps für Objekte](https://www.youtube.com/watch?v=kpt7Ft5y8v4)
 ### 🎬 Animation & Animator (Erforderlich)
 
 Bewegungsanimationen und Zustandsübergänge für Spielfiguren und NPCs, Umsetzung über Animator Controller mit Zustandsmaschinen.
@@ -124,6 +124,7 @@ Shaderbasierte Effekte zur optischen Aufwertung, z. B. Verzerrung, Glühen ode
 ### 💡 Lighting (Neat to have)
 
 Lichtquellen zur Darstellung von Stimmungen, Sichtweiten oder besonderen Spielsituationen (z. B. Dunkelheit, Lichtkegel).
+[Normal Maps für Objekte](https://www.youtube.com/watch?v=kpt7Ft5y8v4)
 
 ### 📦 Addressables (Neat to have)
 
