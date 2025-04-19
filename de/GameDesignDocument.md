@@ -2,7 +2,7 @@
 title: Game Design Dokument
 description: 
 published: true
-date: 2025-04-19T19:07:37.917Z
+date: 2025-04-19T19:09:07.286Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:46:46.966Z
@@ -48,7 +48,7 @@ Ein Kooperativem Spiel, bei dem Spieler gemeinsam Rohstoffe abbauen, eine Basis 
 
 ---
 
-## 2. 🔁 Core Gameplay Loop
+## 2. 🔁 Gameplay Loop 
 
 **Haupt-Loop:**  
 1. Rohstoffe abbauen  
