@@ -2,7 +2,7 @@
 title: Sprint 1 - ToDoList
 description: 
 published: true
-date: 2025-04-19T19:20:22.553Z
+date: 2025-04-19T19:20:47.121Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T19:20:22.553Z
@@ -99,13 +99,5 @@ dateCreated: 2025-04-19T19:20:22.553Z
 
 ---
 
-## ❔ Offene Fragen an dich
 
-1. Was ist das geplante Core-Gameplay / Genre?
-2. Welche Tools nutzt ihr für die Organisation (Notion, GitHub Projects, etc.)?
-3. Gibt es bereits ein Repository / Git-Setup?
-4. Brauchst du Hilfe bei Templates für Dokumente oder Wiki-Struktur?
-5. Gibt es bereits einen gewünschten visuellen Stil (z. B. Pixelart)?
-
----
 
