@@ -2,7 +2,7 @@
 title: Guide How To Übersicht
 description: 
 published: true
-date: 2025-04-19T14:45:53.779Z
+date: 2025-04-19T14:53:38.200Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T13:43:50.081Z
@@ -44,3 +44,11 @@ Sollten im Laufe der Entwicklung weitere, thematisch ähnliche Fragen aufkommen,
 > Netzwerkrelevante Objekte werden **ausschließlich über den ServerSpawnService** erzeugt.  
 > Lokale Objekte wie UI oder Audio nutzt der **ClientSpawnService**.  
 > ➜ [Ausführliches Beispiel mit Architektur und Code](unity_spawn_service_guide.md)
+
+
+### Wie kommuniziere ich zwischen Client und Server in Unity mit Mirror?
+
+> **TL;DR:**  
+> Die Kommunikation läuft über `[Command]`-Methoden (Client → Server) und `[ClientRpc]` bzw. `[TargetRpc]` (Server → Client).  
+> Die Autorität liegt beim Server – er entscheidet, was passiert.  
+> ➜ [Praktische Beispiele & Best Practices mit Mirror](mirror_networking_guide.md)
