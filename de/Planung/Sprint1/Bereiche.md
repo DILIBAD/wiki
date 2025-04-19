@@ -2,7 +2,7 @@
 title: Bereiche Sprint 1
 description: 
 published: true
-date: 2025-04-19T11:56:21.978Z
+date: 2025-04-19T11:57:46.799Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T11:55:31.233Z
@@ -39,11 +39,13 @@ dateCreated: 2025-04-19T11:55:31.233Z
 
 # 🧩 Bereichsaufteilung mit Zuordnung & Vorschlag
 
-| **Bereich** | **Fokus**                                                   | **Geeignet für** | **Anmerkung**                                                                 |
-|-------------|-------------------------------------------------------------|------------------|--------------------------------------------------------------------------------|
-| **A: Ressourcen & Basis** | Ressourcen sammeln, Lager, Produktionen, Basis-Upgrades       | Junior           | Gut modularisierbar, viele UI-Interaktionen                                    |
-| **B: Core-Systeme & Technik** | Services, Networking, Spawn, Bootstrapper                        | Lead/Erfahrener  | Herz des Projekts, ServiceLocator, Mirror-Setup, Infrastruktur                 |
-| **C: Entities & Verhalten** | Spielerlogik, NPCs, StateMachine, Interaktionen                 | Mid-Level        | Zentrale Spiellogik, stark angebunden an B                                     |
-| **D: Präsentation** | UI, UX, Audio, FX, Environment                                 | Junior           | Kreativ-technischer Bereich, ideal für stetige Polishing-Zyklen               |
-| **E: Kampfsystem** | Skills, Waffen, Muster, Schaden                                  | Mid-Level        | Feature-lastig, kann gut mit C und D kombiniert werden                         |
+| **Bereich** | **Fokus**                                                   | **Zuständig**      | **Anmerkung**                                                                 |
+|-------------|-------------------------------------------------------------|--------------------|--------------------------------------------------------------------------------|
+| **A: Ressourcen & Basis** | Ressourcen sammeln, Lager, Produktionen, Basis-Upgrades       | Teammitglied A     | Gut modularisierbar, viele UI-Interaktionen                                    |
+| **B: Core-Systeme & Technik** | Services, Networking, Spawn, Bootstrapper                        | **Konstantin**      | Herz des Projekts, ServiceLocator, Mirror-Setup, Infrastruktur, Architekturbasis |
+| **C: Entities & Verhalten** | Spielerlogik, NPCs, StateMachine, Interaktionen                 | Teammitglied B     | Zentrale Spiellogik, stark angebunden an Bereich B                            |
+| **D: Präsentation** | UI, UX, Audio, FX, Environment                                 | Teammitglied C     | Kreativ-technischer Bereich, ideal für stetige Polishing-Zyklen               |
+| **E: Kampfsystem** | Skills, Waffen, Muster, Schaden                                  | Teammitglied D     | Feature-lastig, kann gut mit C und D kombiniert werden                         |
+
+
 ![image.png](/image.png)
