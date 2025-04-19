@@ -2,7 +2,7 @@
 title: Detection Dilemma
 description: 
 published: true
-date: 2025-04-19T14:04:37.954Z
+date: 2025-04-19T14:06:51.982Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T14:03:52.736Z
@@ -11,7 +11,7 @@ dateCreated: 2025-04-19T14:03:52.736Z
 # Unity 2D Sensorik: Trigger-Events vs. Tick-basierte Sensoren
 
 > **TL;DR:**  
-> Verwende `OnTriggerEnter2D` / `OnTriggerExit2D`, wenn eine **sofortige Reaktion** erforderlich ist (z. B. Betreten einer Zone, Item Pickup).  
+> Verwende `OnTriggerEnter2D` / `OnTriggerExit2D`, wenn eine **sofortige Reaktion** erforderlich ist (z. B. Betreten einer Zone, Automatisches Item Pickup).  
 > Nutze `Physics2D.Overlap*` mit Tickrate, wenn es auf **regelmäßige Abfragen** ankommt oder du das Setup vollständig im Code kontrollieren möchtest.
 
 ---
@@ -31,7 +31,7 @@ In vielen Fällen ist eine **regelmäßige, tick-basierte Abfrage über Code** n
 - **Pro:**
   
   - Reaktion erfolgt **sofort beim Eintritt/Austritt**.
-  - Einfach zu implementieren für punktuelle Interaktionen.
+  - Einfach zu implementieren für punktuelle Interaktionen, bei denen ein Ticksensor overkill wäre (Bspw. kein oftes oder sporadisches auftreten).
 - **Kontra:**
   
   - Setup im Editor zwingend nötig.
@@ -60,6 +60,7 @@ In vielen Fällen ist eine **regelmäßige, tick-basierte Abfrage über Code** n
 | Sofortige Reaktion nötig? | ✅ Ja | ❌ Nein |
 | Setup im Editor gewünscht? | ⚠️ Ja, wenn es anders nicht geht oder zu komplex ist | ❌ Nein |
 | Bereichserkennung / Zone / KI | ⚠️ Möglich | ✅ Ja |
+| Seltenes oder sporadisches Auftreten | ✅ Ja | ❌ Nein |
 | Gefahr von Setup-Fehlern | ❌ Nein | ✅ Ja |
 | Nur einmalige Reaktion (z. B. Knopf) | ❌ Nein | ✅ Ja |
 
