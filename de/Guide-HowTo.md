@@ -2,7 +2,7 @@
 title: Guide How To Übersicht
 description: 
 published: true
-date: 2025-04-19T14:53:38.200Z
+date: 2025-04-19T22:47:28.150Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T13:43:50.081Z
@@ -25,7 +25,7 @@ Sollten im Laufe der Entwicklung weitere, thematisch ähnliche Fragen aufkommen,
 > **TL;DR:**  
 > Verwende `OnTriggerEnter2D` / `OnTriggerExit2D`, wenn du eine sofortige Reaktion beim Betreten/Verlassen eines Bereichs brauchst.  
 > Nutze `Physics2D.Overlap*` mit Tickrate, wenn du regelmäßig checken willst, ob sich etwas im Bereich befindet – ideal für Zonen-Checks oder KI.  
-> ➜ [Ausführliche Erklärung mit Beispielen](unity_2d_sensors_guide.md)
+> ➜ [Ausführliche Erklärung mit Beispielen](./Guide-HowTo/DetectionDilemma)
 
 
 ### Welche Bewegungsmethode sollte ich in Unity 2D verwenden – Transform, Rigidbody2D oder Pathfinding?
@@ -34,7 +34,7 @@ Sollten im Laufe der Entwicklung weitere, thematisch ähnliche Fragen aufkommen,
 > Nutze `Transform`, wenn du einfache Bewegung ohne Physik brauchst.  
 > Verwende `Rigidbody2D`, wenn Kollisionen oder Physikverhalten (z. B. Gravitation, Kräfte) relevant sind.  
 > Setze auf `Pathfinding`, wenn sich Objekte intelligent um Hindernisse bewegen sollen.  
-> ➜ [Ausführliche Entscheidungshilfe mit Beispielen](unity_2d_movement_methods.md)
+> ➜ [Ausführliche Entscheidungshilfe mit Beispielen](./Guide-HowTo/MovementDilemma)
 
 
 ### Wie spawne ich Objekte korrekt in der Spielwelt?
@@ -43,7 +43,7 @@ Sollten im Laufe der Entwicklung weitere, thematisch ähnliche Fragen aufkommen,
 > Verwende einen **zentralen SpawnService**, der server- oder clientseitig gesteuert wird.  
 > Netzwerkrelevante Objekte werden **ausschließlich über den ServerSpawnService** erzeugt.  
 > Lokale Objekte wie UI oder Audio nutzt der **ClientSpawnService**.  
-> ➜ [Ausführliches Beispiel mit Architektur und Code](unity_spawn_service_guide.md)
+> ➜ [Ausführliches Beispiel mit Architektur und Code](./Guide-HowTo/SpawnDilemma)
 
 
 ### Wie kommuniziere ich zwischen Client und Server in Unity mit Mirror?
@@ -51,4 +51,4 @@ Sollten im Laufe der Entwicklung weitere, thematisch ähnliche Fragen aufkommen,
 > **TL;DR:**  
 > Die Kommunikation läuft über `[Command]`-Methoden (Client → Server) und `[ClientRpc]` bzw. `[TargetRpc]` (Server → Client).  
 > Die Autorität liegt beim Server – er entscheidet, was passiert.  
-> ➜ [Praktische Beispiele & Best Practices mit Mirror](mirror_networking_guide.md)
+> ➜ [Praktische Beispiele & Best Practices mit Mirror](./Guide-HowTo/NetworkDilemma)
