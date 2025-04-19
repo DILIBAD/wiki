@@ -2,7 +2,7 @@
 title: Unity Knowledge
 description: 
 published: true
-date: 2025-04-19T20:31:03.284Z
+date: 2025-04-19T21:04:05.692Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T17:53:30.220Z
@@ -52,6 +52,8 @@ Einbindung von 2D-Assets wie Sprites, Tilesets und Animationen aus externen Tool
 ### 🎬 Animation & Animator (Erforderlich)
 
 Bewegungsanimationen und Zustandsübergänge für Spielfiguren und NPCs, Umsetzung über Animator Controller mit Zustandsmaschinen.
+
+Prüfung ob man Animation Events in dieser Art nutzen sollte: [Custom Animation Events](https://www.youtube.com/watch?v=XEDi7fUCQos)
 
 Zu klären : States und Transition in Unity nutzen oder seperat über code steuern?
 
