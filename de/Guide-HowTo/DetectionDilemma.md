@@ -2,7 +2,7 @@
 title: Detection Dilemma
 description: 
 published: true
-date: 2025-04-19T14:03:52.736Z
+date: 2025-04-19T14:04:37.954Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T14:03:52.736Z
@@ -59,8 +59,8 @@ In vielen Fällen ist eine **regelmäßige, tick-basierte Abfrage über Code** n
 | --- | --- | --- |
 | Sofortige Reaktion nötig? | ✅ Ja | ❌ Nein |
 | Setup im Editor gewünscht? | ⚠️ Ja, wenn es anders nicht geht oder zu komplex ist | ❌ Nein |
-| Bereichserkennung / Zone / KI | ⚠️ Möglich | ✅ Optimal |
-| Gefahr von Setup-Fehlern | ❌ Hoch | ✅ Gering |
+| Bereichserkennung / Zone / KI | ⚠️ Möglich | ✅ Ja |
+| Gefahr von Setup-Fehlern | ❌ Nein | ✅ Ja |
 | Nur einmalige Reaktion (z. B. Knopf) | ❌ Nein | ✅ Ja |
 
 ---
