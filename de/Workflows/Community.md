@@ -2,7 +2,7 @@
 title: Community
 description: 
 published: true
-date: 2025-04-20T08:44:34.715Z
+date: 2025-04-20T09:51:04.823Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:40:42.461Z
@@ -39,6 +39,8 @@ Zur direkten Kommunikation mit der Community wird ein **Discord-Server** betrieb
 - `/idea "Idee"`  
 - `/bug "Bugbeschreibung"`  
 - `/feedback "Feedback"`
+
+[Proof of Concept Prompt ChatGPT](https://chatgpt.com/share/6804c349-9fe8-8000-9631-c25279fd2bb8)
 
 Diese Eingaben werden automatisch in GitHub-Diskussionen oder Issues überführt. Alternativ können Nutzer ihre Beiträge direkt über GitHub einreichen.
 
