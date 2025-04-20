@@ -2,7 +2,7 @@
 title: Community
 description: 
 published: true
-date: 2025-04-20T08:41:19.059Z
+date: 2025-04-20T08:42:31.940Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:40:42.461Z
@@ -59,9 +59,47 @@ Details hierzu werden in einem separaten Workflow-Dokument festgehalten.
 
 ## Risiken und Vorsichtsmaßnahmen
 
-Ein potenzielles Risiko ist **Burnout** bei Teammitgliedern durch zu hohen Input oder Druck von außen. Daher ist eine regelmäßige **Validierung der Community-Aktivitäten** notwendig. 
+Die Integration einer aktiven Community bringt viele Vorteile, aber auch Risiken mit sich. Diese sollten klar benannt und im Projektverlauf regelmäßig evaluiert werden. Zu den wichtigsten Risiken zählen:
 
-Sollte es notwendig werden, ist eine Notfallstrategie zum temporären Rückbau der Community-Struktur vorgesehen.
+- **Burnout im Team**: Durch zu hohen Input, Druck oder unerwartete Anforderungen seitens der Community kann es zu Überlastung kommen. 
+- **Scope Creep**: Zu viele Feature-Wünsche oder unstrukturierte Anforderungen können das Projekt vom ursprünglichen Kurs abbringen und die Entwicklung erheblich verzögern.
+- **Reputationsrisiken**: Unzufriedene oder toxische Community-Mitglieder können negative Publicity erzeugen, insbesondere bei fehlendem Community-Management.
+- **Technischer Overhead**: Der Betrieb von Plattformen wie CMS, Discord-Bots, API-Anbindungen etc. kann zu zusätzlichem Wartungsaufwand führen.
+- **Ressourcenumlenkung**: Zu viel Zeit in der Moderation oder technischen Pflege kann vom eigentlichen Entwicklungsziel ablenken.
+- **Fehlgeleitetes Feedback**: Nicht alle Vorschläge aus der Community sind zielführend oder qualitativ hochwertig – Filtermechanismen sind erforderlich.
+
+### Exit- / Rückzugstrategie
+
+Sollte sich im Projektverlauf herausstellen, dass die Community-Aktivitäten zu großen Schaden am Entwicklungsprozess verursachen (z. B. durch Überforderung, Burnout, Verzögerung oder interne Konflikte), tritt folgende Rückzugsstrategie in Kraft:
+
+1. **Interne Eskalationsmeldung**  
+   Jedes Teammitglied kann potenzielle Überlastung oder Community-bezogene Konflikte anonym oder direkt melden.
+
+2. **Evaluationsphase (max. 1 Woche)**  
+   Das Kernteam analysiert in dieser Zeit:
+   - Belastungsstand des Teams
+   - Verhältnis zwischen Entwicklungsfortschritt und Community-Aufwand
+   - Nutzen der bisherigen Community-Beiträge
+
+3. **Sofortmaßnahmen zur Entlastung**
+   - Pausierung oder Reduktion der Interaktionen auf Discord (z. B. Abschalten der Bot-Funktionen)
+   - Social-Media-Kommunikation wird auf ein Minimum reduziert
+   - Eingehendes Feedback wird gesammelt, aber nicht priorisiert oder bearbeitet
+
+4. **Kommunikation nach außen**  
+   Die Community wird transparent über eine geplante Umbau- oder Pausenphase informiert. Ziel ist es, Verständnis und Vertrauen aufrechtzuerhalten.
+
+5. **Schrittweise Reaktivierung (optional)**  
+   Sollte sich die Belastungssituation entspannen, kann der Community-Prozess schrittweise reaktiviert werden, z. B. durch:
+   - Wiedereinführung einzelner Kanäle (Roadmap, Feedback)
+   - Fokus auf gezielte Feedbackphasen (z. B. Testwochen vor Releases)
+
+6. **Alternativ: Dauerhafte Reduktion**  
+   Falls eine Reaktivierung nicht sinnvoll oder machbar ist, wird die Community dauerhaft auf passiven Modus umgestellt (Informationsplattform statt Interaktionsplattform).
+
+**Wichtig:** Die Gesundheit und Motivation des Teams haben stets Vorrang. Die Community ist ein wertvoller Bestandteil, aber kein Selbstzweck.
+
+
 
 ## Fazit
 
