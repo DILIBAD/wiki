@@ -2,7 +2,7 @@
 title: Community
 description: 
 published: true
-date: 2025-04-20T08:40:42.461Z
+date: 2025-04-20T08:41:19.059Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:40:42.461Z
@@ -10,35 +10,63 @@ dateCreated: 2025-04-20T08:40:42.461Z
 
 # Community
 
-Als Community werden alle Personen bezeichnet die während der Entwicklung von DILIBAD nicht aktiv an der Entwicklung beteiligt sind, aber den Fortschritt verfolgen, Testversionen Spielen und Feedback/Ideen besteuern.
+Als *Community* werden alle Personen bezeichnet, die nicht aktiv an der Entwicklung von **DILIBAD** beteiligt sind, jedoch den Fortschritt verfolgen, Testversionen spielen und Feedback oder Ideen einbringen.
 
 ## Ziel der Community
-Das Aufbauen der Community hat den primären Zweck während der Entwicklung das Feedback von außenstehenden Personen zu erhalten. Desweiteren ermöglicht dies den Aufbau einer Teststruktur welche durch das Entwicklungsteam während der Entwicklung nicht möglich wäre zu leisten. Die meisten Bugs werden durch Abfolge von Aktionen ausgelöst welche durch Test von Entwicklern meist nicht abgefangen werden, da diese den vorgesehenen Ablauf meist kennen und nur diesen ausgiebig Testen. Hierdurch soll ein besseres Produkt am Ende der Entwicklungszeit gewährleistet werden.
+
+Der Aufbau einer Community verfolgt primär das Ziel, während der Entwicklungsphase externes Feedback zu erhalten. Darüber hinaus ermöglicht die Community den Aufbau einer umfassenden Teststruktur, die vom Entwicklungsteam allein nicht abgedeckt werden könnte. 
+
+Viele Bugs entstehen durch spezifische Abfolgen von Aktionen, die Entwicklern oft nicht auffallen, da sie meist dem vorgesehenen Ablauf folgen. Durch vielfältige Tests seitens der Community lassen sich solche Fehler früher erkennen, was letztlich zu einem qualitativ hochwertigeren Endprodukt führt.
 
 ## Disclaimer
-Auch wenn ein Teilziel des Projektes eine Aufbau einer Community sein soll, der Aufwand diese aufzubauen und zu pflegen soll vom Gesamtanteil der Entwicklungszeit nicht mehr als 10% der Gesamtkapazitäten der Hauptentwicklungszeit einnehmen. 
 
+Auch wenn der Community-Aufbau ein wichtiges Teilziel ist, soll der dafür aufgewendete Zeit- und Ressourcenaufwand **nicht mehr als 10 %** der gesamten Entwicklungskapazitäten überschreiten. Der Fokus liegt weiterhin auf der Spielentwicklung.
 
 ## Plattformen
-Als Plattformen für die Community dienen Social Media Kanäle wie bspw. Instagram, X, Theads oder ähnliche passende Plattformen über welche die gewünschte Zielgruppe erreicht werden kann. 
 
-Diese Personen werden zental zur Webseite https://dilibad.de geführt auf der zentrale Informationen zum Projekt hinterlegt und gepflegt werden. Diese Homepage wird initial durch prompts mit [Loveable](https://lovable.dev/) generiert. Dies erzeugt ein Frontend auf Basis von React. Dieses wird in Github verbunden und kann neben prompts auch manuell bearbeitet werden. Um DSGVO Konform zu sein werden Inhalte mit einem Headless CMS wie Strapi auf dem eigenen dedicated Server mit Standort Deutschland über ein static Content delivery gefüttert. Inhalte können dann über ein CMS Backend eingepflegt werden und sorgen während der Entwicklung für minimalen Programmieraufwand.
+Zur Kommunikation mit der Community werden verschiedene Social-Media-Kanäle wie Instagram, X (ehemals Twitter), Threads und ähnliche Plattformen genutzt, um die gewünschte Zielgruppe zu erreichen.
 
-Auf der Webseite wird ein Bereich Roadmap verzeichnet werden, dieser wird im Idealfall durch die in YouTrack vorhandenen Aufgaben via API mit Inhalten beliefert, sodass eine manuelle Pflege nicht nötig sein wird.
+Alle Inhalte und Informationen laufen zentral auf der offiziellen Webseite [https://dilibad.de](https://dilibad.de) zusammen. Diese wird initial mithilfe von [Loveable](https://lovable.dev/) über Prompts generiert, wodurch ein React-basiertes Frontend entsteht. Die Seite ist mit GitHub verbunden und kann zusätzlich manuell bearbeitet werden.
 
-Zusätzlich wird ein Discord Server genutzt um eine Kommunikation mit der Community sicherstellen zu können. Hier wird ein Bot zum einsatz kommen, welcher über Kommandos wie /idea "idee" /bug "Bugs" /feedback "feedback" verfügt. Über diese Kommandos sollen in Github auf einem öffentlichen Github Diskussions & Issues eingepflegt werden, sodass eine manuelle Pflege nicht nötig ist. Alternativ können Nutzer via Github manuell Informationen einpflegen. 
+Um die DSGVO-Konformität zu gewährleisten, werden die Inhalte über ein Headless CMS (z. B. **Strapi**) auf einem dedizierten Server in Deutschland gehostet. Ein statisches Content Delivery System sorgt dafür, dass Inhalte effizient ausgespielt werden können. Die Pflege erfolgt bequem über das CMS-Backend und reduziert so den Programmieraufwand während der Entwicklungszeit.
 
-Dies soll gewährleisten das Feedback zenrtal gesammelt werden kann ohne das ein Teammitglied aktiv zum sammeln abgestellt werden kann. Das Team validiert in regelmäßigen abständen eingepflegte Inhalte und priosiert diese nach Relevanz. Hier wird unterschieden zwischen Inhalten die für den aktuellen Sprint relevant sind, bspw. Bugs. Und Inhalten wie Funktionalitäten für folgende Sprints bzw. overall Konzeptionsrichtung des Spieles.
+Ein **Roadmap-Bereich** auf der Webseite wird idealerweise automatisiert über eine API mit Aufgaben aus **YouTrack** gefüllt, sodass keine manuelle Pflege notwendig ist.
 
-Als Plattformen ausrollen von Testbaren versionen sind derzeit Webversionen, itch.io und Steam in Überlegung. Details werden hierzu in einem Seperaten Workflow dokumentiert.
+### Discord-Integration
 
-## Gefahren und Risiken
-Buronout bei Teammitgliedern durch zu hohem Input oder Druck.
-Validierung daher erforderlich. Emergency Strategy zum Rückfahren der Community Struktur falls nötig. 
+Zur direkten Kommunikation mit der Community wird ein **Discord-Server** betrieben. Dort unterstützt ein Bot mit Befehlen wie:
+
+- `/idea "Idee"`  
+- `/bug "Bugbeschreibung"`  
+- `/feedback "Feedback"`
+
+Diese Eingaben werden automatisch in GitHub-Diskussionen oder Issues überführt. Alternativ können Nutzer ihre Beiträge direkt über GitHub einreichen.
+
+So wird sichergestellt, dass Feedback zentral gesammelt wird, ohne dass ein Teammitglied dies aktiv übernehmen muss. Das Team prüft regelmäßig die eingegangenen Beiträge und priorisiert sie. Dabei wird unterschieden zwischen:
+
+- kurzfristig relevanten Inhalten (z. B. Bugs)  
+- langfristigen Vorschlägen (z. B. neue Features, Konzeptideen)
+
+### Testversionen
+
+Mögliche Plattformen für testbare Versionen sind derzeit:
+
+- Web-Version  
+- [itch.io](https://itch.io)  
+- Steam
+
+Details hierzu werden in einem separaten Workflow-Dokument festgehalten.
+
+## Risiken und Vorsichtsmaßnahmen
+
+Ein potenzielles Risiko ist **Burnout** bei Teammitgliedern durch zu hohen Input oder Druck von außen. Daher ist eine regelmäßige **Validierung der Community-Aktivitäten** notwendig. 
+
+Sollte es notwendig werden, ist eine Notfallstrategie zum temporären Rückbau der Community-Struktur vorgesehen.
 
 ## Fazit
 
-Durch das frühe planen und aufbauen einer Community soll der Effekt "hive mind" genutzt werden um ein besseres Produkt zu gewährleisten. Der hier beschriebene Workflow ist der Idealfall und soll so gut es geht abgebildet werden. Es ist ausdrücklich anzumerken das hierbei der Aufwand im Verhältnis zum gain stehen muss, sodass der Hauptfokus weiterhin auf der Entwicklung liegt. Eine validierung dieses Prozesses ist kontinuirlich erforderlich um sicherzustellen das es den Gesamtumfang nicht übersteigt und zu Burnouts bei Teammitgliedern führt.  Dies ist nicht gewünscht, falls dies bei einem Mitglied dazu führt bitte im Team kommunizieren!
+Der frühzeitige Aufbau einer Community soll helfen, durch den kollektiven Beitrag vieler (*"Hive Mind"*) ein besseres Spiel zu entwickeln. Der beschriebene Workflow stellt den Idealfall dar und dient als Leitlinie. 
 
+Dabei ist stets zu beachten: **Der Aufwand muss im Verhältnis zum Nutzen stehen.** Der Hauptfokus liegt weiterhin auf der Entwicklung. 
 
-
+Eine kontinuierliche Überprüfung dieses Prozesses ist erforderlich, um sicherzustellen, dass er den Gesamtumfang nicht sprengt und keine Überlastung im Team verursacht. Sollte sich ein Teammitglied überlastet fühlen – bitte offen im Team kommunizieren!
