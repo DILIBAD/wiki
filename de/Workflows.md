@@ -2,7 +2,7 @@
 title: Workflows
 description: 
 published: true
-date: 2025-04-20T09:08:55.301Z
+date: 2025-04-20T09:15:46.630Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:18:13.787Z
@@ -36,5 +36,28 @@ Ein strukturierter Git-Workflow und eine automatisierte CI/CD-Pipeline sorgen f�
 - **Wartungsfenster & automatischer Server-Rollout** bei neuen Versionen
 - **Langfristiges Ziel**: < 1 % Aufwand für Release-Management
 - **Risikoabschätzung** & Rückfallstrategie bei technischen Blockern
+
+👉 [Zum vollständigen Workflow-Dokument](#git-flow--cicd)
+
+
+## 📝 TL;DR – Verifizierungsprozess & Tagging (Kurzfassung)
+
+- **Keine direkte Wiki-Verifizierung möglich** → Diskussion & Abstimmung erfolgen **per Kommentar**.
+- **Tags zeigen Status von Seiten** – alle Teammitglieder pflegen diese aktiv.
+- Neue Seiten starten **ohne Tag**, nach Sprint 0 erhalten sie `verifiziert`.
+
+### 🔖 Wichtige Tags
+
+| Tag                      | Bedeutung                                                |
+|--------------------------|----------------------------------------------------------|
+| `verifiziert`           | Inhalt ist aktuell, abgestimmt, verbindlich              |
+| `in_bearbeitung`        | Seite wird gerade aktiv überarbeitet                     |
+| `diskussion_bedarf`     | Änderungsvorschläge liegen vor, Entscheidung steht aus   |
+| `verifizierung_ausstehend` | Änderung fertig, aber noch nicht reviewed/verifiziert |
+| `ueberarbeitung_noetig` | Veraltet/unvollständig, Überarbeitung nötig              |
+
+➡️ Änderungen = **Kommentar + passender Tag**  
+➡️ Eskalationen = Weitere Person einbeziehen → ggf. ins Meeting bringen  
+➡️ **Ziel:** Klarer Überblick & effiziente Kommunikation im Team
 
 👉 [Zum vollständigen Workflow-Dokument](#git-flow--cicd)
