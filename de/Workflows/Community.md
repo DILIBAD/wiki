@@ -2,7 +2,7 @@
 title: Community
 description: 
 published: true
-date: 2025-04-20T08:42:31.940Z
+date: 2025-04-20T08:44:34.715Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:40:42.461Z
@@ -63,7 +63,7 @@ Die Integration einer aktiven Community bringt viele Vorteile, aber auch Risiken
 
 - **Burnout im Team**: Durch zu hohen Input, Druck oder unerwartete Anforderungen seitens der Community kann es zu Überlastung kommen. 
 - **Scope Creep**: Zu viele Feature-Wünsche oder unstrukturierte Anforderungen können das Projekt vom ursprünglichen Kurs abbringen und die Entwicklung erheblich verzögern.
-- **Reputationsrisiken**: Unzufriedene oder toxische Community-Mitglieder können negative Publicity erzeugen, insbesondere bei fehlendem Community-Management.
+- **Reputationsrisiken**: Unzufriedene oder toxische Community-Mitglieder können negative Publicity erzeugen oder Negative Auswirkungen auf Motivation und Feeling der Teammitglieder
 - **Technischer Overhead**: Der Betrieb von Plattformen wie CMS, Discord-Bots, API-Anbindungen etc. kann zu zusätzlichem Wartungsaufwand führen.
 - **Ressourcenumlenkung**: Zu viel Zeit in der Moderation oder technischen Pflege kann vom eigentlichen Entwicklungsziel ablenken.
 - **Fehlgeleitetes Feedback**: Nicht alle Vorschläge aus der Community sind zielführend oder qualitativ hochwertig – Filtermechanismen sind erforderlich.
@@ -73,7 +73,7 @@ Die Integration einer aktiven Community bringt viele Vorteile, aber auch Risiken
 Sollte sich im Projektverlauf herausstellen, dass die Community-Aktivitäten zu großen Schaden am Entwicklungsprozess verursachen (z. B. durch Überforderung, Burnout, Verzögerung oder interne Konflikte), tritt folgende Rückzugsstrategie in Kraft:
 
 1. **Interne Eskalationsmeldung**  
-   Jedes Teammitglied kann potenzielle Überlastung oder Community-bezogene Konflikte anonym oder direkt melden.
+   Jedes Teammitglied kann potenzielle Überlastung oder Community-bezogene Konflikte direkt melden.
 
 2. **Evaluationsphase (max. 1 Woche)**  
    Das Kernteam analysiert in dieser Zeit:
