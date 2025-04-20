@@ -2,13 +2,13 @@
 title: Game Design Dokument
 description: 
 published: true
-date: 2025-04-19T19:18:43.525Z
+date: 2025-04-20T12:05:56.189Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-17T21:46:46.966Z
 ---
 
-# 🛠️ Game Design Dokument – DILIBAD
+# 🛠️ Game Design Dokument – DILIBAD (Long Term)
 
 > **Spielname:**  
 > **DILIBAD – Discover. Liberate. Build. Automate. Defend**  
