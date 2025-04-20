@@ -2,7 +2,7 @@
 title: Workflows
 description: 
 published: true
-date: 2025-04-20T08:46:06.992Z
+date: 2025-04-20T09:08:55.301Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:18:13.787Z
@@ -23,3 +23,18 @@ Der Community-Workflow dient dazu, frühzeitig eine engagierte Spiel-Community a
 Ein Bot automatisiert Feedback-Prozesse und leitet Eingaben direkt weiter. Die Plattformpflege ist auf ein Minimum reduziert, um Entwicklungsressourcen zu schonen (max. 10 % Aufwand). Risiken wie Burnout, Scope Creep oder technischer Overhead werden durch klare Exit-Strategien und ständige Evaluation adressiert.
 
 👉 [Zum vollständigen Workflow-Dokument](#community)
+
+
+
+### ⚙️ Git Flow & CI/CD – TL;DR
+
+Ein strukturierter Git-Workflow und eine automatisierte CI/CD-Pipeline sorgen für saubere Zusammenarbeit im Team und schnelle, zuverlässige Releases.
+
+- **Git-Flow** mit Branch-Typen für `feature`, `version`, `hotfix` & `test`
+- **Klare PR-Regeln** mit abgestufter Review-Anzahl je nach Ziel-Branch
+- **Automatisierte CI/CD-Pipeline** für Builds, Updates & Deployment
+- **Wartungsfenster & automatischer Server-Rollout** bei neuen Versionen
+- **Langfristiges Ziel**: < 1 % Aufwand für Release-Management
+- **Risikoabschätzung** & Rückfallstrategie bei technischen Blockern
+
+👉 [Zum vollständigen Workflow-Dokument](#git-flow--cicd)
