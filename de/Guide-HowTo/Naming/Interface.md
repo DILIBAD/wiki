@@ -2,7 +2,7 @@
 title: Namenskonvention Interfaces
 description: 
 published: true
-date: 2025-04-22T17:52:11.856Z
+date: 2025-04-22T17:59:43.416Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-22T17:52:11.856Z
@@ -29,6 +29,7 @@ Diese Matrix hilft dir dabei, den **richtigen Namenspräfix für ein Interface**
 | `IOnX`           | Reagiert bei einem **Event-Zeitpunkt**                      | Lebenszyklus, Spielereignisse            | ❌ `IHandleX` (unspezifisch)       |
 | `IXyzService`    | **Funktionaler Service** (z. B. globaler Zugriff, Logik)     | Crafting, Upgrade, ResourceService       | ❌ `IHandleX` (nur Einzelverhalten)|
 | `IXyzFactory`    | Erzeugt/instanziert Objekte oder Daten                      | ItemBuilder, PayloadCreator              | ❌ `IHandleX`                      |
+| `IXyz`           | **Eigenständiges System oder Struktur** mit API & Zustand   | Blackboard, StateMachine, Inventory      | ❌ `IProvideX`, `IXyzData`         |
 
 > 📌 Tipp: Suche nach **dem Zweck deines Interfaces**, nicht nach der Funktion deiner Klasse.
 
@@ -51,6 +52,7 @@ Diese Matrix hilft dir dabei, den **richtigen Namenspräfix für ein Interface**
 | Verweist das Objekt **auf ein anderes Objekt** (aber besitzt es nicht)?  | z. B. Inventory → ItemData          | `IReferenceX`                | ❌ `IHasX`: würde Besitz implizieren                  |
 | Wird das Interface **bei einem Spielereignis** getriggert?               | z. B. `OnWaveStart`, `AfterDamage`  | `IOnX`, `IAfterX`            | ❌ `IHandleX`: ist allgemeiner, nicht ereignisgebunden |
 | Gehört das Interface zu einem **Service, Factory oder Manager**?         | z. B. Spawn, Upgrade, Craft         | `IXyzService`, `IXyzFactory` | ❌ `IHandleX`: zu spezifisch, Service ist breiter     |
+| Handelt es sich um ein **eigenständiges System/Struktur mit Zustand & Verhalten**? | z. B. Blackboard, Inventory         | `IXyz`                       | ❌ `IProvideX`: liefert nur Zugriff, ist aber nicht das System selbst |
 
 ---
 
@@ -151,6 +153,23 @@ Diese Matrix hilft dir dabei, den **richtigen Namenspräfix für ein Interface**
   - Verhalten nur auf eine Aktion begrenzt ist → `IHandleX`
 
 ---
+## 🧩 Zusatzregel: `IXyz` für systemeigene Objekte
+
+### Beispiele:  
+- `IBlackboard<TKey>`  
+- `IInventory`  
+- `IStateMachine<TState>`  
+
+Diese Interfaces:
+- besitzen **internen Zustand**
+- bieten eine **API für Zugriff & Manipulation**
+- sind **zentral für Logik** wie AI, UI, Gameplay-Systeme
+
+Verwende:
+- `IProvideXyz` → wenn ein anderes Objekt auf diese Struktur zugreift
+- `IXyz` → wenn das Objekt **selbst** das System ist
+
+---
 
 ## ✅ Quick Reference Tabelle
 
@@ -167,4 +186,5 @@ Diese Matrix hilft dir dabei, den **richtigen Namenspräfix für ein Interface**
 | Objekt verweist auf anderes       | `IReferenceX`| `IHasX`, `IProvideX`           |
 | Reaktion auf Events               | `IOnX`       | `IHandleX`                     |
 | Services / zentrale Systeme       | `IXyzService`, `IXyzFactory` | `IHandleX`          |
+| Zentrale Daten-/Laufzeitstruktur  | `IXyz`             | `IProvideX`, `IXyzData`        |
 
