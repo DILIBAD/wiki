@@ -2,7 +2,7 @@
 title: Unity Knowledge
 description: 
 published: true
-date: 2025-04-19T21:15:52.845Z
+date: 2025-04-23T09:48:19.647Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T17:53:30.220Z
@@ -23,7 +23,7 @@ In der folgenden Tabelle können sich Teammitglieder bei den jeweiligen Unity-Be
 | Bereich | Experte oder auf dem Weg dahin | Für Rückfragen verfügbar | Nur Grundlagen | Grobes Verständnis |
 | --- | --- | --- | --- | --- |
 |  |    |    |     |     |
-|     |     |     |     |     |
+|  Animation & Animator   |   Alex  |     |     |     |
 |     |     |     |     |     |
 |     |     |     |     |     |
 |     |     |     |     |     |
