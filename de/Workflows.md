@@ -2,7 +2,7 @@
 title: Workflows
 description: 
 published: true
-date: 2025-04-20T09:15:46.630Z
+date: 2025-04-23T17:52:51.835Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:18:13.787Z
@@ -22,7 +22,7 @@ Der Community-Workflow dient dazu, frühzeitig eine engagierte Spiel-Community a
 
 Ein Bot automatisiert Feedback-Prozesse und leitet Eingaben direkt weiter. Die Plattformpflege ist auf ein Minimum reduziert, um Entwicklungsressourcen zu schonen (max. 10 % Aufwand). Risiken wie Burnout, Scope Creep oder technischer Overhead werden durch klare Exit-Strategien und ständige Evaluation adressiert.
 
-👉 [Zum vollständigen Workflow-Dokument](#community)
+👉 [Zum vollständigen Workflow-Dokument](./Workflows/VersionControl-Release)
 
 
 
