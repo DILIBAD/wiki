@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T16:37:30.975Z
+date: 2025-04-25T16:38:55.019Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -91,7 +91,8 @@ Durch folgende Aktionen des Spielers wächst das Gefahrenlevel:
 - Durch das abbauen von Rohstoffen
 - Durch das töten von Monstern
 
-Zusätzlich wächst das Gefahrenlevel mit einem fixen Wert kontinuierlich. Diese zunahme wird für Schwierigkeitsgrade genutzt. Je höher der Schwierigkeitsgrad desto höher die Zunahme im Idle.
+TBD:
+Zusätzlich wächst das Gefahrenlevel mit einem fixen Wert kontinuierlich. LATER => Diese zunahme wird für Schwierigkeitsgrade genutzt. Je höher der Schwierigkeitsgrad desto höher die Zunahme im Idle.
 
 Der genaue Wert der Gefahrenzunahme ist von Balancefaktoren abhängig und muss somit während der Entwicklung durchs Tests bestimmt werden.
 
