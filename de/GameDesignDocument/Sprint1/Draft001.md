@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T15:22:04.468Z
+date: 2025-04-25T15:26:01.505Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -29,7 +29,10 @@ Klasse => Spezialisierung  (Fixed)
 
 Inventar:
  - Maximale Tragemenge an Kristallen
- - 
+ 
+ Items:
+ - Kristall
+ - Hinweise
 
 
 Kampfart 
