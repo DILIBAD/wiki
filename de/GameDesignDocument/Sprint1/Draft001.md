@@ -2,13 +2,15 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T16:05:37.290Z
+date: 2025-04-25T16:28:38.532Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
 ---
 
 Notes Popup Treffen 25.04:
+
+
 Charakter General:
 - Movement ( WASD)
 
@@ -58,6 +60,34 @@ Passive Upgrades:
 1. Attack
 2. Defense
 3. Sammler: Schneller abbauen | Fighter: Attack Speed   
+
+Abbauen von Rohstoffen und Interagieren mit Gebäuden mit Interaktion Key near by
+
+---
+Boss & Monster
+Angriffsmuster
+
+
+---
+Wellen
+Die Angriffswellen die durch volles Gefahrenlevel ausgelöst wird, werden mit jeder Welle um einen festgelegten Wert. 
+
+Optionen für "stärker":
+=> stärkere monster
+=> Mehr Monster
+
+---
+Gefahrenlevel
+
+Das Gefahrenlevel gibt an wann die nächste Angriffswelle auf die Basis ansteht.
+
+Durch folgende Aktionen des Spielers wächst das Gefahrenlevel:
+- Durch das abbauen von Rohstoffen
+- Durch das töten von Monstern
+
+Zusätzlich wächst das Gefahrenlevel mit einem fixen Wert kontinuierlich. Diese zunahme wird für Schwierigkeitsgrade genutzt. Je höher der Schwierigkeitsgrad desto höher die Zunahme im Idle.
+
+Der genaue Wert der Gefahrenzunahme ist von Balancefaktoren abhängig und muss somit während der Entwicklung durchs Tests bestimmt werden.
 
 ---
 
