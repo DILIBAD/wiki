@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T15:26:01.505Z
+date: 2025-04-25T16:05:37.290Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -59,6 +59,20 @@ Passive Upgrades:
 2. Defense
 3. Sammler: Schneller abbauen | Fighter: Attack Speed   
 
+---
+
+Basis
+Rohstoffe werden zur Basis gebracht und können dort für Char Upgrades ausgegeben werden oder an Gebäudeslots genutzt werden, um diese zu bauen oder aufzuwerten.
+
+
+Walls und Türme
+- Upgrades Walls => Leben
+- Upgrades Türme => Leben und Angriffsschaden
+
+
+Spieler sollen Monster nicht abusive kiten können
+Aggro Level => simple Enmity System
+> Enmity am Beispiel von [Final Fantasy](https://ffxiv.consolegameswiki.com/wiki/Enmity)
 
 ----
 Max Level pro Upgrade
