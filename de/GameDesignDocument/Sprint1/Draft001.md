@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T14:18:24.937Z
+date: 2025-04-25T14:29:15.646Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -26,12 +26,13 @@ Klasse => Spezialisierung  (Fixed)
 - Kämpfer
 - ....
 
+
 Inventar:
  - Maximale Tragemenge an Kristallen
  - 
 
 
-Kampfart => Main Waffe? => Equipment bestimmt wie du kämpfst => (wechselbar)
+Kampfart 
 
 Nahkampf (Schwert)
 - Auto Attack (Attack Speed)
@@ -62,6 +63,7 @@ Passive Upgrades:
 Max Level pro Upgrade
   => Basierend auf Balancing
 
+=> Main Waffe? => Equipment bestimmt wie du kämpfst => (wechselbar)
 Upgrade:
 - Mehrere Upgrades mit Elementen welche kombiniert werden können
 - Passive Dodge  
