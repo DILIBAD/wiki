@@ -2,7 +2,7 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-20T12:06:35.065Z
+date: 2025-04-25T11:40:39.882Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
@@ -192,6 +192,39 @@ Diese Übersicht beschreibt alle notwendigen Systeme und Bestandteile, um die Ke
 - Upgradesystem: Einfache Verbesserungen (z. B. Schaden, Bewegung)  
 - Inventarsystem: Verfolgung von normalen und besonderen Kristallen  
 - Respawn-Mechanik: Spieler kehrt nach dem Tod zur Basis zurück  
+
+## 🧑‍🤝‍🧑 Spielerklassen (Sprint 1)
+- Zwei Klassen mit unterschiedlichen Rollen zur Förderung von Teamplay
+- Klassen beeinflussen Inventar, Fähigkeiten und Kampfverhalten
+- Spätere Erweiterung um weitere Klassen möglich (z. B. Techniker, Heiler)
+
+## 🧺 Sammler
+Rolle: Ressourcen sammeln und zur Basis transportieren
+
+Eigenschaften:
+- Erweitertes Inventar (z. B. 5 Slots)
+- Schnellere Abbaugeschwindigkeit
+
+Potenzielle Upgrades:
+- Magnetfeld (zieht nahe Ressourcen an)
+- Trageschlitten (mehr tragen für kurze Zeit)
+- Auto-Abbau-Drohne (sammelt passiv in kleinem Radius)
+
+## 🗡️ Kämpfer
+Rolle: Gegner bekämpfen und die Basis verteidigen
+
+Eigenschaften:
+
+- Nahkampfangriff (z. B. Schwert)
+- Höhere Lebenspunkte
+- Aggro-Fokus (wird bevorzugt angegriffen)
+
+Potenzielle Upgrades:
+
+- Wirbelangriff (Flächenschaden)
+- Schildfähigkeit (reduziert Schaden)
+- Schockwelle (stößt Gegner zurück)
+
 
 ---
 
