@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T16:37:05.955Z
+date: 2025-04-25T16:37:30.975Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -67,9 +67,9 @@ Abbauen von Rohstoffen und Interagieren mit Gebäuden mit Interaktion Key near b
 Boss & Monster
 Angriffsmuster Boss:
 - Base Attack
-- Heavy Attack
-- AOE
-- Knockback
+- Heavy Attack (CD)
+- AOE (CD)
+- Knockback (CD)
 
 
 
