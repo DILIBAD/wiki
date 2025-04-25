@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T16:38:55.019Z
+date: 2025-04-25T16:39:52.108Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -104,7 +104,7 @@ Rohstoffe werden zur Basis gebracht und können dort für Char Upgrades ausgegeb
 
 Walls und Türme
 - Upgrades Walls => Leben
-- Upgrades Türme => Leben und Angriffsschaden
+- Upgrades Türme => Leben und Angriffsschaden und Attackspeed
 
 
 Spieler sollen Monster nicht abusive kiten können
