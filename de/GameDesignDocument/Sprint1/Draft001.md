@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T14:29:15.646Z
+date: 2025-04-25T15:22:04.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -55,8 +55,6 @@ Passive Upgrades:
 1. Attack
 2. Defense
 3. Sammler: Schneller abbauen | Fighter: Attack Speed   
-
-
 
 
 ----
