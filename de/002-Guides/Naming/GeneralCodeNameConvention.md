@@ -2,8 +2,8 @@
 title: Code Namenkonvention
 description: 
 published: true
-date: 2025-04-26T17:04:47.266Z
-tags: 
+date: 2025-04-26T17:11:24.694Z
+tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-23T14:28:51.317Z
 ---
