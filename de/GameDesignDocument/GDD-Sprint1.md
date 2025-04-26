@@ -2,215 +2,143 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-26T16:15:31.907Z
+date: 2025-04-26T16:18:07.266Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
 ---
 
+# Disclaimer
+> Dieses Dokument konzentriert sich ausschließlich auf die Gameplay-Mechaniken, die für den ersten Sprint benötigt werden. Erweiterungen werden separat dokumentiert und bei Bedarf in spätere Versionen des Game Design Documents (GDD) integriert.  
+> Ziel: Klare, übersichtliche Dokumentation – damit alle Entwickler nur die relevanten Informationen für den aktuellen Sprint aufnehmen und umsetzen können.
 
-# Disclaimer 
-> In diesem Dokument liegt der Fokus auf den Gameplay-Mechaniken, die für den ersten Sprint benötigt werden. Erweiterungsoptionen werden separat dokumentiert und bei Bedarf in spätere Versionen des GDD (Game Design Document) integriert. Ziel ist es, eine übersichtliche und verständliche Dokumentation sicherzustellen, sodass alle Entwickler ausschließlich die für den aktuellen Sprint relevanten Informationen aufnehmen und ein klares Verständnis der benötigten Funktionen gewinnen können.
+---
 
---- 
-# 📋 Steckbrief 
+# 🎮 Spielübersicht
 
-## Genre
-- Kooperatives Action-RPG  
-- Mit Base-Building und Tower Defense-Elementen
+## 📝 Steckbrief
 
-## Plattformen
-- Windows (Primär)
-- WebGL (optional)
+| Kategorie         | Details |
+| :---------------- | :------ |
+| **Genre**         | Kooperatives Action-RPG mit Base-Building und Tower Defense-Elementen |
+| **Plattformen**   | Windows (primär), WebGL (optional) |
+| **Spieleranzahl** | 4 Spieler (kooperativ) |
+| **Perspektive**   | 2D / 2.5D Top-Down (8-Richtungs-Bewegung) |
+| **Technologie**   | Unity 6, GitHub, Wiki (für Doku), Discord & WhatsApp (Kommunikation) |
 
-## Spieleranzahl
-- 4 Spieler (kooperativ)
-
-## Perspektive & Grafik
-- 2D / 2.5D Top-Down
-- 8-Richtungs-Bewegung
-
-## Technologie & Tools
-- Unity 6 (genaue Version folgt)
-- GitHub (Versionierung)
-- Eigene Wiki-Seite für Dokumentation > Synced automatisch auf Github
-- Discord & WhatsApp für Kommunikation
-
-## Gameplay-Säulen
+## 🎯 Gameplay-Säulen
 - **Discover** – Erkunden
-~~- **Liberate** – Befreien~~
 - **Build** – Basis bauen & aufwerten
-~~- **Automate** – Automatisieren~~
-- **Defend** – Verteidigen
+- **Defend** – Basis verteidigen  
+_(Hinweis: Liberate & Automate sind optionale Erweiterungen für spätere Versionen.)_
 
-## Zusammenfassung
-Kooperativ Ressourcen sammeln, eine Basis errichten und automatisiert gegen eskalierende Gegnerwellen verteidigen. Ziel ist es, ein Portal zu aktivieren und den finalen Boss zu bezwingen.
+## 🔀 Elevator Pitch
 
-
----
-
-# 🎙️ Elevator Pitch
-
-**DILIBAD** ist ein kooperatives Action-RPG für bis zu 4 Spieler, das Erkundung, Basisbau und Tower Defense zu einem dynamischen Multiplayer-Erlebnis vereint.
-
-Die Spieler entdecken eine fremde Welt, sammeln Ressourcen, befreien Zonen von Gegnern und errichten gemeinsam eine Basis, die sie automatisiert gegen anstürmende Feindwellen verteidigen.  
-Mit jedem gesammelten Kristall steigt die Bedrohung – bis schließlich ein mächtiger Boss zum Angriff übergeht. Nur durch Zusammenarbeit und taktisches Vorgehen können die Spieler überleben, das Portal öffnen und den finalen Kampf bestehen.
-
-**Discover. Liberate. Build. Automate. Defend.**  
-**DILIBAD – Erobern beginnt mit Zusammenarbeit.**
+**DILIBAD** ist ein kooperatives Action-RPG für bis zu 4 Spieler, das Erkundung, Basisbau und Verteidigung zu einem dynamischen Multiplayer-Erlebnis verbindet.  
+Sammelt Ressourcen, errichtet eine automatisierte Basis und trotzt eskalierenden Feindwellen, um ein Portal zu öffnen und den finalen Boss zu besiegen.  
+**Discover. Build. Defend. – DILIBAD: Erobern beginnt mit Zusammenarbeit.**
 
 ---
 
+# 🔄 Gameloop
 
+## 1. Ressourcen sammeln & Aufrüstung
+- Kristalle abbauen und für Charakter- und Basis-Upgrades nutzen.
+- Monster werden auf die Sammelaktivitäten aufmerksam.
 
+## 2. Gefahr eskaliert
+- Fortlaufendes Sammeln/Kämpfen erhöht die Bedrohungsanzeige.
+- Bei 100 % Aufmerksamkeit startet eine große Angriffswelle des Bosses.
 
+## 3. Basisverteidigung
+- Verteidigt die Basis und den Kern gegen angreifende Wellen.
+- Nutzt Kristalle für Upgrades:
+  - Charakterverbesserungen (Angriff, Verteidigung)
+  - Basisverteidigungsanlagen (primitive Türme, Strukturen)
 
-### 🌀 **Gameloop – Übersicht**
+## 4. Portal & Bosskampf
+- Findet 3 **Schlüsselkristalle**.
+- Aktiviert das **Portal**, um den Bosskampf auf einer separaten Karte zu starten.
 
-#### 1. **Ressourcen sammeln & Aufrüstung**
+## 5. Sterben & Respawn
+- Sterbende Spieler respawnen in der Basis.
+- Beim Scheitern im Bosskampf:
+  - Option A: Game Over
+  - Option B: Respawn + verstärkte Angriffswelle (zweite Chance)
 
-- Die Spieler sammeln **Kristalle**, die sie für **Charakter-** und **Basis-Upgrades** einsetzen können.
-    
-- Das **Sammeln von Kristallen** zieht nach und nach die **Aufmerksamkeit von Monstern** auf sich.
-    
-- Während des Abbaus kann es  auf der Karte zu **vereinzelten Monsterangriffen** kommen.
-    
-
-#### 2. **Gefahr eskaliert**
-
-- Durch das **fortwährende Sammeln** und **Kämpfen** erhöht sich die **Aufmerksamkeit des Kartenbosses**.
-    
-- Sobald der Boss **100 % Aufmerksamkeit** erreicht, startet er eine **Angriffswelle** auf die **Spielerbasis**.
-    
-- Die Basis enthält einen **Kern**, der die Monster anzieht – er ist das Hauptziel der Angreifer.
-    
-
-#### 3. **Basisverteidigung**
-
-- Die Spieler müssen die **Basis und ihren Kern** gegen die Wellen verteidigen.
-    
-- Kristalle können für:
-    
-    - **Ausrüstungs-Upgrades** (Spieler)
-        
-    - **Defensiv-Upgrades** (Basis)  
-        verwendet werden.
-        
-- Die Basis kann dadurch **teilweise autonom** gegen Feinde vorgehen.
-    
-
-#### 4. **Das Portal & der Bosskampf**
-
-- Auf der Karte gibt es ein **Portal**, das nur durch **3 besondere Kristalle** geöffnet werden kann.
-    
-- Sobald die Spieler diese **drei Schlüsselkristalle** gefunden haben, können sie:
-    
-    - das **Portal aktivieren**
-        
-    - und sich dem **Bosskampf** stellen.
-        
-
-#### 5. **Sterben & Respawn**
-
-- Wenn Spieler sterben, werden sie **in der Basis respawned**.
-    
-- Wenn **alle Spieler im Bosskampf** sterben, gibt es zwei Optionen:
-    
-    - **Option A:** _Game Over_
-        
-    - **Option B:** Die Spieler respawnen bei der Basis, jedoch folgt eine **besonders starke Angriffswelle** (z. B. mit Miniboss oder vielen Gegnern).
-        
-        - Diese Option bietet eine **"zweite Chance"** – das Spiel ist noch nicht verloren.
-            
-
-#### 6. **Spielende**
-
-- Das Spiel endet mit einem **Sieg**, wenn der **Boss besiegt** wurde.
-    
-- Das Spiel endet mit einem **Game Over**, wenn der **Kern der Basis zerstört** wurde.
-
-
-# 🎮 Feature- und Systemübersicht
-
-Diese Übersicht beschreibt alle notwendigen Systeme und Bestandteile, um die Kern-Gameloop im ersten Sprint umzusetzen. 
+## 6. Spielende
+- **Sieg:** Boss besiegt
+- **Niederlage:** Basiskern zerstört oder alle Spieler dauerhaft tot
 
 ---
 
-## 🔷 Spieler
-- Spielercharakter mit Bewegungs- und Interaktionsmöglichkeiten  
-- Ressourcensystem: Kristalle sammeln und verwalten  
-- Upgradesystem: Verbesserung des Angriffs, der Verteidigung oder der Klasse
-- Inventarsystem: Verfolgung von normalen und besonderen Kristallen  
-- Respawn-Mechanik: Spieler kehrt nach dem Tod zur Basis zurück  
+# 🛠️ Feature- und Systemübersicht
 
-## 🧑‍🤝‍🧑 Spielerklassen (Sprint 1)
-- Zwei Klassen mit unterschiedlichen Rollen zur Förderung von Teamplay
-- Klassen beeinflussen unterschiedliche Aspekte der Gamemechaniken
+## 🧟‍♂️ Spielermechaniken
+- Charakterbewegung (8 Richtungen)
+- Kristalle sammeln und Inventar verwalten
+- Upgradesystem für:
+  - Angriff
+  - Verteidigung
+  - Klassenfertigkeiten
+- Respawn-Mechanik (Rückkehr zur Basis nach Tod)
 
-## 🧺 Sammler
-Rolle: Fokus auf effizientes Sammeln von Rohstoffen
+## 🧑‍ Spielerklassen (Sprint 1)
 
-Upgradeoption:
-- Schnelleres Abbauen von Rohstoffen
-
-
-## 🗡️ Kämpfer
-Rolle: Fokus auf den Kampf gegen Monster
-
-Upgradeoption:
-- Höhere Angriffsgeschwindigkeit
-
+| Klasse    | Rolle | Upgradeoption |
+|:----------|:------|:--------------|
+| **Sammler** | Fokus auf Ressourcensammeln | Schnelleres Abbauen |
+| **Kämpfer** | Fokus auf Kampf | Höhere Angriffsgeschwindigkeit |
 
 ---
 
-## 🧪 Gegner- & Gefahrensysteme
-- Grundgegner: Greifen Spieler und Basis an  
-- Wellenmechanik: Gegner erscheinen in Gruppen und greifen an  
-- Aufmerksamkeitssystem: Spieleraktionen erhöhen eine Bedrohungsanzeige  
-- Bosswelle: Bei 100 % Aufmerksamkeit startet eine starke Angriffswelle  
+## 👾 Gegner- und Gefahrensysteme
+- Grundmonster, die Spieler und Basis angreifen
+- Gegnerwellen basierend auf Bedrohungslevel
+- Aufmerksamkeitssystem (Bedrohungsanzeige)
+- Bosswelle bei voller Aufmerksamkeit
 
 ---
 
-## 🏰 Basis- und Verteidigungselemente
-- Spielerbasis: Rückzugs- und Verteidigungspunkt  
-- Basiskern: Zentrales Ziel der Gegner – Zerstörung führt zu Game Over  
-- Verteidigung durch Spieler: Aktive Abwehr, primitive Tower mit Single target 
-- Bereits platzierte Stukturen können aufgewertet werden
-- Leere Slots können durch den Spieler befüllt werden und stellt den Ausbau der Basis da
+## 🏰 Basis- und Verteidigungssysteme
+- **Spielerbasis**: Rückzugsort und Verteidigungspunkt
+- **Basiskern**: Ziel der Gegner – Verlust führt zu Game Over
+- **Verteidigungsmöglichkeiten**:
+  - Platzierbare primitive Tower (Single Target)
+  - Aufwertbare Strukturen
+  - Bau neuer Strukturen auf freien Slots
 
 ---
 
-## 🔮 Portal- und Fortschrittssystem
-- Portalstruktur: Spezieller Ort, der geöffnet werden kann  
-- Schlüsselkristalle: Drei besondere Ressourcen zum Aktivieren des Portals  
-- Portalaktivierung: Ermöglicht Zugang zum finalen Bosskampf auf einer seperaten Karte
+## 🔮 Fortschrittssystem: Portal & Boss
+- Portal: Spezialstruktur zum Aktivieren des Bosskampfes
+- 3 Schüsselkristalle erforderlich
+- Separate Karte für den Bosskampf nach Portalöffnung
 
 ---
 
-## 🧠 Spielregeln & Zustände
-- **Siegbedingung:** Boss besiegt  
-- **Niederlagebedingungen:**  
-  - Basis-Kern zerstört  
-  - Alle Spieler beim Bosskampf dauerhaft besiegt (Optional) 
-- Zustände:  
-  - Erkundung und Rohstoffgewinnung 
-  - Aktive Angriffswelle  
-  - Portal öffnen  
-  - Bosskampf  
+## 🧬 Spielregeln & Zustände
+- **Sieg:** Boss besiegt
+- **Niederlage:** Basiskern zerstört oder kompletter Ausfall beim Bosskampf
+- **Zustände**:
+  - Erkundung & Ressourcengewinnung
+  - Aktive Angriffswellen
+  - Portalaktivierung
+  - Bosskampf
 
 ---
 
-## 🌍 Spielwelt & Umgebung
-- Kristallquellen: Interaktive Abbaupunkte  
-- Spawnpunkte für Gegner  
-- Seperate Karte für den Boss
-- Erkundbare Welt mit Schlüsselorten (Basis, Portal, Kristallfelder)  
+## 🌍 Weltstruktur
+- Interaktive **Kristallquellen**
+- **Gegnerspawnpunkte** über die Karte verteilt
+- **Basis**, **Portal** und **Kristallfelder** als Schlüsselorte
+- Separate Bosskarte
 
 ---
 
-## 🧭 Benutzeroberfläche & Feedback
-- Ressourcenanzeige (Kristalle)  
-- Upgrade-Button & Statusanzeige  
-- Aufmerksamkeit des Bosses (z. B. Balken oder % Anzeige)  
-- Übersicht über gesammelte Schlüsselkristalle  
-- Sieg- / Game Over-Bildschirm  
+## 🧽 Benutzeroberfläche & Feedbackelemente
+- Ressourcenanzeige (Kristalle)
+- Upgradebuttons mit Status
+- Bedrohungsanzeige (Balken oder Prozent)
+- Anzeige gesammelter Schüsselkristalle
+- Sieges- und Game Over-Screen
