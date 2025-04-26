@@ -2,7 +2,7 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-26T16:21:38.942Z
+date: 2025-04-26T16:42:21.619Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
@@ -75,7 +75,7 @@ Sammelt Ressourcen, errichtet eine automatisierte Basis und trotzt eskalierenden
 # 🛠️ Feature- und Systemübersicht
 
 ## 🧟‍♂️ Spielermechaniken
-
+Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welche seine Spezialisierung in der Runde bestimmt. Als nächstes wählt der Spieler seine Waffe aus, welche ihm Angriffsfähigkeiten für den Kampf zur Verfügung stellt. Jede Klasse kann im Kampf mitwirken.
 ### Charakter General
 - Bewegung: **WASD**
 
