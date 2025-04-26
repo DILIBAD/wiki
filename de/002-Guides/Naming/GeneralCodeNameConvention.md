@@ -2,13 +2,13 @@
 title: Code Namenkonvention
 description: 
 published: true
-date: 2025-04-26T17:02:16.214Z
+date: 2025-04-26T17:02:27.687Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T14:28:51.317Z
 ---
 
-# C# Naming Conventions for Unity Projects
+# C# Naming Conventions
 
 ## 🧠 TL;DR Overview
 
