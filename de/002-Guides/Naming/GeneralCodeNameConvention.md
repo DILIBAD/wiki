@@ -2,7 +2,7 @@
 title: Code Namenkonvention
 description: 
 published: true
-date: 2025-04-26T17:02:27.687Z
+date: 2025-04-26T17:04:47.266Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T14:28:51.317Z
@@ -25,7 +25,7 @@ dateCreated: 2025-04-23T14:28:51.317Z
 | Interfaces | I + PascalCase | `IDamageable` |
 | Enums | PascalCase | `PlayerState` |
 | Enum Members | PascalCase | `Idle`, `Running` |
-| Serialized Fields | _camelCase + [SerializeField] | `[SerializeField] private int _health;` |
+| Serialized Fields | _camelCase + [SerializeField] | `[SerializeField]  private int _health;` |
 
 ---
 
