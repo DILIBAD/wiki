@@ -2,8 +2,8 @@
 title: Game Design Dokument
 description: 
 published: true
-date: 2025-04-26T17:09:42.401Z
-tags: verifiziert, in_bearbeitung, diskussion_bedarf, verifizierung_ausstehend, ueberarbeitung_noetig
+date: 2025-04-26T17:09:58.441Z
+tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-17T21:46:46.966Z
 ---
