@@ -2,7 +2,7 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-26T16:18:07.266Z
+date: 2025-04-26T16:21:38.942Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
@@ -75,38 +75,96 @@ Sammelt Ressourcen, errichtet eine automatisierte Basis und trotzt eskalierenden
 # 🛠️ Feature- und Systemübersicht
 
 ## 🧟‍♂️ Spielermechaniken
-- Charakterbewegung (8 Richtungen)
-- Kristalle sammeln und Inventar verwalten
-- Upgradesystem für:
-  - Angriff
-  - Verteidigung
-  - Klassenfertigkeiten
-- Respawn-Mechanik (Rückkehr zur Basis nach Tod)
 
-## 🧑‍ Spielerklassen (Sprint 1)
+### Charakter General
+- Bewegung: **WASD**
 
+### Charakter Stats
+- Health
+- Damage
+- Defense
+- Attack Speed (nur für Auto Attack)
+- Movement Speed
+- Abbaugeschwindigkeit
+- Klasse (Spezialisierung, festgelegt)
+
+### Klassen
 | Klasse    | Rolle | Upgradeoption |
 |:----------|:------|:--------------|
 | **Sammler** | Fokus auf Ressourcensammeln | Schnelleres Abbauen |
 | **Kämpfer** | Fokus auf Kampf | Höhere Angriffsgeschwindigkeit |
 
+### Inventar
+- Maximale Tragemenge an Kristallen
+
+### Items
+- Kristall
+- Hinweise
+
+### Kampfarten
+- **Nahkampf (Schwert)**
+  - Auto Attack (abhängig von Attack Speed)
+  - Schwerer Angriff (Skill Cooldown)
+  - Rundumschlag (Skill Cooldown)
+  - Jump Attack (Skill Cooldown)
+
+- **Fernkampf (Bogen)**
+  - Auto Attack (abhängig von Attack Speed)
+  - Geladener Schuss (Skill Cooldown)
+  - AoE-Fähigkeit: Pfeilhagel (Skill Cooldown)
+  - Dodge Backward + Pfeilschuss (Skill Cooldown)
+
+### Charakter Upgrades
+- 3 passive Upgrades:
+  - Attack
+  - Defense
+  - Sammler: Schnelleres Abbauen | Kämpfer: Attack Speed
+
+### Interaktion
+- Rohstoffe abbauen und Gebäude interagieren über **Interaktion Key** (bei Nähe)
+
 ---
 
 ## 👾 Gegner- und Gefahrensysteme
-- Grundmonster, die Spieler und Basis angreifen
-- Gegnerwellen basierend auf Bedrohungslevel
-- Aufmerksamkeitssystem (Bedrohungsanzeige)
-- Bosswelle bei voller Aufmerksamkeit
+
+### Boss & Monster
+- **Boss Angriffsmuster**:
+  - Base Attack
+  - Heavy Attack (Cooldown)
+  - AoE Attack (Cooldown)
+  - Knockback (Cooldown)
+
+- **Angriffswellen**
+  - Jede neue Welle wird stärker:
+    - Stärkere Monster
+    - Mehr Monster
+
+### Gefahrenlevel
+- Zeigt an, wann die nächste Angriffswelle kommt.
+- Steigt durch:
+  - Abbauen von Rohstoffen
+  - Töten von Monstern
+
+- (TBD) Zusätzlicher fixer Anstieg über Zeit (für Schwierigkeitsgrad-Varianten).
+- Exakte Werte werden durch Tests bestimmt.
+
+### Aggro Level
+- Einfaches **Enmity System** 
+- Ziel: Spieler können Monster nicht abusiv kiten.
+
+
+[Enmity System am Beispiel von Final Fantasy](https://ffxiv.consolegameswiki.com/wiki/Enmity)
 
 ---
 
 ## 🏰 Basis- und Verteidigungssysteme
-- **Spielerbasis**: Rückzugsort und Verteidigungspunkt
-- **Basiskern**: Ziel der Gegner – Verlust führt zu Game Over
-- **Verteidigungsmöglichkeiten**:
-  - Platzierbare primitive Tower (Single Target)
-  - Aufwertbare Strukturen
-  - Bau neuer Strukturen auf freien Slots
+- **Rohstoffmanagement**
+  - Rohstoffe zur Basis bringen.
+  - Kristalle für Charakter-Upgrades und Bau/Aufwertung von Strukturen verwenden.
+
+- **Wände und Türme**
+  - **Walls:** Upgrade erhöht Lebenspunkte.
+  - **Türme:** Upgrade erhöht Lebenspunkte, Angriffsschaden und Attack Speed.
 
 ---
 
