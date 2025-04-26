@@ -2,8 +2,8 @@
 title: Namenskonvention Interfaces
 description: 
 published: true
-date: 2025-04-22T17:59:43.416Z
-tags: 
+date: 2025-04-26T17:11:45.026Z
+tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-22T17:52:11.856Z
 ---
