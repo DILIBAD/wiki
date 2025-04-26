@@ -2,7 +2,7 @@
 title: Code Namenkonvention
 description: 
 published: true
-date: 2025-04-23T14:28:51.317Z
+date: 2025-04-26T17:02:16.214Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-23T14:28:51.317Z
@@ -93,7 +93,7 @@ dateCreated: 2025-04-23T14:28:51.317Z
   ```csharp
   public enum PlayerState
   {
-      Idle,
+      IdleStanding,
       Running,
       Jumping
   }
@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     [SerializeField] 
     private int _maxHealth = 100;
 
-    private int _currentHealth;
+    protected int _currentHealth;
     private bool _isJumping;
 
     public int HealthPoints { get; private set; }
