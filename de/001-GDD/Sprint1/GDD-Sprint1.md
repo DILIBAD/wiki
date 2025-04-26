@@ -2,8 +2,8 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-26T16:42:21.619Z
-tags: 
+date: 2025-04-26T17:10:40.921Z
+tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
 ---
