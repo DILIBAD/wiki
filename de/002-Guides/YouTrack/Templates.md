@@ -2,7 +2,7 @@
 title: YouTrack Templates
 description: 
 published: true
-date: 2025-04-27T17:49:12.613Z
+date: 2025-04-27T18:03:29.003Z
 tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-27T17:48:41.865Z
@@ -56,8 +56,76 @@ _Mockups, technische Spezifikationen, zugehöriges Interface, Beispielcode etc._
 
 
 ---
+# Checklisten
+# User Story Vollständigkeits-Checkliste
+
+Für jeden Punkt prüfen: **Erfüllt**, **Nicht notwendig**, oder **Offen/Klärung nötig**.
+
+- [ ] **Rolle eindeutig definiert** (z.B. Spieler, Admin, NPC)
+- [ ] **Ziel oder Funktionalität klar beschrieben** (Was genau soll erreicht werden?)
+- [ ] **Nutzen oder Mehrwert erklärt** (Warum ist es relevant?)
+- [ ] **Akzeptanzkriterien** vorhanden:
+  - [ ] Erfolgsfall definiert
+  - [ ] Fehler- oder Sonderfälle bedacht
+  - [ ] Sichtbare Rückmeldungen spezifiziert (z.B. UI, Animationen, Sounds)
+
+- [ ] **Visuelle oder auditive Elemente** erforderlich?
+  - [ ] Falls ja, sind diese dokumentiert oder verlinkt?
+
+- [ ] **Technische Anforderungen oder Einschränkungen** relevant?
+  - [ ] Falls ja, dokumentiert?
+
+- [ ] **Verbindungen zu anderen Systemen oder Modulen** notwendig?
+  - [ ] Bezieht die Story Daten von anderen Systemen?
+  - [ ] Liefert die Story Daten an andere Systeme?
+
+- [ ] **Abhängigkeiten zu anderen Features oder Storys**?
+  - [ ] Falls ja, dokumentiert?
+
+- [ ] **Zusätzliche Beispiele, Flows oder Skizzen** ergänzt (falls hilfreich)?
+
+---
+
+**Hinweis:**  
+> Wenn ein Punkt **nicht notwendig** ist, sollte dies ausdrücklich vermerkt werden (z.B. "Keine visuellen Elemente benötigt", "Kein Datenaustausch mit anderen Systemen").  
+> Damit ist sichergestellt, dass bewusst geprüft und entschieden wurde.
 
 
+# Task Vollständigkeits-Checkliste
+
+Für jeden Punkt prüfen: **Erfüllt**, **Nicht notwendig**, oder **Offen/Klärung nötig**.
+
+- [ ] **Titel beschreibt präzise die Aufgabe**
+
+- [ ] **Beschreibung** enthält:
+  - [ ] Was genau zu tun ist
+  - [ ] Warum die Aufgabe notwendig ist
+
+- [ ] **Erwartetes Ergebnis (Definition of Done)** klar formuliert
+
+- [ ] **Assets (visuelle, auditive oder andere)** erforderlich?
+  - [ ] Falls ja, sind sie verlinkt oder beschrieben?
+
+- [ ] **Schnittstellen oder Abhängigkeiten zu anderen Systemen** notwendig?
+  - [ ] Muss der Task Daten empfangen?
+  - [ ] Muss der Task Daten liefern?
+
+- [ ] **Fehler- und Sonderfälle** berücksichtigt (z.B. leere Antworten, ungültige Daten)?
+
+- [ ] **Testhinweise** dokumentiert (Wie wird überprüft, ob der Task korrekt erledigt ist?)
+
+- [ ] **Verlinkung zur zugehörigen User Story oder anderem Kontext** vorhanden?
+
+- [ ] **Anhänge, Mockups oder Dokumentationen** ergänzt (falls erforderlich)
+
+---
+
+**Hinweis:**  
+> Auch hier gilt: Wenn ein Punkt **nicht zutrifft**, sollte dies explizit festgehalten werden ("Keine externen Systeme involviert", "Keine Sonderfälle notwendig").
+
+
+
+---
 
 # User Story Beispiel
 Inventarsystem – Gegenstand aufnehmen
