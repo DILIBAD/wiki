@@ -2,7 +2,7 @@
 title: YouTrack Templates
 description: 
 published: true
-date: 2025-04-27T17:48:41.865Z
+date: 2025-04-27T17:49:12.613Z
 tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-27T17:48:41.865Z
@@ -29,25 +29,6 @@ um **[Nutzen]**.
 
 
 
-# User Story Beispiel
-Inventarsystem – Gegenstand aufnehmen
-
-## Beschreibung
-Als **Spieler**
-möchte ich **einen Gegenstand im Spiel aufheben und in mein Inventar legen**,
-um **ihn später verwenden oder handeln zu können**.
-
-## Akzeptanzkriterien
-- [ ] Spieler können Gegenstände mit einem Klick/Knopfdruck aufnehmen.
-- [ ] Aufgenommene Gegenstände erscheinen korrekt im Inventar-Slot.
-- [ ] Das Inventar aktualisiert sich in Echtzeit.
-- [ ] Fehlermeldung "Inventar voll!", wenn kein Platz mehr verfügbar ist.
-
-## Zusatzinfos
-- Asset-ID der Gegenstände: siehe /assets/items.md
-- Inventar-UI Mockup: siehe Anhang
-
-
 # Task Template
 
 ## Task Name
@@ -72,6 +53,29 @@ _Andere Tasks oder Features, die zuerst abgeschlossen sein müssen_
 
 ## Anhänge/Links
 _Mockups, technische Spezifikationen, zugehöriges Interface, Beispielcode etc._
+
+
+---
+
+
+
+# User Story Beispiel
+Inventarsystem – Gegenstand aufnehmen
+
+## Beschreibung
+Als **Spieler**
+möchte ich **einen Gegenstand im Spiel aufheben und in mein Inventar legen**,
+um **ihn später verwenden oder handeln zu können**.
+
+## Akzeptanzkriterien
+- [ ] Spieler können Gegenstände mit einem Klick/Knopfdruck aufnehmen.
+- [ ] Aufgenommene Gegenstände erscheinen korrekt im Inventar-Slot.
+- [ ] Das Inventar aktualisiert sich in Echtzeit.
+- [ ] Fehlermeldung "Inventar voll!", wenn kein Platz mehr verfügbar ist.
+
+## Zusatzinfos
+- Asset-ID der Gegenstände: siehe /assets/items.md
+- Inventar-UI Mockup: siehe Anhang
 
 
 # Beispiel Task
