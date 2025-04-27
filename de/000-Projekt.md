@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-27T19:58:03.255Z
+date: 2025-04-27T23:15:37.011Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
@@ -10,45 +10,49 @@ dateCreated: 2025-04-27T19:58:03.255Z
 
 # Übersicht
 
-Entwickelt wird ein Spiel ... kurzbeschreibung essentieller Fakten hier.
+Entwickelt wird ein Spiel, das auf einem Multiplayer-First-Ansatz basiert und auf Unity 6 umgesetzt wird. Ziel ist es, ein stabiles, testbares Produkt zu entwickeln und parallel dazu eine engagierte Community aufzubauen, die aktiv in den Entwicklungs- und Testprozess eingebunden wird.
 
-Tech:
-Unity 6 Version ....
-Version Control : Github um externe Tester über Issues/Incidents reports zu ermöglichen
+## Technologie
+- **Engine:** Unity 6
+- **Versionskontrolle:** GitHub – ermöglicht externen Testern, über Issues und Incident-Reports Feedback zu geben.
 
-Zeitplan Community & Social Media:
-Sprint 1: Social Media & Cooming Soon Webseite ohne verlinkung auf Discord
-Sprint 2: Webseite inbetriebnahme nach testbaren Version mit minimalen Informationen zum Spiel & Weiterleitung auf Discord
-Sprint 3: Eingespielter Produktiver Einsatz aller Plattformen für Maximale nutzen
+## Zeitplan Community & Social Media
 
-Community Strategie:
-Ziel neben der entwicklung des spieles ist es eine Community um das entwickelte Spiel aufzubauen. Hierfür werden über Social Media aufmerksamkeits bemühungen und Kommunikationsstrategien entwickelt und umgesetzt, die im Gesamtvolumen 10% des aufwandes am Projekt maximal ausmachen sollte. Die Aufgebaute Community soll in der Testing Strategie benutzt werden, um Qualität und Stablität des Produktes zu verbessern. 
+- **Sprint 1:** Aufbau von Social-Media-Kanälen und Launch einer "Coming Soon"-Webseite ohne direkte Verlinkung auf den Discord-Server.
+- **Sprint 2:** Aktivierung der Webseite mit minimalen Informationen über das Spiel sowie Integration eines Links zum Discord-Server nach Fertigstellung einer testbaren Version.
+- **Sprint 3:** Vollständiger und produktiver Einsatz aller Kommunikationsplattformen, um maximale Reichweite und Engagement zu erzielen.
 
-Als Ablauf werden Nutzer von Social Media auf die Homepage weitergeleitet auf der zentrale Informationen zum spiel zur Verfügung gestellt werden un dem Interessenten eine möglichst zentrale Anlaufstation für Informationen dienen soll. 
+## Community-Strategie
 
-Zusätzlich wird ein Discord Server bereitgestellt auf dem die Hauptinteraktion mit der community im bidirektionalen Austaushc statt finden soll. 
+Neben der Spieleentwicklung soll eine Community rund um das Spiel entstehen. Die Pflege und der Ausbau der Community sollen maximal 10 % des gesamten Projektaufwands betragen. Die Community wird aktiv in die Teststrategie eingebunden, um Qualität und Stabilität des Spiels kontinuierlich zu verbessern.
 
-Über einen Discord Bot sollen Discord Nutzer die Möglichkeit haben ohne GitHub Probleme und Vorschläge über ein Befehl einzupflegen, welche über eine API an Github weitergeleitet werden. Dies soll eine möglichst geringen Aufwand beim Sammeln von Feedback und Fehlern ermöglichen.
+**Ablauf:**
+- Interessenten werden von Social Media auf die zentrale Webseite weitergeleitet, auf der alle wichtigen Informationen über das Spiel bereitgestellt werden.
+- Hauptkommunikationskanal wird ein Discord-Server sein, der den bidirektionalen Austausch mit der Community ermöglicht.
+- Über einen eigens entwickelten Discord-Bot können Nutzer direkt aus Discord heraus Probleme und Vorschläge melden. Diese werden automatisiert über eine API an GitHub übertragen, um den Aufwand bei der Feedback-Sammlung zu minimieren.
 
+## Social Media-Strategie
 
-Social Media Strategie;
+**[Platzhalter für detaillierte Ausarbeitung der Social Media-Strategie]**
 
+## Testing-Strategie
 
-Testing Strategie:
-Ziel ist es neben internen Tests auch durch Spielertest im Freundeskreis aber auch Fremden Tests am produkt auszuführen um das Produkt zu verbessern.
-Feedback der Nutzer wird zentral in einem öffentlichen Github Repo im Diskussionsbereich gesammelt. Probleme und Störungen werden über die Issue funktion gesammelt.
+Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskreis sowie durch externe Tester zu verbessern.
+- Feedback wird zentral im öffentlichen GitHub-Repository im Diskussionsbereich gesammelt.
+- Probleme und Bugs werden über die Issue-Funktion erfasst und nachverfolgt.
 
-Plattform:
-Social Media ....
-Webseite : https://dilibad.de
-Discord Server:
-Github Public Repo: ...
-Distributationsplattformen: Itch.io & Steam
+## Plattformen
 
+- **Social Media:** **[Platzhalter für genaue Kanäle wie Twitter, Instagram, TikTok, etc.]**
+- **Webseite:** [https://dilibad.de](https://dilibad.de)
+- **Discord-Server:** **[Platzhalter für Invite-Link]**
+- **GitHub Public Repository:** **[Platzhalter für Repo-Link]**
+- **Distributionsplattformen:** Itch.io & Steam
 
-CI/CD Strategie:
+## CI/CD-Strategie
 
-GitFlow:
+**[Platzhalter für detaillierte Beschreibung der CI/CD-Strategie]**
 
+## Git-Strategie (GitFlow)
 
-
+**[Platzhalter für konkrete GitFlow-Beschreibung]**
