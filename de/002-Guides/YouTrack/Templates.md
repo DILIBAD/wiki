@@ -2,7 +2,7 @@
 title: YouTrack Templates
 description: 
 published: true
-date: 2025-04-27T18:03:29.003Z
+date: 2025-04-27T18:11:53.232Z
 tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-27T17:48:41.865Z
