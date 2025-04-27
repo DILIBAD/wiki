@@ -2,7 +2,7 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-27T11:38:36.119Z
+date: 2025-04-27T11:40:00.053Z
 tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
@@ -79,6 +79,8 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ### Charakter General
 - Bewegung: **WASD**
 - Ausweichen: **Leertaste**
+- Kampf option A: **Skill 1: Left Click,Skill 2: Right Click ,Skill 3: Q, Skill 4: E**
+- Kampf option A: **Skill 1: 1,Skill 2: 2 ,Skill 3: 3, Skill 4: 4**
 ### Charakter Stats
 - Health
 - Damage
