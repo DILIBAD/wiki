@@ -2,7 +2,7 @@
 title: Draft 001
 description: 
 published: true
-date: 2025-04-25T16:39:52.108Z
+date: 2025-04-28T11:40:59.388Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-25T14:18:24.937Z
@@ -123,3 +123,19 @@ Upgrade:
 - Inteliigent
 - Level
 -  Dodge ( any key to dodge) 
+
+-------------
+UI – Designentscheidungen DILIBAD Sprint 1
+
+Bei der Findung und Validierung der anfänglichen UI-Elemente im Projekt DILIBAD wurde sich an den gängigen Spielen der Genres Aufbau und Rollenspiel (RPG) orientiert.
+
+Für die Ansicht, die der Spieler nach dem Öffnen des Spiels zu Gesicht bekommt, hat man sich für eine Begrüßung des Spielers inklusive dem Spielnamen „DILIBAD“ und einem Hauptmenü mit folgenden Unterpunkten entschieden: „Neues Spiel“, „Spiel laden“, „Einstellungen“ und „Spiel verlassen“.
+
+Über das Menü, das der Spieler während des Spielens aufrufen kann, sollten die Funktionen „Speichern“, „Upgrades“, „Graphics“-, „Lautstärkeeinstellungen“ und „Spiel verlassen“ aufrufbar sein.
+
+Als essenziell für die grundlegende Spielansicht für den Benutzer haben sich die UI-Elemente „Lebenspunkte“, „Schlüsselkristalle im Inventar“, „globale Anzahl der Schlüsselkristalle im Teambesitzt“, „Anzahl der Hauptkristalle im Inventar mit Tragekapazität“ und „Miniaturansicht der Karte“ mit anliegender „Enmity-Anzeige“ herausgestellt.
+
+Des Weiteren hat man sich für das Implementieren einer „Fähigkeitenleiste“ mit Tastenkürzeln für die Fähigkeiten des Charakters sowie den Knopf zum Öffnen des Einstellungsmenüs.
+
+Im weiteren Vorgehen werden die Funktionen auf ihre Benutzerfreundlichkeit getestet und abhängig von den Ergebnissen erweitert, verändert oder entfernt.
+
