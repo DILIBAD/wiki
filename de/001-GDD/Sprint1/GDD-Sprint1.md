@@ -2,7 +2,7 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-28T12:30:58.322Z
+date: 2025-04-28T12:36:57.074Z
 tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
@@ -189,7 +189,9 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ---
 
 ## 🌍 Weltstruktur
-![map.png](/map.png)# Entwurfsketch für die Karte
+
+<img src="/map.png" alt="Hauptmenü" width="400">
+
 - Interaktive **Kristallquellen**
 - **Gegnerspawnpunkte** über die Karte verteilt
 - **Basis**, **Portal** und **Kristallfelder** als Schlüsselorte
