@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T15:50:50.842Z
+date: 2025-04-28T17:29:40.820Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -47,7 +47,7 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Content Management Systeme           |          |          |          |     X     |     X   |          |
 | Praktikum Game Design und Development|          |     X     |          |      X    |    X    |          |
 | Digitale Fotografie und Desktop-Publishing |     |     X     |          |         |      X   |          |
-| Digitales Marketing                   |         |      X    |    X      |          |          |      |
+| Digitales Marketing                   |         |          |    X      |          |          |      |
 | Texten fürs Web                      |          |          |     X     |    X      |     X    |         |
 | Ethik im Management                  |          |          |          |         |      X   |          |
 | Lern- und Prüfungsstressbewältigung  |          |          |          |          |         |          |
