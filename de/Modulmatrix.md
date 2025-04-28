@@ -2,13 +2,26 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T15:21:04.418Z
+date: 2025-04-28T15:23:59.755Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
 ---
 
 # Übersicht
+
+
+
+
+# Kompetenzmatrix – Teamübersicht
+
+| Kompetenzbereich               | Martin | Pascal | Dima | Konstantin | Alex | Nils |
+|:--------------------------------|:------:|:------:|:----:|:----------:|:----:|:----:|
+| Entwicklung (Programmierung)    |   ✅    |   ✅    | ✅   |     ✅      | ✅   |      |
+| IT-Security & Infrastruktur     |   ✅    |        |     |     ✅      |      |      |
+| Design & Content                |        |   ✅    |     |     ✅      | ✅   |    |
+| Management & Softskills         |   ✅    |   ✅    | ✅   |     ✅      | ✅   |      |
+#
 
 Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell einen Überblick über Stärken und Vertiefungen zu erhalten.
 
@@ -49,13 +62,6 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 
 
 
-# Kompetenzmatrix – Teamübersicht
 
-| Kompetenzbereich               | Martin | Pascal | Dima | Konstantin | Alex | Nils |
-|:--------------------------------|:------:|:------:|:----:|:----------:|:----:|:----:|
-| Entwicklung (Programmierung)    |   ✅    |   ✅    | ✅   |     ✅      | ✅   |      |
-| IT-Security & Infrastruktur     |   ✅    |        |     |     ✅      |      |      |
-| Design & Content                |        |   ✅    |     |     ✅      | ✅   | ✅   |
-| Management & Softskills         |   ✅    |   ✅    | ✅   |     ✅      | ✅   |      |
 
  
