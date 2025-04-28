@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-28T06:51:39.672Z
+date: 2025-04-28T07:32:51.733Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
@@ -19,13 +19,50 @@ Entwickelt wird ein Spiel, das auf einem Multiplayer-First-Ansatz basiert und au
 - **Engine:** Unity 6
 - **Versionskontrolle:** GitHub – ermöglicht externen Testern, über Issues und Incident-Reports Feedback zu geben.
 
-## Zeitplan Community & Social Media
+# Technische Architektur - Unity Bootstrapper & Service-Management
+
+## Übersicht
+
+Zur zentralen Initialisierung des Spiels wird ein **Bootstrapper** in Unity eingesetzt. Dieser ist dafür verantwortlich, das Spielsystem geordnet zu starten und notwendige Services bereitzustellen.
+
+## Service Management
+
+Nach dem Start des Bootstrappers werden verschiedene **Services** in einen **Service Manager** eingebunden. Diese Services werden über einen **globalen Service Locator** zur Verfügung gestellt. Dadurch können Systeme in der Game-Mechanik einfach auf notwendige Services zugreifen, ohne direkte Referenzen zueinander zu benötigen.
+
+Ziel dieses Ansatzes ist es:
+- **Kopplungen zwischen Systemen zu vermeiden**,
+- die **Kommunikation über zentrale Services** zu steuern,
+- und damit eine **robuste, wartbare Architektur** sicherzustellen, die **"Spaghetti-Code"** weitestgehend verhindert.
+
+## Interface-basierte Entwicklung
+
+Um eine möglichst **unabhängige und effiziente** Entwicklung zu gewährleisten, wird für jede Service-Kommunikation ein eigenes **Interface** definiert. Die Implementierung erfolgt **gegen diese Interfaces** und nicht direkt gegen konkrete Klassen. 
+
+Vorteile dieser Strategie:
+- Services können **einfach ausgetauscht** werden, ohne große Änderungen in der Codebasis vorzunehmen.
+- Abhängigkeiten werden **nur in Tests** relevant, nicht bei der initialen Implementierung.
+- Eine klare Trennung von Schnittstellen und Implementierungen sorgt für **höhere Flexibilität** und **bessere Testbarkeit**.
+
+Änderungen an Interfaces müssen **zentral über einen definierten Prozess** erfolgen:  
+👉 [Link zum Änderungsprozess](#)
+
+## Validierung im Sprint 1
+
+Diese Architektur wird im **Sprint 1** eingeführt, verifiziert und getestet.  
+Sollten im Rahmen der Implementierung Probleme auftreten, wird gezielt darauf eingegangen und gemeinsam an **lösungsorientierten Verbesserungen** gearbeitet.
+
+
+> **Langfristiges Ziel:**  
+Durch den konsequenten Einsatz von Interfaces und Service-basierten Kommunikationsstrukturen soll die Codebasis **nachhaltig erweiterbar und wartbar** bleiben, bei gleichzeitig minimalem Aufwand für spätere Anpassungen.
+
+---
+# Zeitplan Community & Social Media
 
 - **Sprint 1:** Aufbau von Social-Media-Kanälen und Launch einer "Coming Soon"-Webseite ohne direkte Verlinkung auf den Discord-Server.
 - **Sprint 2:** Aktivierung der Webseite mit minimalen Informationen über das Spiel sowie Integration eines Links zum Discord-Server nach Fertigstellung einer testbaren Version.
 - **Sprint 3:** Vollständiger und produktiver Einsatz aller Kommunikationsplattformen, um maximale Reichweite und Engagement zu erzielen.
 
-## Community-Strategie
+# Community-Strategie
 
 Neben der Spieleentwicklung soll eine Community rund um das Spiel entstehen. Die Pflege und der Ausbau der Community sollen maximal 10 % des gesamten Projektaufwands betragen. Die Community wird aktiv in die Teststrategie eingebunden, um Qualität und Stabilität des Spiels kontinuierlich zu verbessern.
 
@@ -34,11 +71,11 @@ Neben der Spieleentwicklung soll eine Community rund um das Spiel entstehen. Die
 - Hauptkommunikationskanal wird ein Discord-Server sein, der den bidirektionalen Austausch mit der Community ermöglicht.
 - Über einen eigens entwickelten Discord-Bot können Nutzer direkt aus Discord heraus Probleme und Vorschläge melden. Diese werden automatisiert über eine API an GitHub übertragen, um den Aufwand bei der Feedback-Sammlung zu minimieren.
 
-## Social Media-Strategie
+# Social Media-Strategie
 
 **[Platzhalter für Ausarbeitung der Social Media-Strategie]**
 
-## Testing-Strategie
+# Testing-Strategie
 
 Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskreis sowie durch externe Tester zu verbessern.
 - Feedback wird zentral im öffentlichen GitHub-Repository im Diskussionsbereich gesammelt.
@@ -52,7 +89,7 @@ Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskre
 - **GitHub Public Repository:** **[Platzhalter für Repo-Link]**
 - **Distributionsplattformen:** Itch.io & Steam
 
-## CI/CD-Strategie
+# CI/CD-Strategie
 
 - **Automatisierung durch Tags**: Push von spezifischen Tags (`v-dev-*`, `v-beta-*`) löst gezielte Workflows aus.
 - **Workflows**: Server-, Client- oder kombinierte Builds, inkl. Verteilung (Itch.io, Steam, Liveserver).
@@ -100,7 +137,7 @@ Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskre
 
 [Details zum CI/CD Workflow](/de/004-Workflows/VersionControl-Release)
 
-## Git-Strategie (GitFlow)
+# Git-Strategie (GitFlow)
 Featues Based Git Flow 
 ## 🔀 Branch-Struktur
 
