@@ -2,7 +2,7 @@
 title: Version Control & CI/CD
 description: 
 published: true
-date: 2025-04-20T09:07:48.268Z
+date: 2025-04-28T06:43:16.159Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -14,42 +14,99 @@ In diesem Abschnitt wird der Git-Workflow für das DILIBAD-Projekt sowie die zug
 
 ---
 
-## ⚙️ CI/CD
+# 📈 CI/CD Build- und Deployment-Fluss
 
-Die automatisierte Build- und Deployment-Pipeline soll zentrale Prozesse wie Release-Management, Testing und Updates vereinfachen.
+Hier eine vereinfachte grafische Übersicht, wie die Workflows je nach Tag-Format ausgelöst werden:
 
-### Ziele:
+```plaintext
+Push Tag →
+├── v-dev-client-*          → Build Client → (lokale Ablage)
+├── v-dev-server-*          → Build Server → (lokale Ablage)
+├── v-dev-both-*            → Build Server → Build Client → (lokale Ablage)
+├── v-beta-client-itchio-*  → Build Client → Upload nach Itch.io (Butler)
+├── v-beta-client-steam-*   → Build Client → Vorbereitung Steam Upload
+├── v-beta-server-prepare-* → Build Server → Vorbereitung Wartungsmodus
+├── v-beta-server-live-*    → Build Server → Server Liveschaltung
+├── v-beta-both-*           → Build Server → Build Client → Vollständiger Rollout
+```
 
-- **Automatischer Build** bei bestimmten Tags in `dev` oder `main`
-- **Deployment** der jeweiligen Version (Server & Clients)
-- **Automatische Ankündigung** eines Wartungsfensters (15 Minuten)
-- **Shutdown & Rollout** der neuen Server- und Client-Versionen
-- **Automatisiertes Client-Update** ohne manuelle Eingriffe
+# 🛠 Schrittweiser Ablauf
 
-### Planung:
+- Tag wird gepusht auf `dev` oder `main`
+- Runner erkennt anhand des Tag-Musters den passenden Workflow
+- Build-Prozess wird automatisch gestartet (Server / Client / Both)
+- Post-Build-Aktionen:
+  - Upload auf Itch.io bei `v-beta-client-itchio-*`
+  - Vorbereitung für Steam bei `v-beta-client-steam-*`
+  - Server vorbereiten oder live schalten (`prepare` / `live`)
+- Deployment:
+  - Upload/Distribution der Clients
+  - Server-Restart/Neustart falls erforderlich
+  - Automatische Ankündigungen (optional: Discord, Wartungsseite etc.)
 
-- **Sprint 0**: Setup & Infrastruktur vorbereiten  
-- **Sprint 1**: Erste Tests & Validierung der Abläufe  
-- **Sprint 2/3**: Nutzung der Release Pipeline für ausrollen neuer Versionen. Optionale Erweiterung durch Unity Unit Tests (noch zu prüfen)
+# 🗂 Struktur der Repositories und Builds
 
-### Vorteile:
+```plaintext
+Root
+├── .github
+│   └── workflows
+│       ├── unity-build-client.yml
+│       ├── unity-build-server.yml
+│       ├── unity-build-both.yml
+│       ├── unity-build-beta-client-itchio.yml
+│       ├── unity-build-beta-client-steam.yml
+│       ├── unity-build-beta-server-prepare.yml
+│       ├── unity-build-beta-server-live.yml
+│       └── unity-build-beta-both.yml
+├── Builds
+│   ├── Server
+│   │   └── ServerBuild.exe
+│   ├── Client
+│   │   └── ClientBuild.exe
+│   └── Logs
+│       ├── client_build_log.txt
+│       └── server_build_log.txt
+```
 
-Nach initial hohem Implementierungsaufwand reduziert sich der manuelle Aufwand langfristig deutlich (Ziel: unter **1 %** der Entwicklungszeit). Dies ermöglicht eine schnellere Auslieferung von Releases, Hotfixes und Testversionen – besonders im Zusammenspiel mit der aktiven Community.
+# 📋 Tag-Übersicht und zugeordneter Workflow
 
-> **Hinweis:** Die CI/CD-Pipeline ist ein integraler Bestandteil der Community-Strategie. Ein Scheitern dieser Infrastruktur erfordert eine entsprechende Anpassung des Community-Workflows.
+| Tag Pattern | Ausgelöster Workflow | Besonderheit |
+| --- | --- | --- |
+| `v-dev-client-*` | `unity-build-client.yml` | Client lokal bauen |
+| `v-dev-server-*` | `unity-build-server.yml` | Server lokal bauen |
+| `v-dev-both-*` | `unity-build-both.yml` | Server und Client bauen |
+| `v-beta-client-itchio-*` | `unity-build-beta-client-itchio.yml` | Upload zu Itch.io |
+| `v-beta-client-steam-*` | `unity-build-beta-client-steam.yml` | Vorbereitung für Steam |
+| `v-beta-server-prepare-*` | `unity-build-beta-server-prepare.yml` | Wartungsmodus starten |
+| `v-beta-server-live-*` | `unity-build-beta-server-live.yml` | Server Liveschaltung |
+| `v-beta-both-*` | `unity-build-beta-both.yml` | Voller Rollout |
 
----
+# 🧠 Hinweise
 
-## ⚠️ Risiken
+- **Versionierung**: Tags wie `v-beta-client-itchio-1.0.0` werden zukünftig automatisch als Build-Version für Uploads genutzt.
+- **Skalierbarkeit**: Weitere Plattformen (Testserver, Staging-Umgebungen) können einfach ergänzt werden.
+- **Erweiterungen**: Discord/Webhook-Integration für Wartungsankündigungen geplant.
 
-- **Hoher initialer Aufwand** für Aufbau der Infrastruktur
-- **Technische Komplexität** kann zu unerwarteten Blockern führen
-- **Fehlende Tools** oder Inkompatibilität mit Unity-Umgebung möglich
+# 🚀 Vorteile
 
-### Maßnahme:
+- Entwickler müssen lokal keine Builds mehr ausführen oder erstellen.
+- Spart je nach Projektgröße pro Build zwischen 10 und 30 Minuten.
+- Drastische Reduktion des manuellen Aufwands beim Release-Management (Ziel: unter 1 % der Entwicklungszeit).
+- Schnellere Auslieferung von:
+  - Releases
+  - Hotfixes
+  - Community-Testversionen
+- Konsistente Rollout-Prozesse: Minimierung von Fehlern beim Deployment
+- Automatisiertes Client-Update: Keine manuelle Nacharbeit für User
+- Einfache Anbindung neuer Plattformen wie Steam oder eigene Launcher
 
-- Nutzen klar überwiegt langfristig den Aufwand
-- Falls unlösbare technische Probleme auftreten, muss der Community-Aufbau entsprechend reduziert oder neu geplant werden
+# 🛠 Planung
+
+| Sprint | Inhalt |
+| --- | --- |
+| Sprint 0 | Setup der Infrastruktur (Runner, Workflows, Umgebungsvariablen, Itch.io/Steam-Tools) |
+| Sprint 1 | Erste Testdurchläufe: Build & Deployment-Pipeline verifizieren. Analyse, inwieweit Unity Unit Tests in die CI integriert werden können. |
+| Sprint 2/3 | Produktiver Einsatz: Nutzung der Release Pipelines für neue Releases. Optional: Erweiterung durch automatisierte Tests nach erfolgreicher Validierung. |
 
 ---
 
@@ -95,10 +152,10 @@ hotfix/x.y.z    → Bugfix nach Release
    → 1 Review erforderlich
 
 3. Merge `version/x.y.z` → `dev`  
-   → 2 Reviews (inkl. Autor:in)
+   → 2 Reviews (inkl. Autor:in) Tag setzten für test builds wenn merge vollständig ist
 
 4. Merge `dev` → `main` (Release)  
-   → Tag setzen (`v1.2.0`), Changelog updaten
+   → Tag setzen , Changelog updaten
 
 5. Hotfix (dringend)  
    → Start auf `main` → `hotfix/x.y.z` → zurück in `main` und `dev`
