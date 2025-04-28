@@ -2,7 +2,7 @@
 title: PESTEL Analyse
 description: 
 published: true
-date: 2025-04-28T12:35:51.820Z
+date: 2025-04-28T12:37:46.670Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T12:35:51.820Z
@@ -14,7 +14,8 @@ dateCreated: 2025-04-28T12:35:51.820Z
 ### Standort: Deutschland
 ## Politische Faktoren
 Spieleentwickler in Deutschland können von der Möglichkeit der Förderung, wie zum
-Beispiel der „Games-Förderung“ der Film- und Medienstiftung NRW [1] oder der EUInitiative „Creative Europe MEDIA, EU‑Games‑Verordnung “ [2] profitieren.
+Beispiel der „Games-Förderung“ der Film- und Medienstiftung NRW [1] oder der EUInitiative 
+„Creative Europe MEDIA, EU‑Games‑Verordnung “ [2] profitieren.
 Die „Games-Förderung“ der Film- und Medienstiftung NRW ermöglicht Zuschüsse bei
 der Konzept-, Prototyp- und Herstellungsförderung. Bei der Konzept- und
 Prototypentwicklung können jeweils 80 % der Kosten gefördert werden.
@@ -55,9 +56,9 @@ zu einer optimalen Marktakzeptanz und einer potenziell hohen Beliebtheit von
 ## Technologische Faktoren
 Technologisch gesehen steht die Gaming-Branche vor innovativen Entwicklungen. Der
 geplante Ausbau von 5G und Glasfasernetzen sorgt für stabilere Online-Erlebnisse und
-schnellere Downloads [11a]. Dadurch profitieren vor allem Multiplayer Spiele.
+schnellere Downloads [11]. Dadurch profitieren vor allem Multiplayer Spiele.
 Der zunehmende Einsatz und die Verfügbarkeit von KI senken die Hürde, auch für kleine
-Entwicklerteams größere Projekte umsetzen zu können [11b]. Diese kann auch selbst
+Entwicklerteams größere Projekte umsetzen zu können [11]. Diese kann auch selbst
 über Schnittstellen in Spiele als Assistent oder Chat-Bot integriert werden.
 Ökologische Faktoren
 Durch den wachsenden Fokus auf Umwelt, Nachhaltigkeit und ökologische Faktoren
@@ -119,20 +120,13 @@ ihrem Smartphone spielen, nach Häufigkeit in Deutschland, in: Statista.
 https://de.statista.com/statistik/daten/studie/663773/umfrage/umfrage-zurfreizeitaktivitaet-mit-dem-smartphone-spielen-nach-haeufigkeit/ (20.04.2025)
 [10] Bitkom (2023): Bevorzugte Gaming-Genres in Deutschland 2023, in: Statista.
 https://de.statista.com/statistik/daten/studie/315938/umfrage/umfrage-zu-denbevorzugten-gaming-genres-in-deutschland/ (20.04.2025).
-[11a] Bitkom (2024): Digitale Trends 2025, in: Statista.
-https://de.statista.com/statistik/studie/id/188117/dokument/digitale-trends-2025/
-(20.04.2025).
-[11b] Bitkom (2024): Digitale Trends 2025, in: Statista.
+[11] Bitkom (2024): Digitale Trends 2025, in: Statista.
 https://de.statista.com/statistik/studie/id/188117/dokument/digitale-trends-2025/
 (20.04.2025).
 [12] Statista Consumer Insights (2023): Umfrage in Deutschland zu Einstellungen zum
 Thema Nachhaltigkeit, in: Statista.
 https://de.statista.com/statistik/daten/studie/1224059/umfrage/umfrage-indeutschland-zu-einstellungen-zum-thema-nachhaltigkeit/ (20.04.2025)
-[13a] Umweltbundesamt (2024): Grüne Informationstechnik (Green IT).
-https://www.umweltbundesamt.de/themen/digitalisierung/grueneinformationstechnik-green-it (20.04.2025).
-[13b] Umweltbundesamt (2024): Grüne Informationstechnik (Green IT).
-https://www.umweltbundesamt.de/themen/digitalisierung/grueneinformationstechnik-green-it (20.04.2025).
-[13c] Umweltbundesamt (2024): Grüne Informationstechnik (Green IT).
+[13] Umweltbundesamt (2024): Grüne Informationstechnik (Green IT).
 https://www.umweltbundesamt.de/themen/digitalisierung/grueneinformationstechnik-green-it (20.04.2025).
 [14] Öko Institut (2022): Energieverbrauch von Software: Eine Anleitung zum
 Selbermessen.
