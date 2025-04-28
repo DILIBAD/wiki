@@ -2,7 +2,7 @@
 title: Unity Knowledge
 description: 
 published: true
-date: 2025-04-28T17:33:11.820Z
+date: 2025-04-28T17:37:01.713Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T17:53:30.220Z
@@ -23,11 +23,16 @@ In der folgenden Tabelle können sich Teammitglieder bei den jeweiligen Unity-Be
 | Bereich | Experte oder auf dem Weg dahin | Für Rückfragen verfügbar | Nur Grundlagen | Grobes Verständnis |
 | --- | --- | --- | --- | --- |
 |  |    |    |     |     |
-|  Animation & Animator   |   Alex  |     |     |     |
+|  Animation & Animator   |   Alex  |     |  Pascal   |     |
 |  Audio    |  Martin   |     |  Pascal   |     |
 |   ScriptableObjects   |     |     |  Martin   |     |
 |  Asset-Erstellung & Import   |  Pascal   |     |     |     |
-|     |     |     |     |     |
+|   Tilemap & Grid-Systeme  |     |  Pascal   |     |     |
+|   Networking & Multiplayer  |     |     |     |     |
+|   Physics  |     |     |     |     |
+|   Networking & Multiplayer  |     |     |     |     |
+|   Input-System  |     |     |     |     |
+|   UI & UX Design  |     |     |  Pascal   |     |
 
 # 🧩 Priorisierte Unity-Bereiche
 
