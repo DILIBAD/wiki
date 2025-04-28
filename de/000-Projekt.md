@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-28T11:49:51.299Z
+date: 2025-04-28T11:50:54.554Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
@@ -75,7 +75,7 @@ Neben der Spieleentwicklung soll eine Community rund um das Spiel entstehen. Die
 
 Aufgrund der Ergebnisse der Zielgruppenanalyse und dem Betrachten des aktuellen Zeitgeistes wurde die Entscheidung getroffen, das Projekt „DILIBAD“ und seine Entstehung auf den Social-Media-Plattformen „Twitter“, „Instagram“ und „Discord“ zu begleiten.
 
-# Content-Strategie
+## Content-Strategie
 Für die Plattform Instagram wurden für den Anfang die Formate „Shared Screen“, „Shared Code“ und „DEVS IRL“ ausgearbeitet.
 In „Shared Screen“ werden Bildschirmaufnahmen der Entwickler geteilt, die besonders auffällig sind und somit interessant für die Abonnenten sein könnten.
 In „Shared Code“ werden wiederum Bildschirmaufnahmen des Programmiercodes geteilt, die die Entwickler zu besonderen Erkenntnissen geführt haben.
@@ -84,28 +84,22 @@ Für die Plattform Twitter fiel die Wahl vorläufig auf die Formate „Gedanken 
 Für die Ansprache auf den Plattformen hat man sich für einen informellen und zwangslosen Ton und die Du-Ansprache entschieden, um eine Nähe zum Publikum aufzubauen.
 Die Wahl der Plattformen und der Formatideen wird im Laufe des Projektes validiert, verändert und/oder ersetzt.
 
-# Zielsetzung
+## Zielsetzung
 Das Ziel der Social-Media-Präsenz ist der Aufbau einer Community für das Testen und Spielen des Spiels.
 
-# Zielgruppe
+## Zielgruppe
 Durch die Schnittmenge mehrerer Statistiken zum Thema „Social Media Nutzung“ und „Gaming“ hatte sich herauskristallisiert, dass unsere Hauptzielgruppe in der Altersgruppe 14–29 liegt. Die Gruppe der 30- bis 49-Jährigen stellte sich ebenfalls als valide heraus, obwohl die Social-Media-Nutzung der Gruppe abnimmt [1] [2].
 
-# Redaktionsplan
+## Redaktionsplan
 Der Redaktionsplan wird in Sprint 1 entwickelt und an die zeitlichen Ressourcen des Teams angepasst. Eventuell wird eine Software wie „Buffer“, „Later“ oder „Trello“ genutzt, um die Veröffentlichung des Contents zeitlich optimal zu gestalten und den Redaktionsaufwand somit zu verringern.
 
-# Krisenkommunikation
+## Krisenkommunikation
 Grundlegend wurde festgelegt, dass mit Fehlern offen umgegangen werden soll und die Community mit Ehrlichkeit behandelt wird.
 
-# Rollen und Verantwortlichkeiten
+## Rollen und Verantwortlichkeiten
 Für die Bespielung der Instagram- und Twitter-Kanäle inklusive Community Management ist hauptsächlich Dmytro Skorbyashchenskyy verantwortlich.
 Das Community Management auf Discord übernehmen Pascal Meier und Alexander Mutig.
 Alle Fotos werden von Pascal Meier erstellt.
-
-# Testing-Strategie
-
-Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskreis sowie durch externe Tester zu verbessern.
-- Feedback wird zentral im öffentlichen GitHub-Repository im Diskussionsbereich gesammelt.
-- Probleme und Bugs werden über die Issue-Funktion erfasst und nachverfolgt.
 
 ## Plattformen
 
@@ -119,6 +113,12 @@ Bei der Wahl der vorerst zu bespielenden Plattformen hat man sich aufgrund der B
 Instagram wurde aufgrund der Beliebtheit bei der Zielgruppe ausgewählt [1], während Twitter für eine schnelle Kommunikation mit der Zielgruppe gewählt wurde.
 Des Weiteren hat sich aus der Recherche ergeben, dass Discord nicht nur der fünftbeliebteste Messenger in Deutschland ist, sondern vor allem in der Zielgruppe der Gamer besonders häufig genutzt wird [3].
 Basierend auf diesen Ergebnissen hat man sich deshalb dafür entschieden, einen öffentlichen Discord-Server zu betreiben, auf dem potenzielle Tester und Liebhaber des Spiels miteinander kommunizieren können.
+
+# Testing-Strategie
+
+Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskreis sowie durch externe Tester zu verbessern.
+- Feedback wird zentral im öffentlichen GitHub-Repository im Diskussionsbereich gesammelt.
+- Probleme und Bugs werden über die Issue-Funktion erfasst und nachverfolgt.
 
 # CI/CD-Strategie
 
