@@ -2,7 +2,7 @@
 title: Version Control & CI/CD
 description: 
 published: true
-date: 2025-04-28T06:43:16.159Z
+date: 2025-04-28T06:51:00.491Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -110,14 +110,14 @@ Root
 
 ---
 
-## 🧠 Git Workflow (für 6 Personen)
+## 🧠 Git Workflow
 
 Ein strukturierter Git-Workflow regelt die Zusammenarbeit im Team und stellt sicher, dass alle Änderungen nachvollziehbar, geprüft und konfliktfrei eingebunden werden.
 
 ---
 
 
-# 🧠 Git-Workflow (6 Personen)
+# 🧠 Git-Workflow
 
 ## 🔀 Branch-Struktur
 
