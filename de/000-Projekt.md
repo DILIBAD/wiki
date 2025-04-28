@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-27T23:15:37.011Z
+date: 2025-04-28T06:44:54.296Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
@@ -51,7 +51,51 @@ Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskre
 
 ## CI/CD-Strategie
 
-**[Platzhalter für detaillierte Beschreibung der CI/CD-Strategie]**
+- **Automatisierung durch Tags**: Push von spezifischen Tags (`v-dev-*`, `v-beta-*`) löst gezielte Workflows aus.
+- **Workflows**: Server-, Client- oder kombinierte Builds, inkl. Verteilung (Itch.io, Steam, Liveserver).
+- **Post-Build Aktionen**: Uploads, Wartungsmodus, Liveschaltung, optionale Discord/Webhook-Benachrichtigungen.
+
+## 🛠 Build- und Deployment-Schritte
+
+1. Tag pushen auf `dev` oder `main`.
+2. Runner erkennt das Tag-Format.
+3. Passender Build-Workflow wird automatisch gestartet.
+4. Automatisches Deployment je nach Bedarf (lokal, Itch.io, Steam, Liveserver).
+
+## 🗂 Struktur
+
+- **Workflows**: `.github/workflows/`
+- **Builds und Logs**: `Builds/`
+
+## 📋 Tag-Übersicht
+
+| Tag Pattern | Workflow | Besonderheit |
+|:---|:---|:---|
+| `v-dev-client-*` | Client lokal bauen | |
+| `v-dev-server-*` | Server lokal bauen | |
+| `v-dev-both-*` | Server und Client bauen | |
+| `v-beta-client-itchio-*` | Client bauen + Upload Itch.io | |
+| `v-beta-client-steam-*` | Vorbereitung Steam Upload | |
+| `v-beta-server-prepare-*` | Wartungsmodus aktivieren | |
+| `v-beta-server-live-*` | Liveschaltung Server | |
+| `v-beta-both-*` | Komplett-Rollout (Server + Client) | |
+
+## 🚀 Vorteile
+
+- Kein lokales Bauen nötig → spart 10–30 Minuten pro Build.
+- Einheitlicher und fehlerfreier Release-Prozess.
+- Schnelle Auslieferung von Releases, Hotfixes und Testversionen.
+- Skalierbar für weitere Plattformen.
+
+## 🛠 Geplante Schritte
+
+| Sprint | Inhalt |
+|:---|:---|
+| Sprint 0 | Infrastruktur-Setup (Runner, Workflows, Tools) |
+| Sprint 1 | Testläufe & Validierung |
+| Sprint 2/3 | Produktiver Einsatz + optionale Testautomatisierung |
+
+[Details zum CI/CD Workflow](#)
 
 ## Git-Strategie (GitFlow)
 
