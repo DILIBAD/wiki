@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T14:42:05.926Z
+date: 2025-04-28T14:44:11.732Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -10,13 +10,12 @@ dateCreated: 2025-04-28T14:41:29.883Z
 
 # Übersicht
 
-Entwickelt wird ein Spiel, das auf einem Multiplayer-First-Ansatz basiert und auf Unity 6 umgesetzt wird. Ziel ist es, ein stabiles, testbares Produkt zu entwickeln und parallel dazu eine engagierte Community aufzubauen, die aktiv in den Entwicklungs- und Testprozess eingebunden wird.
+Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell einen Überblick über Stärken und Vertiefungen zu erhalten.
 
 
 
 ## Technologie
-- **Engine:** Unity 6
-- **Versionskontrolle:** GitHub – ermöglicht externen Testern, über Issues und Incident-Reports Feedback zu geben.
+- 
 
 
 | Modul                                | Person A | Person B | Person C | Person D | Person E | Person F |
