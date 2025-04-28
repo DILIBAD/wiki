@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T15:48:16.527Z
+date: 2025-04-28T15:49:49.522Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -64,7 +64,6 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Objektorientierte Programmierung     |     X     |    X     |    X      |          |     X    |          |
 | Zeitmanagement                       |          |    X     |          |          |          |          |
 | Digitalwissenschaften - geisteswissenschaftlich gedacht                      |          |        |       X   |          |          |          |
-
 Naturwissenschaftliche und technische Grundlagen                    |          |        |      X    |          |          |          |
 
 
