@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-28T11:57:45.516Z
+date: 2025-04-28T11:58:06.711Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
