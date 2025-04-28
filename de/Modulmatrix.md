@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T15:16:16.448Z
+date: 2025-04-28T15:21:04.418Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -15,7 +15,7 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 
 
 
-| Modul                                | Martin | Pascal | Dima | Konstantin | Alex|   Person |
+| Modul                                | Martin | Pascal | Dima | Konstantin | Alex|   Nils  
 |--------------------------------------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | Change-Management                    |    X     |          |          |          |          |          |
 | Cybersicherheit im Unternehmen       |    X     |          |          |          |          |          |
@@ -44,4 +44,18 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Visuelle Kommunikation               |          |    X     |          |          |          |          |
 | Objektorientierte Programmierung     |     X     |    X     |    X      |          |     X    |          |
 | Zeitmanagement                       |          |    X     |          |          |          |          |
+
+
+
+
+
+# Kompetenzmatrix – Teamübersicht
+
+| Kompetenzbereich               | Martin | Pascal | Dima | Konstantin | Alex | Nils |
+|:--------------------------------|:------:|:------:|:----:|:----------:|:----:|:----:|
+| Entwicklung (Programmierung)    |   ✅    |   ✅    | ✅   |     ✅      | ✅   |      |
+| IT-Security & Infrastruktur     |   ✅    |        |     |     ✅      |      |      |
+| Design & Content                |        |   ✅    |     |     ✅      | ✅   | ✅   |
+| Management & Softskills         |   ✅    |   ✅    | ✅   |     ✅      | ✅   |      |
+
  
