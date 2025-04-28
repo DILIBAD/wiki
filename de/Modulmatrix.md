@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T15:49:49.522Z
+date: 2025-04-28T15:50:50.842Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -52,7 +52,7 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Ethik im Management                  |          |          |          |         |      X   |          |
 | Lern- und Prüfungsstressbewältigung  |          |          |          |          |         |          |
 | Konzepte moderner Softwareentwicklung|          |          |          |     X     |    X    |          |
-| Rechnernetze und Einführung in verteilte Systeme |     |          |   X      |     X     |              |    |
+| Rechnernetze und Einführung in verteilte Systeme |     |          |         |     X     |              |    |
 | Webbasierte Systeme 2                |    X      |          |    X      |     X     |    X   |          |
 | Algorithmen und Datenstrukturen      |    X     |    X    |    X      |     X     |     X    |          |
 | Datenbanksysteme                     |    X     |     X     |          |     X     |    X     |          |
