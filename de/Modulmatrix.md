@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T15:27:39.592Z
+date: 2025-04-28T15:48:16.527Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -42,17 +42,17 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Entwicklung mobiler Applikationen    |				  | 		X		|         |           |          | 				|
 | Interaktive Systeme                  |     X    |     X     |    X     |          |          |          |
 | Diskrete Mathematik                  |     X    |         |          |      X    |          |          |
-| Recht für Informatiker/innen         |     X     |         |         |     X     |          |          |
+| Recht für Informatiker/innen         |     X     |         |    X     |     X     |          |          |
 | English for STEM 2                   |     X    |          |          |         |          |          |
 | Content Management Systeme           |          |          |          |     X     |     X   |          |
 | Praktikum Game Design und Development|          |     X     |          |      X    |    X    |          |
 | Digitale Fotografie und Desktop-Publishing |     |     X     |          |         |      X   |          |
-| Digitales Marketing                   |         |      X    |          |          |          |      |
-| Texten fürs Web                      |          |          |          |    X      |     X    |         |
+| Digitales Marketing                   |         |      X    |    X      |          |          |      |
+| Texten fürs Web                      |          |          |     X     |    X      |     X    |         |
 | Ethik im Management                  |          |          |          |         |      X   |          |
 | Lern- und Prüfungsstressbewältigung  |          |          |          |          |         |          |
 | Konzepte moderner Softwareentwicklung|          |          |          |     X     |    X    |          |
-| Rechnernetze und Einführung in verteilte Systeme |     |          |         |     X     |              |    |
+| Rechnernetze und Einführung in verteilte Systeme |     |          |   X      |     X     |              |    |
 | Webbasierte Systeme 2                |    X      |          |    X      |     X     |    X   |          |
 | Algorithmen und Datenstrukturen      |    X     |    X    |    X      |     X     |     X    |          |
 | Datenbanksysteme                     |    X     |     X     |          |     X     |    X     |          |
@@ -63,9 +63,9 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Visuelle Kommunikation               |          |    X     |          |          |          |          |
 | Objektorientierte Programmierung     |     X     |    X     |    X      |          |     X    |          |
 | Zeitmanagement                       |          |    X     |          |          |          |          |
+| Digitalwissenschaften - geisteswissenschaftlich gedacht                      |          |        |       X   |          |          |          |
 
-
-
+Naturwissenschaftliche und technische Grundlagen                    |          |        |      X    |          |          |          |
 
 
 
