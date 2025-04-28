@@ -2,13 +2,13 @@
 title: Game Design Dokument - Sprint 1
 description: 
 published: true
-date: 2025-04-28T12:27:27.560Z
+date: 2025-04-28T12:30:58.322Z
 tags: verifizierung_ausstehend
 editor: markdown
 dateCreated: 2025-04-20T12:06:35.065Z
 ---
 
-# Disclaimer
+
 > Dieses Dokument konzentriert sich ausschließlich auf die Gameplay-Mechaniken, die für den ersten Sprint benötigt werden. Erweiterungen werden separat dokumentiert und bei Bedarf in spätere Versionen des Game Design Documents (GDD) integriert.  
 > Ziel: Klare, übersichtliche Dokumentation – damit alle Entwickler nur die relevanten Informationen für den aktuellen Sprint aufnehmen und umsetzen können.
 
@@ -189,6 +189,7 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ---
 
 ## 🌍 Weltstruktur
+![map.png](/map.png)# Entwurfsketch für die Karte
 - Interaktive **Kristallquellen**
 - **Gegnerspawnpunkte** über die Karte verteilt
 - **Basis**, **Portal** und **Kristallfelder** als Schlüsselorte
