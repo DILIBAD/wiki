@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T14:44:11.732Z
+date: 2025-04-28T14:44:51.759Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -13,9 +13,6 @@ dateCreated: 2025-04-28T14:41:29.883Z
 Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell einen Überblick über Stärken und Vertiefungen zu erhalten.
 
 
-
-## Technologie
-- 
 
 
 | Modul                                | Person A | Person B | Person C | Person D | Person E | Person F |
