@@ -2,7 +2,7 @@
 title: Unity Knowledge
 description: 
 published: true
-date: 2025-04-25T11:18:11.417Z
+date: 2025-04-28T17:33:11.820Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T17:53:30.220Z
@@ -24,9 +24,9 @@ In der folgenden Tabelle können sich Teammitglieder bei den jeweiligen Unity-Be
 | --- | --- | --- | --- | --- |
 |  |    |    |     |     |
 |  Animation & Animator   |   Alex  |     |     |     |
-|  Audio    |  Martin   |     |     |     |
+|  Audio    |  Martin   |     |  Pascal   |     |
 |   ScriptableObjects   |     |     |  Martin   |     |
-|     |     |     |     |     |
+|  Asset-Erstellung & Import   |  Pascal   |     |     |     |
 |     |     |     |     |     |
 
 # 🧩 Priorisierte Unity-Bereiche
