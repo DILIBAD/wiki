@@ -2,7 +2,7 @@
 title: PESTEL Analyse
 description: 
 published: true
-date: 2025-04-28T12:37:46.670Z
+date: 2025-04-28T12:37:53.093Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T12:35:51.820Z
