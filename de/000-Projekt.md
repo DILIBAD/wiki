@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-28T06:46:58.417Z
+date: 2025-04-28T06:48:47.237Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
@@ -11,6 +11,9 @@ dateCreated: 2025-04-27T19:58:03.255Z
 # Übersicht
 
 Entwickelt wird ein Spiel, das auf einem Multiplayer-First-Ansatz basiert und auf Unity 6 umgesetzt wird. Ziel ist es, ein stabiles, testbares Produkt zu entwickeln und parallel dazu eine engagierte Community aufzubauen, die aktiv in den Entwicklungs- und Testprozess eingebunden wird.
+
+[Game Design Dokument für Sprint 1](/de/001-GDD/Sprint1/GDD-Sprint1)
+
 
 ## Technologie
 - **Engine:** Unity 6
@@ -95,7 +98,7 @@ Ziel ist es, das Spiel nicht nur intern, sondern auch durch Tests im Freundeskre
 | Sprint 1 | Testläufe & Validierung |
 | Sprint 2/3 | Produktiver Einsatz + optionale Testautomatisierung |
 
-[Details zum CI/CD Workflow](#)
+[Details zum CI/CD Workflow](/de/004-Workflows/VersionControl-Release)
 
 ## Git-Strategie (GitFlow)
 Featues Based Git Flow 
@@ -140,4 +143,4 @@ Featues Based Git Flow
 - Reviews schnell abarbeiten, um Merge-Konflikte zu vermeiden
 - CI-Checks:  Build, Tests (Sprint 2)
 - PR-Labels: `ready-for-review`, `needs-changes`, `done`
-[Details zum GIT Workflow](#)
+[Details zum GIT Workflow](/de/004-Workflows/VersionControl-Release)
