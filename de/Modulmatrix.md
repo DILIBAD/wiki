@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T14:44:51.759Z
+date: 2025-04-28T15:16:16.448Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -15,26 +15,33 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 
 
 
-| Modul                                | Person A | Person B | Person C | Person D | Person E | Person F |
+| Modul                                | Martin | Pascal | Dima | Konstantin | Alex|   Person |
 |--------------------------------------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | Change-Management                    |    X     |          |          |          |          |          |
 | Cybersicherheit im Unternehmen       |    X     |          |          |          |          |          |
-| Einführung IT-Security               |          |    X     |          |          |          |          |
-| Interaktive Systeme                  |          |          |    X     |          |          |          |
-| Datenbanksysteme - Hausübungen       |    X     |          |          |          |          |          |
-| Diskrete Mathematik                  |          |    X     |          |          |          |          |
-| Recht für Informatiker/innen         |          |          |    X     |          |          |          |
-| English for STEM 2                   |          |          |          |    X     |          |          |
-| Content Management Systeme           |          |          |          |          |    X     |          |
-| Praktikum Game Design und Development|          |          |          |          |    X     |          |
-| Digitale Fotografie und Desktop-Publishing |     |          |          |    X     |          |          |
-| Texten fürs Web                      |          |          |          |          |          |    X     |
-| Ethik im Management                  |          |          |          |    X     |          |          |
-| Lern- und Prüfungsstressbewältigung   |          |          |          |          |    X     |          |
-| Konzepte moderner Softwareentwicklung|          |          |          |          |    X     |          |
-| Rechnernetze und Einführung in verteilte Systeme | |          |    X     |          |          |          |
-| Webbasierte Systeme 2                |          |          |          |          |    X     |          |
-| Algorithmen und Datenstrukturen      |    X     |          |          |          |          |          |
-| Datenbanksysteme                     |    X     |          |          |          |          |          |
-| Programmierung interaktiver Systeme  |          |    X     |          |          |          |          |
-| Objektorientierte Programmierung     |          |    X     |          |          |          |          |
+| Einführung IT-Security               |    X     |         |          |          |          |          |
+| Entwicklung mobiler Applikationen    |				  | 		X		|         |           |          | 				|
+| Interaktive Systeme                  |     X    |     X     |    X     |          |          |          |
+| Diskrete Mathematik                  |     X    |         |          |      X    |          |          |
+| Recht für Informatiker/innen         |     X     |         |         |     X     |          |          |
+| English for STEM 2                   |     X    |          |          |         |          |          |
+| Content Management Systeme           |          |          |          |     X     |     X   |          |
+| Praktikum Game Design und Development|          |     X     |          |      X    |    X    |          |
+| Digitale Fotografie und Desktop-Publishing |     |     X     |          |         |      X   |          |
+| Digitales Marketing                   |         |      X    |          |          |          |      |
+| Texten fürs Web                      |          |          |          |    X      |     X    |         |
+| Ethik im Management                  |          |          |          |         |      X   |          |
+| Lern- und Prüfungsstressbewältigung  |          |          |          |          |         |          |
+| Konzepte moderner Softwareentwicklung|          |          |          |     X     |    X    |          |
+| Rechnernetze und Einführung in verteilte Systeme |     |          |         |     X     |              |    |
+| Webbasierte Systeme 2                |    X      |          |    X      |     X     |    X   |          |
+| Algorithmen und Datenstrukturen      |    X     |    X    |    X      |     X     |     X    |          |
+| Datenbanksysteme                     |    X     |     X     |          |     X     |    X     |          |
+| Programmierung interaktiver Systeme  |          |         |          |      X    |          |          |
+| Konzepte systenaher Programmierung   |          |          |          |				X  | 				 |        |
+| Statistik und Datenanalyse           |          |    X    |          |          |          |          |
+| Social Media in der Unternehmensstrategie |          |         |     X     |          |          |          |
+| Visuelle Kommunikation               |          |    X     |          |          |          |          |
+| Objektorientierte Programmierung     |     X     |    X     |    X      |          |     X    |          |
+| Zeitmanagement                       |          |    X     |          |          |          |          |
+ 
