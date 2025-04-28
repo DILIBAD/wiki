@@ -2,7 +2,7 @@
 title: 000-Projekt
 description: 
 published: true
-date: 2025-04-28T06:48:47.237Z
+date: 2025-04-28T06:51:39.672Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T19:58:03.255Z
@@ -36,7 +36,7 @@ Neben der Spieleentwicklung soll eine Community rund um das Spiel entstehen. Die
 
 ## Social Media-Strategie
 
-**[Platzhalter für detaillierte Ausarbeitung der Social Media-Strategie]**
+**[Platzhalter für Ausarbeitung der Social Media-Strategie]**
 
 ## Testing-Strategie
 
