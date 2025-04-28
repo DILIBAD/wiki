@@ -1,8 +1,8 @@
 ---
 title: Dokumentation Social Media Konzept Sprint 1
-description: Aufgrund der Ergebnisse der Zielgruppenanalyse und dem Betrachten des aktuellen Zeitgeistes wurde die Entscheidung getroffen, das Projekt „DILIBAD“ und seine Entstehung auf den Social-Media-Plattformen „Twitter“, „Instagram“ und „Discord“ zu begleiten.
+description: 
 published: true
-date: 2025-04-28T12:19:16.104Z
+date: 2025-04-28T12:20:11.547Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T12:19:16.104Z
