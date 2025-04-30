@@ -2,7 +2,7 @@
 title: Version Control & CI/CD
 description: 
 published: true
-date: 2025-04-28T06:51:00.491Z
+date: 2025-04-30T08:28:53.060Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -118,7 +118,8 @@ Ein strukturierter Git-Workflow regelt die Zusammenarbeit im Team und stellt sic
 
 
 # 🧠 Git-Workflow
-
+Informationen wann Rebase und wann Squash, derzeit noch nicht beschlossen ob dies genutzt werden soll:
+https://medium.com/@shikha.ritu17/git-rebase-vs-merge-vs-squash-choosing-the-right-strategy-for-version-control-a9c9bb97040e
 ## 🔀 Branch-Struktur
 
 ```text
