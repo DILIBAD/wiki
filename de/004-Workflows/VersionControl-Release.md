@@ -2,7 +2,7 @@
 title: Version Control & CI/CD
 description: 
 published: true
-date: 2025-04-30T09:04:04.829Z
+date: 2025-04-30T09:04:49.657Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -115,6 +115,7 @@ Root
 Ein strukturierter Git-Workflow regelt die Zusammenarbeit im Team und stellt sicher, dass alle Änderungen nachvollziehbar, geprüft und konfliktfrei eingebunden werden.
 
 ---
+
 
 
 # 🧠 Git-Workflow
