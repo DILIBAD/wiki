@@ -2,7 +2,7 @@
 title: Version Control & CI/CD
 description: 
 published: true
-date: 2025-04-30T08:28:53.060Z
+date: 2025-04-30T09:04:04.829Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -119,7 +119,19 @@ Ein strukturierter Git-Workflow regelt die Zusammenarbeit im Team und stellt sic
 
 # 🧠 Git-Workflow
 Informationen wann Rebase und wann Squash, derzeit noch nicht beschlossen ob dies genutzt werden soll:
-https://medium.com/@shikha.ritu17/git-rebase-vs-merge-vs-squash-choosing-the-right-strategy-for-version-control-a9c9bb97040e
+[Rebase vs merge vs squash](https://medium.com/@shikha.ritu17/git-rebase-vs-merge-vs-squash-choosing-the-right-strategy-for-version-control-a9c9bb97040e)
+
+Um eine gute Versionierung zu erlauben werden wir uns an das Semantik Versioning halten.
+TLDR:
+0.0.0
+MajorChange.NewFeatures.Patch
+
+Major Change meint das es Änderungen gibt die dafür sorgen das es keine Backwards Kompatibilität gibt. Das heißt bspw. Interface Änderungen von Interfaces die bereits definiert wurden und aktiv genutzt werden.
+
+New Feature meint einfach das es neue Funktionalitäten gibt
+
+Patch enthält nur Änderungen an bereits bestehenden Systemen, bspw. das Fixen eines bugs oder veränderung der Funktion.
+[Semantik Version](https://www.youtube.com/watch?v=rTZ35Subk9U)
 ## 🔀 Branch-Struktur
 
 ```text
