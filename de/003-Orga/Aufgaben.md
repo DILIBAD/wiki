@@ -2,7 +2,7 @@
 title: Aufgaben
 description: 
 published: true
-date: 2025-05-02T19:22:13.070Z
+date: 2025-05-02T19:23:41.268Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-02T09:06:17.055Z
@@ -26,7 +26,7 @@ Aufgabenfelder, die hinzukommen, werden eingetragen und in einem Meeting wird ge
 | Protokol |     Pascal    |   |
 | Meeting Organisation |         |   |
 | Kommunikation mit Dozenten |    Martin     |   |
-| Conflict Manager |         |   |
+| Conflict Manager |    Martin     |   |
 | Unity |    Konstantin   |   |
 | Assets |    Konstantin, Pascal   |   |
 | Music & Sounds |   Martin    |   |
