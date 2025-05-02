@@ -2,7 +2,7 @@
 title: Version Control & CI/CD
 description: 
 published: true
-date: 2025-04-30T09:04:49.657Z
+date: 2025-05-02T08:57:20.198Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -140,6 +140,7 @@ main            → Releases (stable)
 dev             → Aktueller Entwicklungsstand
 version/x.y.z   → Vorbereitung einer konkreten Version
 feature/...     → Einzelne Features
+import/...      → Importieren von Assets IMMER ungebunden von features
 test/beta       → Interne Tests / Beta-Testing
 hotfix/x.y.z    → Bugfix nach Release
 ```
@@ -152,6 +153,7 @@ hotfix/x.y.z    → Bugfix nach Release
 |------------|-----------------------------------|-----------------------------|
 | Version    | `version/x.y.z`                   | `version/1.2.0`             |
 | Feature    | `feature/<ticket>/<kurzbeschreibung>` | `feature/42/user-login`    |
+| Feature    | `import/<assetbeschreibung>` | `import/playerassets`    |
 | Hotfix     | `hotfix/x.y.z`                    | `hotfix/1.2.1`              |
 | Test/Beta  | `test/beta`                       | `test/beta`                 |
 
