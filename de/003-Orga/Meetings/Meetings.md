@@ -1,8 +1,8 @@
 ---
-title: Meeting Go Code 07.05
+title: Meeting 07.05
 description: 
 published: true
-date: 2025-05-07T10:21:46.522Z
+date: 2025-05-07T10:22:13.103Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-07T10:18:28.775Z
