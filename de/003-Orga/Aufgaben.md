@@ -2,7 +2,7 @@
 title: Aufgaben
 description: 
 published: true
-date: 2025-05-05T08:01:58.649Z
+date: 2025-05-07T09:42:18.025Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-02T09:06:17.055Z
@@ -26,11 +26,11 @@ Aufgabenfelder, die hinzukommen, werden eingetragen und in einem Meeting wird ge
 | Protokol |     Pascal    |   |
 | Meeting Organisation |         |   |
 | Kommunikation mit Dozenten |    Martin     |   |
-| Conflict Manager |    Martin     |   |
+| Conflict Manager |    Martin     | Nils  |
 | Unity |    Konstantin   |   |
 | Assets |    Konstantin, Pascal   |   |
 | Music & Sounds |   Martin    |   |
-| YouTrack, Konfigurationen & Workflows |       |   |
-| GDD |       |   |
+| YouTrack, Konfigurationen & Workflows |       | Nils  |
+| GDD |    Nils   |   |
 | Dokumentaiton |  Konstantin , ??     |   |
 |  |  |  |
