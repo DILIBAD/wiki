@@ -2,7 +2,7 @@
 title: Detection Dilemma
 description: 
 published: true
-date: 2025-05-08T11:53:15.345Z
+date: 2025-05-08T11:53:25.300Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-19T14:03:52.736Z
@@ -52,7 +52,7 @@ In vielen Fällen ist eine **regelmäßige, tick-basierte Abfrage über Code** n
   - Muss manuell gepflegt werden.
 
 ---
-## 🧭 Wann Collider mit isTrigger? Wann 
+## 🧭 Wann Collider mit isTrigger? Wann Raycast?
 | Kriterium | Collider.isTrigger | Physics2D.Raycast... |
 | --- | --- | --- |
 | Sofortige Reaktion nötig? |  ⚠️ Möglich | ✅ Ja|
