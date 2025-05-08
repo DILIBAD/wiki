@@ -2,7 +2,7 @@
 title: GitHub Workflow
 description: 
 published: true
-date: 2025-05-08T11:46:42.246Z
+date: 2025-05-08T18:36:41.440Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T09:07:48.268Z
@@ -42,8 +42,9 @@ hotfix/x.y.z    → Bugfix nach Release
 | Branch-Typ | Format                            | Beispiel                    |
 |------------|-----------------------------------|-----------------------------|
 | Version    | `version/x.y.z`                   | `version/1.2.0`             |
-| Feature    | `feature/<ticket>/<kurzbeschreibung>` | `feature/42/user-login`    |
-| Feature    | `import/<assetbeschreibung>` | `import/playerassets`    |
+| Feature Task    | `feature/<ticket>/<kurzbeschreibung>` | `feature/42/user-login`    |
+| Feature    | `feature/<kurzbeschreibung>` | `feature/user-login`    |
+| Import    | `import/<assetbeschreibung>` | `import/playerassets`    |
 | Hotfix     | `hotfix/x.y.z`                    | `hotfix/1.2.1`              |
 | Test/Beta  | `test/beta`                       | `test/beta`                 |
 
