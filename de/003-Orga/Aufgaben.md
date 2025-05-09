@@ -2,7 +2,7 @@
 title: Aufgaben
 description: 
 published: true
-date: 2025-05-07T09:42:18.025Z
+date: 2025-05-09T08:37:47.177Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-02T09:06:17.055Z
@@ -16,21 +16,27 @@ Aufgabenfelder, die hinzukommen, werden eingetragen und in einem Meeting wird ge
 
 | Aufgabe                            | Hauptverantwortlich | Vertretung     |
 |------------------------------------|---------------------|----------------|
+| GDD |    Nils   |   |
+| YouTrack, Konfigurationen & Workflows |       | Nils  |
+| Meeting Organisation |         |   |
+| Scrum Master |         |  Konstantin |
+| GIT |   Konstantin      |   |
+| Assets |    Konstantin, Pascal   |   |
+| Kommunikation mit Dozenten |    Martin     |   |
+| Conflict Manager |    Martin     | Nils  |
+| Dokumentaiton |  Konstantin , ??     |   |
+| Protokol |     Pascal    |   |
+
+
+| Sekundäraufgaben                            | Hauptverantwortlich | Vertretung     |
+|------------------------------------|---------------------|----------------|
 | CI/CD       | Konstantin         |   |
-| GIT |         |   |
+| Music & Sounds |   Martin    |   |
 | Social Media |    Dimar     |   |
 | Webseite |    Konstantin     |   |
 | Discord |    Konstantin     |   |
 | Infrastruktur |    Konstantin     |   |
-| Scrum Master |         |  Konstantin |
-| Protokol |     Pascal    |   |
 | Meeting Organisation |         |   |
-| Kommunikation mit Dozenten |    Martin     |   |
-| Conflict Manager |    Martin     | Nils  |
 | Unity |    Konstantin   |   |
-| Assets |    Konstantin, Pascal   |   |
 | Music & Sounds |   Martin    |   |
-| YouTrack, Konfigurationen & Workflows |       | Nils  |
-| GDD |    Nils   |   |
-| Dokumentaiton |  Konstantin , ??     |   |
 |  |  |  |
