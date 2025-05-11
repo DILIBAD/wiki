@@ -2,7 +2,7 @@
 title: Guide: Pull Requests
 description: In diesem Dokument wird eine Anleitung für Pull Requests dokumentiert.
 published: true
-date: 2025-05-11T09:45:10.902Z
+date: 2025-05-11T09:51:49.795Z
 tags: github, pullrequest
 editor: markdown
 dateCreated: 2025-05-11T09:42:01.363Z
@@ -76,3 +76,88 @@ Nutze das vorgegebene Markdown-Template in GitHub und fülle es vollständig aus
 ## 5. Merge
 
 Sobald alle Review-Anfragen geklärt und genügend Approvals vorliegen, darf der Pull-Requester oder der letzte Approver die Änderungen in den Hauptbranch mergen. Dadurch gelangen bestätigte Änderungen schnell ins Zielsystem.
+
+
+# Templates
+<!-- TEMPLATE: Zwischenstand Pull Request -->
+```
+# Pull Request: Zwischenstand 
+
+> _Kennzeichnung: Zwischenstand_NAME
+
+---
+
+## YouTrack-Verknüpfung
+- **Ticket:** [TASK-XXXX](https://youtrack.example.com/issue/TASK-XXXX)
+
+## Kurze Beschreibung
+Beschreibe hier knapp den aktuellen Stand und die Zielsetzung dieses Zwischenstands.
+
+## Änderungen
+- Feature/Import:  
+  - `Pfad/zu/Datei1.cs`: Kurzbeschreibung der Anpassung  
+  - `Pfad/zu/Datei2.prefab`: Kurzbeschreibung der Anpassung  
+
+## Dokumentierte bekannte Fehler & Schwächen
+| Fehler/Beschreibung                   | Status      | Anmerkung                     |
+|---------------------------------------|-------------|-------------------------------|
+| Beispiel-NullReferenceException       | bekannt     | Tritt auf, wenn X nicht gesetzt |
+| UI-Layout in Szene Y noch unvollständig | bekannt  | Muss in späterem Schritt angepasst werden |
+
+## Technischer Zustand
+- ❌ Keine nicht abgefangenen Runtime-Errors (Ausnahmen nur via `throw new …`)  
+- ✅ Kompilierungsfrei und im Editor ausführbar  
+- ✅ Bestehende Funktionalität unberührt  
+
+## Nächste Schritte
+1. Bekannte Bugs nach Release-X fixen  
+2. UI-Feinschliff in Szene Y  
+3. Abschluss-PR nach Fertigstellung des Features  
+```
+---
+
+<!-- TEMPLATE: Abschluss Pull Request -->
+```
+# Pull Request: Abschluss
+
+> _Kennzeichnung: Finaler Stand_NAME
+
+---
+
+## YouTrack-Verknüpfung
+- **Ticket:** [TASK-XXXX](https://youtrack.example.com/issue/TASK-XXXX)
+
+## Beschreibung
+Ausführliche Zusammenfassung des vollständig abgeschlossenen Features.
+
+## Änderungen
+- `Pfad/zu/DateiA.cs`: Beschreibung der neuen Logik  
+- `Pfad/zu/SzeneZ.unity`: Integration des Features  
+- `Pfad/zu/AssetB.prefab`: Hinzugefügt für neue Funktionalität  
+
+## Akzeptanzkriterien (aus User Story)
+- [ ] Kriterium 1 erfüllt  
+- [ ] Kriterium 2 erfüllt  
+- [ ] Kriterium 3 erfüllt  
+
+## Nutzung / Quickstart
+1. Öffne Unity-Szene: `Pfad/zu/SzeneZ.unity`  
+2. Drücke Play  
+3. Gehe zu Menü → FeatureX  
+4. Teste Aktion Y
+
+## Tests in Unity
+1. Projekt öffnen und kompilieren  
+2. Szene `SzeneZ.unity` laden  
+3. Im **Test Runner** folgende Tests ausführen:  
+   - `TestSuite.FeatureXTests`  
+   - `TestSuite.IntegrationTests`
+
+## Technischer Zustand
+- ✅ Keine Compiler-Fehler  
+- ✅ Laufzeitfehler nur bewusst ausgelöst (`throw new …`)  
+- ❌ Keine ungeklärten Bugs (alle offenen Punkte behoben oder dokumentiert)
+
+
+```
+---
