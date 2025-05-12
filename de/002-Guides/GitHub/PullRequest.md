@@ -2,7 +2,7 @@
 title: Guide: Pull Requests
 description: In diesem Dokument wird eine Anleitung für Pull Requests dokumentiert.
 published: true
-date: 2025-05-11T09:51:49.795Z
+date: 2025-05-12T07:19:42.706Z
 tags: github, pullrequest
 editor: markdown
 dateCreated: 2025-05-11T09:42:01.363Z
@@ -79,85 +79,139 @@ Sobald alle Review-Anfragen geklärt und genügend Approvals vorliegen, darf der
 
 
 # Templates
-<!-- TEMPLATE: Zwischenstand Pull Request -->
-```
-# Pull Request: Zwischenstand 
 
-> _Kennzeichnung: Zwischenstand_NAME
+Die Templates dienen als Referenz diese sind in Github Automatisch in einem Pull Request enthalten
 
----
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█ 🔄 PULL REQUEST – ZWISCHENSTAND / WIP (Work in Progress) █
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-## YouTrack-Verknüpfung
-- **Ticket:** [TASK-XXXX](https://youtrack.example.com/issue/TASK-XXXX)
-
-## Kurze Beschreibung
-Beschreibe hier knapp den aktuellen Stand und die Zielsetzung dieses Zwischenstands.
-
-## Änderungen
-- Feature/Import:  
-  - `Pfad/zu/Datei1.cs`: Kurzbeschreibung der Anpassung  
-  - `Pfad/zu/Datei2.prefab`: Kurzbeschreibung der Anpassung  
-
-## Dokumentierte bekannte Fehler & Schwächen
-| Fehler/Beschreibung                   | Status      | Anmerkung                     |
-|---------------------------------------|-------------|-------------------------------|
-| Beispiel-NullReferenceException       | bekannt     | Tritt auf, wenn X nicht gesetzt |
-| UI-Layout in Szene Y noch unvollständig | bekannt  | Muss in späterem Schritt angepasst werden |
-
-## Technischer Zustand
-- ❌ Keine nicht abgefangenen Runtime-Errors (Ausnahmen nur via `throw new …`)  
-- ✅ Kompilierungsfrei und im Editor ausführbar  
-- ✅ Bestehende Funktionalität unberührt  
-
-## Nächste Schritte
-1. Bekannte Bugs nach Release-X fixen  
-2. UI-Feinschliff in Szene Y  
-3. Abschluss-PR nach Fertigstellung des Features  
-```
----
-
-<!-- TEMPLATE: Abschluss Pull Request -->
-```
-# Pull Request: Abschluss
-
-> _Kennzeichnung: Finaler Stand_NAME
+> TLDR: 1 Satz Beschreibung, z. B. "Grundstruktur für Inventory-Feature steht"
 
 ---
 
-## YouTrack-Verknüpfung
-- **Ticket:** [TASK-XXXX](https://youtrack.example.com/issue/TASK-XXXX)
+\`\`\`
+(╯°□°）╯︵ ┻━┻
+_When you realize there's a merge conflict again..._
+\`\`\`
 
-## Beschreibung
-Ausführliche Zusammenfassung des vollständig abgeschlossenen Features.
-
-## Änderungen
-- `Pfad/zu/DateiA.cs`: Beschreibung der neuen Logik  
-- `Pfad/zu/SzeneZ.unity`: Integration des Features  
-- `Pfad/zu/AssetB.prefab`: Hinzugefügt für neue Funktionalität  
-
-## Akzeptanzkriterien (aus User Story)
-- [ ] Kriterium 1 erfüllt  
-- [ ] Kriterium 2 erfüllt  
-- [ ] Kriterium 3 erfüllt  
-
-## Nutzung / Quickstart
-1. Öffne Unity-Szene: `Pfad/zu/SzeneZ.unity`  
-2. Drücke Play  
-3. Gehe zu Menü → FeatureX  
-4. Teste Aktion Y
-
-## Tests in Unity
-1. Projekt öffnen und kompilieren  
-2. Szene `SzeneZ.unity` laden  
-3. Im **Test Runner** folgende Tests ausführen:  
-   - `TestSuite.FeatureXTests`  
-   - `TestSuite.IntegrationTests`
-
-## Technischer Zustand
-- ✅ Keine Compiler-Fehler  
-- ✅ Laufzeitfehler nur bewusst ausgelöst (`throw new …`)  
-- ❌ Keine ungeklärten Bugs (alle offenen Punkte behoben oder dokumentiert)
-
-
-```
 ---
+
+## 🎫 YouTrack-Verknüpfung
+
+**Tickets:**  
+*Paste ID(s) here*
+
+## 🧾 Kurze Beschreibung
+
+Was wurde schon gemacht? Ziel dieses PR?
+
+## 🛠️ Änderungen bisher
+
+- 🔧 Feature A angefangen
+- 🎨 UI-Prototyp integriert
+- 🧪 Erster Unit-Test hinzugefügt
+
+## 🐞 Bekannte Fehler & Schwächen
+
+| Beschreibung                 | Status               |
+| ---------------------------- | -------------------- |
+| Test schlägt sporadisch fehl | Known Issue          |
+| Loading-Animation hängt      | Workaround vorhanden |
+
+## 🧠 Technischer Zustand
+
+- [ ] Keine Runtime-Errors
+- [ ] Editor kompiliert
+- [ ] Build lauffähig
+
+## 📋 Offene Punkte bis Abschluss
+
+1. Finales Styling
+2. Performance-Optimierung
+3. User-Test vorbereiten
+
+---
+
+\`\`\`
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣶⣶⣤⣄⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠿⠛⠉⠉⠛⠿⣿⣷⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠀⠀⠀💡 _“It compiles!_⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀_Ship it!” 🚀  
+\`\`\`
+
+---
+
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█ ✅ PULL REQUEST – ABSCHLUSS / READY FOR REVIEW & MERGE █
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+> TLDR: Feature fertig & einsatzbereit 🚀
+
+---
+
+\`\`\`
+(•_•)
+( •_•)>⌐■-■
+(⌐■_■) _Feature complete. Bugs eliminated._
+\`\`\`
+
+---
+
+## 🎫 YouTrack-Verknüpfung
+
+**Tickets:**  
+*Paste Ticket-IDs hier*
+
+## 📘 Beschreibung
+
+Was wurde final erledigt? Was wurde erreicht?
+
+## ✨ Final umgesetzte Änderungen
+
+- Neue Logik X abgeschlossen
+- UI angepasst nach Feedback
+- Performance verbessert
+
+## ✅ Akzeptanzkriterien
+
+- [ ] Kriterium 1 erfüllt
+- [ ] Kriterium 2 erfüllt
+- [ ] Kriterium 3 erfüllt
+
+## 🚀 Nutzung / Quickstart
+
+1. Unity öffnen
+2. Szene starten
+3. Komponente X prüfen
+
+## 🧪 Test-Anleitung
+
+1. Playmode aktivieren
+2. Klick auf Button Y
+3. Ergebnis erscheint korrekt
+
+## 🧠 Technischer Zustand
+
+- [ ] Keine Compiler-Fehler
+- [ ] Keine ungewollten Exceptions
+- [ ] Alle Bugs dokumentiert oder gelöst
+
+\`\`\`
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣷⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⠏⠀⢀⣀⣀⣀⠀⠀⠀⠀
+⠀💬 Dev: “Let’s deploy it!”  
+⠀🧪 QA: “Hold my Red Bull…” 😈
+\`\`\`
+
+---
+
+\`\`\`
+👍 If you read this far, you're legally required to approve the PR 😎
+\`\`\`
