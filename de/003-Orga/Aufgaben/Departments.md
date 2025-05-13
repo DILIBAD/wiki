@@ -2,56 +2,118 @@
 title: Departments
 description: In diesem Dokument werden die Departments definiert und deren Zuständigkeiten dokumentiert.
 published: true
-date: 2025-05-13T15:01:40.057Z
-tags: wip
+date: 2025-05-13T18:40:27.859Z
+tags: 
 editor: markdown
 dateCreated: 2025-05-13T15:01:40.057Z
 ---
 
-# Departments
-Unter Departments werden Kleingruppen bezeichnet welche Aufgaben und Verantwortlichkeiten im Projekt zu einem bestimmten Thema übernehmen. Dies soll sicherstellen das alle Meetings nur die benötigten Teilnehmer enthält und kein leerlauf bei einzelnen Teilnehmern durch Meetings erzeugt wird. 
+# Arbeitsgruppen-Übersicht
+
+Unter **Arbeitsgruppen** werden Kleingruppen bezeichnet, die im Projekt Aufgaben und Verantwortlichkeiten zu einem bestimmten Thema übernehmen. So stellen wir sicher, dass Meetings nur die relevanten Teilnehmenden enthalten und kein Leerlauf entsteht.
+
+---
+
+## Inhaltsverzeichnis
+
+1. [Arbeitsweise](#arbeitsweise)  
+2. [Eigenverantwortlichkeit](#eigenverantwortlichkeit)  
+3. [Zuständigkeit & Mitwirken](#zuständigkeit--mitwirken)  
+4. [Aktuelle Arbeitsgruppen](#aktuelle-arbeitsgruppen)  
+   - [Prozessoptimierung](#prozessoptimierung)  
+   - [Game Design](#game-design)  
+   - [Product Owner](#product-owner)  
+   - [Sales](#sales)  
+
+---
 
 ## Arbeitsweise
-Jedes Department arbeitetet auf ihr Themenbereich nach den gleichen Vorgaben und Prozessen. Falls nötig werden spezielle Prozesse eingeführt um auf eigene Anforderungen reagieren zu können. Diese Prozesse können selbst konzepiert werden oder in Auftrag des Departments Prozessoptimierung  gegeben.
 
-- Eigenverantwortlichkeit 
-- Fundierte Entscheidungswahl (jede getroffene Entscheidung sollte bewusst getroffen und im besten Fall dokumentier sein, um den Entscheidungsprozess so transparent wie möglich zu halten)
-- Ziele und Aufgaben nach bestem wissen und gewissen bearbeiten
-- Bei Unklarheiten Hilfe suchen
-- Bei Überforderung diese Melden
-- Dokumentation eigener Prozesse
-- Dokumentation eigener Resultate
-- Einholen von Feedback vom Team
-- Konzeptentwürfe dem Team vorstellen (Treffen hierfür selbst organisieren)
-- Das Team Regelmäßig updaten
+Jede Arbeitsgruppe folgt denselben Vorgaben und Prozessen.  
+Falls erforderlich, können eigene, spezielle Abläufe eingeführt oder optimiert werden.
 
-## Zuständigkeit und Mitwirken
-Für jedes Department muss eine Hauptverantwortliche Person genannt werden, diese ist Hauptverantwortlich für die Organisation des Departments. Diese Person kann jederzeit nach Absprache gewechselt werden, auch kann diese Aufgabe über mehrere Mitwirkende verteilt werden. Departments sollten in ihrer Hauptmitwirkung auf 3 Personen beschränkt werden. Vereinzelndes Mitwirken weiter Personen ist legitim, sollte aber nicht die Regel sein oder zuvor in der Gruppe genehmigt worden sein. Gruppengröße sollte dem Arbeitsaufwand angepasst sein.
+- Einheitliche Vorgaben für alle Gruppen  
+- Möglichkeit zur Prozessanpassung  
+- Feedback- und Validierungsschleifen  
 
-# Auflistung
+---
 
-Im folgenden werden alle Departments mit ihrem Zweck und Zuständigen aufgelistet. Diese Liste sollte immer auf dem aktuellsten Stand gehalten werden.
+## Eigenverantwortlichkeit
 
-## Prozessoptimierung
-Das Department Prozessoptimierung validiert, prüft und überarbeitet interne Prozesse. Zur validierung wird Feedback aller Mitglieder eingeholt und analysiert, um basierend darauf möglichst die beste Entscheidung zu treffen.
+1. **Fundierte Entscheidungen**  
+   - Bewusst treffen und dokumentieren  
+2. **Ziele & Aufgaben**  
+   - Nach bestem Wissen und Gewissen bearbeiten  
+3. **Kommunikation**  
+   - Bei Unklarheiten aktiv fragen  
+   - Überforderung umgehend melden  
+4. **Dokumentation**  
+   - Eigene Prozesse & Resultate festhalten  
+5. **Feedback & Austausch**  
+   - Regelmäßig Feedback einholen  
+   - Konzeptentwürfe selbst organisieren und vorstellen  
+   - Das Team kontinuierlich updaten  
 
-### Zweck
-Sicherstellen optimaler Zeitnutzung und Optimierung bestehender Prozesse. Reduzierung von unnötiger Bürogratie, welche keinen Mehrwert für das Projekt hat oder nicht im Verhältnis mit dem Aufwand steht.
+---
 
+## Zuständigkeit & Mitwirken
 
+- **Hauptverantwortliche Person** pro Gruppe  
+  - Organisation & Koordination
+  - Rollen können nach Absprache wechseln oder geteilt werden  
+- **Maximal drei** Haupt-Mitwirkende  
+- Weitere Teilnehmende bei Bedarf, nach Gruppen-Genehmigung  
+- Gruppengröße stets am Arbeitsaufwand ausrichten  
 
-## Game Design
-Das Department Game Design ist Hauptverantwortlich für das konzeptionieren, validieren und Dokumentieren von dem Game Design. Hierrunter fällt das pflegen und definieren der GameLoop, prüfen von Funktionalitäten und das zusammenspiel aller dieser Elemente. 
-Alle Resultate werden in dem GDD des jeweiligen Sprints dokumentiert. Es ist sicherzustellen das jedes Teammitglied die Möglichkeit hat Vorschläge für Funktionalitäten zu machen und das diese dokumentiert und priorisiert werden. Die Priorisierung sollte das best Mögliche Spielerlebnis für Spieler im Blick haben und eigene Präferenzen nicht als Entscheidungsfaktor zu nehmen.
+---
 
+## Aktuelle Arbeitsgruppen
 
+### Prozessoptimierung
 
-## Product Owner (erhebung von Anforderungen aus Management oder Zielgruppen Perseptive)
-Das Department Product owner kümmert sich um die Sicherstellung das Anforderungen aus Management, Medien & Nutzersicht ausreichen Dokumentiert und ausgearbeitet ist. Die sich hieraus ergebenden Anforderungen müssen explizit dokumentiert und kommuniziert werden.
-Alle Anforderungen und Arbeiten in diesem Bereich müssen für das Projekt ein Mehrwert bringen und daher fundiert getroffen werden.
+**Zweck:**  
+> Sicherstellen optimaler Zeitnutzung und Reduzierung unnötiger Bürokratie
 
+**Aufgaben:**  
+- Validierung bestehender Abläufe  
+- Einholen und Auswerten von Feedback  
+- Umsetzung von Verbesserungsmaßnahmen  
 
+---
 
-## Sales
-Das Sales Department hat die Verantwortung sicherzustellen das der Review Prozess & Präsenstationsablauf in einer hohen Qualität gewährleistet wird. Hier wird sichergestellt das alle Verantwortlichkeiten zuvor geklärt sind und sichergestellt das in Krankheitsfällen oder sonstigen Abwesenheiten verantwortlicher PErsonen eine Vertretung sichergestellt wird.
-Die Planung, Validierung und Reflection  der Präsenation sind die Hauptverantwortlichkeiten.
+### Game Design
+
+**Zweck:**  
+> Konzipieren, Validieren & Dokumentieren des Game Designs, der Game Loop und von Game Features
+
+**Aufgaben:**  
+- Pflegen & Definieren der Game Loop  
+- Prüfen von Funktionalitäten und ihrem Zusammenspiel  
+- Dokumentation im jeweiligen Sprint-GDD  
+- Ideen sammeln, dokumentieren und priorisieren (spielerzentriert)
+
+---
+
+### Product Owner
+
+**Zweck:**  
+> Anforderungen aus Management-, Medien- & Nutzersicht erheben und aufbereiten
+
+**Aufgaben:**  
+- Anforderungen klar dokumentieren & kommunizieren  
+- Sicherstellen eines echten Mehrwerts für das Projekt  
+- Transparente Nachverfolgung aller Stakeholder-Wünsche  
+
+---
+
+### Sales
+
+**Zweck:**  
+> Hochwertige Präsentationen gewährleisten
+
+**Aufgaben:**  
+- Klärung aller Verantwortlichkeiten vor Präsentationen  
+- Vertretungsregelung bei Abwesenheiten  
+- Planung, Validierung & Nachbereitung von Präsentations-Abläufen  
+
+---
