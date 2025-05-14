@@ -1,8 +1,8 @@
 ---
-title: Departments
+title: Arbeitsgruppen
 description: In diesem Dokument werden die Departments definiert und deren Zuständigkeiten dokumentiert.
 published: true
-date: 2025-05-13T18:40:27.859Z
+date: 2025-05-14T07:02:28.421Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T15:01:40.057Z
