@@ -2,7 +2,7 @@
 title: Arbeitsgruppen
 description: In diesem Dokument werden die Departments definiert und deren Zuständigkeiten dokumentiert.
 published: true
-date: 2025-05-15T07:15:01.585Z
+date: 2025-05-15T07:15:35.954Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T15:01:40.057Z
@@ -24,6 +24,7 @@ Unter **Arbeitsgruppen** werden Kleingruppen bezeichnet, die im Projekt Aufgaben
    - [Game Design](#game-design)  
    - [Product Owner](#product-owner)  
    - [Sales](#sales)  
+   - [Lore](#lore)  
 
 ---
 
