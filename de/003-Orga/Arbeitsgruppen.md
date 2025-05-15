@@ -2,7 +2,7 @@
 title: Arbeitsgruppen
 description: In diesem Dokument werden die Departments definiert und deren Zuständigkeiten dokumentiert.
 published: true
-date: 2025-05-14T13:55:49.490Z
+date: 2025-05-15T07:15:01.585Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T15:01:40.057Z
@@ -115,5 +115,20 @@ Falls erforderlich, können eigene, spezielle Abläufe eingeführt oder optimier
 - Klärung aller Verantwortlichkeiten vor Präsentationen  
 - Vertretungsregelung bei Abwesenheiten  
 - Planung, Validierung & Nachbereitung von Präsentations-Abläufen  
+
+---
+
+### Lore
+
+**Zweck:**  
+> kohärente, interessante Lore & Story Entwicklung für das Spiel
+
+**Aufgaben:**  
+- Entwicklung der Hintergrund Lore 
+- Anpassung der Lore an die Game Loop, Funktionalitäten
+- Entwicklung von Charaktern und Geschichten, welche die Welt von DILIBAD zum Leben erwecken soll
+- Anforderungen definieren an Funktionalitäten, um Lore im Spiel zu integrieren
+- Validieren von Lore Elementen und Ihren Effekt auf das Gameplay & die Spielerbindung
+
 
 ---
