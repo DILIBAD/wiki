@@ -2,7 +2,7 @@
 title: Personas
 description: 
 published: true
-date: 2025-05-15T13:33:54.142Z
+date: 2025-05-15T13:34:42.569Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-15T13:29:32.360Z
@@ -22,6 +22,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🛠️ Persona 2 – Lara (28) „Co-op-Crafterin“ 
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Remote Web-Dev (4-Tage-Woche), High-End-PC + Ultrawide |
@@ -32,6 +33,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🧮 Persona 3 – Marco (35) „Min-Max-Veteran“ 
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | IT-Projektmanager, verheiratet, RTX 4080-Rig |
@@ -42,6 +44,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 👨‍👩‍👧 Persona 4 – Nina (40) „Familien-Strategin“
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | HR-Managerin, zwei Kinder, Shared-PC im Wohnzimmer |
@@ -52,6 +55,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 📺 Persona 5 – Alex (31, they/them) „Social-Streamer“  
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Teilzeit-Twitch-Creator (≈ 300 Viewer), Dual-PC-Rig |
@@ -62,6 +66,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🧓 Persona 6 – Klaus (55) „Nostalgie-Builder“  
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Physik-Lehrer, DIY-Desktop, Maus+Tastatur |
@@ -72,6 +77,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🌟 Persona 7 – Emilia (17) „Next-Gen-Entdeckerin“ 
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Gymnasiastin, Einsteiger-PC im Kinderzimmer |
@@ -82,6 +88,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🚄 Persona 8 – Ravi (24) „Pendler-Cross-Player“  
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Dual-Student, Laptop unterwegs + Konsole daheim |
@@ -92,6 +99,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## ⏱️ Persona 9 – Sophia (33) „Time-Poor-Pro“ 
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Unternehmens­beraterin, Gaming-Notebook im Hotel |
@@ -102,6 +110,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🧑‍💻 Persona 10 – Mateo (29) „Mod-Tüftler“  
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Indie-Dev-Hobbyist, Linux/Win-Dualboot |
@@ -112,6 +121,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## ☕ Persona 11 – Ingrid (46) „Casual-Managerin“  
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Bankkauffrau, Büro-i5 + Switch |
@@ -122,6 +132,7 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 ## 🏗️ Persona 12 – Pierre (60) „Taktik-Rentner“  
 - [ ] Wird genutzt
+
 | Kategorie | Details |
 |-----------|---------|
 | **Lebenssituation & Setup** | Frisch pensionierter Ingenieur, 4K-Monitor |
