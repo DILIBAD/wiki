@@ -2,7 +2,7 @@
 title: Game Design Document - Sprint 2
 description: 
 published: true
-date: 2025-05-15T13:22:25.500Z
+date: 2025-05-15T13:24:40.161Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-15T13:22:25.499Z
