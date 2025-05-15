@@ -2,7 +2,7 @@
 title: Arbeitsgruppen
 description: In diesem Dokument werden die Departments definiert und deren Zuständigkeiten dokumentiert.
 published: true
-date: 2025-05-15T07:15:35.954Z
+date: 2025-05-15T07:30:36.612Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T15:01:40.057Z
@@ -10,126 +10,158 @@ dateCreated: 2025-05-13T15:01:40.057Z
 
 # Arbeitsgruppen-Übersicht
 
-Unter **Arbeitsgruppen** werden Kleingruppen bezeichnet, die im Projekt Aufgaben und Verantwortlichkeiten zu einem bestimmten Thema übernehmen. So stellen wir sicher, dass Meetings nur die relevanten Teilnehmenden enthalten und kein Leerlauf entsteht.
+Kleingruppen übernehmen im Projekt spezialisierte Aufgaben und Verantwortlichkeiten. So bleiben Meetings fokussiert und effizient.
 
 ---
 
 ## Inhaltsverzeichnis
 
-1. [Arbeitsweise](#arbeitsweise)  
-2. [Eigenverantwortlichkeit](#eigenverantwortlichkeit)  
-3. [Zuständigkeit & Mitwirken](#zuständigkeit--mitwirken)  
-4. [Aktuelle Arbeitsgruppen](#aktuelle-arbeitsgruppen)  
-   - [Prozessoptimierung](#prozessoptimierung)  
-   - [Game Design](#game-design)  
-   - [Product Owner](#product-owner)  
-   - [Sales](#sales)  
-   - [Lore](#lore)  
+1. [Prinzipien](#prinzipien)  
+2. [Organisation](#organisation)  
+3. [Aktuelle Arbeitsgruppen](#aktuelle-arbeitsgruppen)  
+   - [Organisation & Anforderungen](#organisation--anforderungen)  
+     - [Prozessoptimierung](#prozessoptimierung)  
+     - [Product Owner](#product-owner)  
+     - [Game Design](#game-design)  
+     - [Lore](#lore)  
+     - [Sales](#sales)  
+   - [Entwicklungsteams](#entwicklungsteams)  
+     - [Core Entwickler](#core-entwickler)  
+     - [Netzwerk Entwickler](#netzwerk-entwickler)  
+     - [UX Entwickler](#ux-entwickler)  
+     - [Content Team](#content-team)  
 
 ---
 
-## Arbeitsweise
+## Prinzipien
 
-Jede Arbeitsgruppe folgt denselben Vorgaben und Prozessen.  
-Falls erforderlich, können eigene, spezielle Abläufe eingeführt oder optimiert werden.
-
-- Einheitliche Vorgaben für alle Gruppen  
-- Möglichkeit zur Prozessanpassung  
-- Feedback- und Validierungsschleifen  
-
+- **Einheitliche Arbeitsweise:** Gemeinsame Vorgaben mit Feedback- und Validierungsschleifen  
+- **Eigenverantwortung:** Entscheidungen treffen, dokumentieren und bei Unklarheiten kommunizieren
+- **Dokumentation:** Prozesse und Ergebnisse laufend festhalten (in sinnvollem angemessenem Aufwand)
+- **Präsentation & Transparenz:** Regelmäßiger Austausch und Status-Updates  & Ergebnisse in sinnvollen Schritten dem Team Präsentieren und Feedback einholen
 ---
 
-## Eigenverantwortlichkeit
+## Organisation
 
-1. **Fundierte Entscheidungen**  
-   - Bewusst treffen und dokumentieren  
-2. **Ziele & Aufgaben**  
-   - Nach bestem Wissen und Gewissen bearbeiten  
-3. **Kommunikation**  
-   - Bei Unklarheiten aktiv fragen  
-   - Überforderung umgehend melden  
-4. **Dokumentation**  
-   - Eigene Prozesse & Resultate festhalten  
-5. **Feedback & Austausch**  
-   - Regelmäßig Feedback einholen  
-   - Konzeptentwürfe selbst organisieren und vorstellen  
-   - Das Team kontinuierlich updaten  
-
----
-
-## Zuständigkeit & Mitwirken
-
-- **Hauptverantwortliche Person** pro Gruppe  
-  - Organisation & Koordination
-  - Rollen können nach Absprache wechseln oder geteilt werden  
-- **Maximal drei** Haupt-Mitwirkende  
-- Weitere Teilnehmende bei Bedarf, nach Gruppen-Genehmigung  
-- Gruppengröße stets am Arbeitsaufwand ausrichten  
+1. **Hauptverantwortliche:** Koordination, Rolle teilbar nach Absprache  
+2. **Mitwirkende:** Maximal drei Kernmitglieder, bei Bedarf erweiterbar nach Absprache  
+3. **Größe:** Immer am tatsächlichen Arbeitsaufwand ausrichten 
 
 ---
 
 ## Aktuelle Arbeitsgruppen
 
-### Prozessoptimierung
+### Organisation & Anforderungen
+
+#### Prozessoptimierung
 
 **Zweck:**  
-> Sicherstellen optimaler Zeitnutzung und Reduzierung unnötiger Bürokratie
+> Effiziente Abläufe sicherstellen und Bürokratie minimieren
 
 **Aufgaben:**  
-- Validierung bestehender Abläufe  
-- Einholen und Auswerten von Feedback  
-- Umsetzung von Verbesserungsmaßnahmen  
+- Bestehende Prozesse validieren und anpassen  
+- Feedback sammeln und Maßnahmen ableiten  
+- Verbesserungen implementieren  
 
 ---
 
-### Game Design
+#### Product Owner
 
 **Zweck:**  
-> Konzipieren, Validieren & Dokumentieren des Game Designs, der Game Loop und von Game Features
+> Anforderungen aus Management-, Medien- & Nutzersicht bündeln
 
 **Aufgaben:**  
-- Pflegen & Definieren der Game Loop  
-- Prüfen von Funktionalitäten und ihrem Zusammenspiel  
-- Dokumentation im jeweiligen Sprint-GDD  
-- Ideen sammeln, dokumentieren und priorisieren (spielerzentriert)
+- Stakeholder-Wünsche erfassen und kommunizieren  
+- Wertbeitrag prüfen und sicherstellen  
+- Fortschritt und offene Punkte transparent nachverfolgen  
 
 ---
 
-### Product Owner
+#### Game Design
 
 **Zweck:**  
-> Anforderungen aus Management-, Medien- & Nutzersicht erheben und aufbereiten
+> Game-Loop und Feature-Konzept gestalten
 
 **Aufgaben:**  
-- Anforderungen klar dokumentieren & kommunizieren  
-- Sicherstellen eines echten Mehrwerts für das Projekt  
-- Transparente Nachverfolgung aller Stakeholder-Wünsche  
+- Game Design 
+- Game-Loop definieren und dokumentieren  
+- Feature-Ideen erarbeiten und priorisieren  
+- Sprint-GDD pflegen und aktualisieren  
 
 ---
 
-### Sales
+#### Lore
 
 **Zweck:**  
-> Hochwertige Präsentationen gewährleisten
+> Kohärente Welt und Story für das Spiel entwickeln
 
 **Aufgaben:**  
-- Klärung aller Verantwortlichkeiten vor Präsentationen  
-- Vertretungsregelung bei Abwesenheiten  
-- Planung, Validierung & Nachbereitung von Präsentations-Abläufen  
+- Hintergrund-Lore und Charaktere gestalten  
+- Geschichten in die Game-Loop integrieren  
+- Effekt auf Gameplay & Spielerbindung validieren  
 
 ---
 
-### Lore
+#### Sales
 
 **Zweck:**  
-> kohärente, interessante Lore & Story Entwicklung für das Spiel
+> Präsentationen planen und hochwertige Abläufe sichern
 
 **Aufgaben:**  
-- Entwicklung der Hintergrund Lore 
-- Anpassung der Lore an die Game Loop, Funktionalitäten
-- Entwicklung von Charaktern und Geschichten, welche die Welt von DILIBAD zum Leben erwecken soll
-- Anforderungen definieren an Funktionalitäten, um Lore im Spiel zu integrieren
-- Validieren von Lore Elementen und Ihren Effekt auf das Gameplay & die Spielerbindung
+- Verantwortlichkeiten vor Präsentationen klären  
+- Vertretungsregeln bei Abwesenheit definieren  
+- Anpassungen der Präsentation während der Präsentation wenn Bedarf gesehen wird
+- Ablaufplanung, Proben und Nachbereitung durchführen  
 
 
 ---
+
+### Entwicklungsteams
+
+#### Core Entwickler
+
+**Zweck:**  
+> Implementierung neuer Funktionen gemäß Architektur
+
+**Aufgaben:**  
+- Technische Spezifikationen umsetzen  
+- Modul- und Integrationstests schreiben  
+- Code-Reviews durchführen und Performance optimieren  
+
+---
+
+#### Netzwerk Entwickler
+
+**Zweck:**  
+> Client-Server-Logik über Mirror realisieren
+
+**Aufgaben:**  
+- Mirror konfigurieren (Server-/Client-Separation)  
+- SyncVars und RPCs für Spielzustände einrichten  
+- Fehlende Datentypen serialisieren oder eigene Serializer bauen  
+- Basis-Tests für Latenz & Desync aufsetzen  
+
+---
+
+#### UX Entwickler
+
+**Zweck:**  
+> Nutzerführung und -erlebnis gestalten
+
+**Aufgaben:**  
+- Wireframes, Prototypen und klickbare Mock-ups erstellen  
+- Usability-Tests planen und auswerten  
+- UI-Styleguide pflegen und Feedback umsetzen  
+
+---
+
+#### Content Team
+
+**Zweck:**  
+> World-Building, Level-Design und Content-Erstellung via ScriptableObjects
+
+**Aufgaben:**  
+- ScriptableObjects für Skills, Items, Quests anlegen  
+- Level- und Szenen-Design (Terrain, Beleuchtung, Platzierung)  
+- Abstimmung mit Core/UX zur Integration  
+- Playtesting neuer Inhalte und Priorisierung im Backlog  
