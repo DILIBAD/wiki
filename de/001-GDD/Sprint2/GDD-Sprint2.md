@@ -2,7 +2,7 @@
 title: Game Design Document - Sprint 2
 description: 
 published: true
-date: 2025-05-15T13:24:40.161Z
+date: 2025-06-10T12:52:12.156Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-15T13:22:25.499Z
@@ -50,6 +50,7 @@ Sammelt Ressourcen, errichtet eine automatisierte Basis und trotzt eskalierenden
 - Fortlaufendes Sammeln/Kämpfen erhöht die Bedrohungsanzeige.
 - Bei 100 % Aufmerksamkeit startet eine große Angriffswelle des Bosses.
 
+
 ## 3. Basisverteidigung
 - Verteidigt die Basis und den Kern gegen angreifende Wellen.
 - Nutzt Kristalle für Upgrades:
@@ -78,9 +79,10 @@ Sammelt Ressourcen, errichtet eine automatisierte Basis und trotzt eskalierenden
 Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welche seine Spezialisierung in der Runde bestimmt. Als nächstes wählt der Spieler seine Waffe aus, welche ihm Angriffsfähigkeiten für den Kampf zur Verfügung stellt. Jede Klasse kann im Kampf mitwirken.
 ### Charakter General
 - Bewegung: **WASD**
-- Ausweichen: **Leertaste**
+- Interagieren: **F**
 - Kampf option A: **Skill 1: Left Click,Skill 2: Right Click ,Skill 3: Q, Skill 4: E**
 - Kampf option A: **Skill 1: Alpha1,Skill 2: Alpha2 ,Skill 3: Alpha3, Skill 4: Alpha4**
+
 ### Charakter Stats
 - Health
 - Damage
@@ -93,15 +95,17 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ### Klassen
 | Klasse    | Rolle | Upgradeoption |
 |:----------|:------|:--------------|
-| **Sammler** | Fokus auf Ressourcensammeln | Schnelleres Abbauen |
-| **Kämpfer** | Fokus auf Kampf | Höhere Angriffsgeschwindigkeit |
+| **Knight** | ?? | ?? |
+| **Ranger** | höhere Sichtweite und Schaden aus der Entfernung | ?? |
+| **Healer** | Unterstützung der Mitspieler durch Buffs und Debuffs | ?? |
+| **Engenier** | Abenkung der Gegner durch eigene Geschütze | ?? |
 
 ### Inventar
 - Maximale Tragemenge an Kristallen
 
 ### Items
 - Kristall
-- Hinweise
+- Schlüssel Kristall
 
 ### Kampfarten
 - **Nahkampf (Schwert)**
@@ -119,12 +123,14 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ### Charakter Upgrades
 - 3 passive Upgrades:
   - Attack
-  - Defense
-  - Sammler: Schnelleres Abbauen | Kämpfer: Attack Speed
+  - Health
+  
 
 ### Interaktion
-- Rohstoffe abbauen und Gebäude interagieren über **Interaktion Key** (bei Nähe)
-
+über **Interaktion Key** (bei Nähe)
+- Rohstoffe abbauen 
+- Gebäude aufbauen und verbessern
+- Spieler Upgrades
 ---
 
 ## 👾 Gegner- und Gefahrensysteme
@@ -139,8 +145,12 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 - **Angriffswellen**
   - Jede neue Welle wird stärker:
     - Stärkere Monster
+    - Möglichkeit auf Mini Boss
     - Mehr Monster
-
+    
+- **Mini Boss**
+	- abgeschwächte Version von Bossmonstern
+  
 ### Gefahrenlevel
 - Zeigt an, wann die nächste Angriffswelle kommt.
 - Steigt durch:
@@ -153,6 +163,7 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ### Aggro Level
 - Einfaches **Enmity System** 
 - Ziel: Spieler können Monster nicht abusiv kiten.
+- Der "Gefährlichste" Spieler ( verursacher des meisten Schadens) wird als primäres Ziel gesetzt
 
 
 [Enmity System am Beispiel von Final Fantasy](https://ffxiv.consolegameswiki.com/wiki/Enmity)
