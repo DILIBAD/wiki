@@ -52,26 +52,26 @@ Nutze das vorgegebene Markdown-Template in GitHub und fülle es vollständig aus
 2. **Rückfragen klären:** Gegebenenfalls Pull-Requester kontaktieren.  
 3. **Dateien ansehen:**  
    - Über **Files Changed** alle Änderungen einsehen.  
-     ![fileschanged001.png](/guide/github/pullrequest/fileschanged001.png)  
+     ![fileschanged001.png](fileschanged001.png)  
    - Mit **File Filter** nur relevante Dateitypen, z. B. `.cs`.  
-     ![fileschanged002.png](/guide/github/pullrequest/fileschanged002.png)  
+     ![fileschanged002.png](fileschanged002.png)  
    - Bei `.unity`, `.prefab`, `.asset`: Nur Hauptassets nach Absprache ändern, um Merge-Konflikte zu vermeiden.  
-     ![fileschanged003.png](/guide/github/pullrequest/fileschanged003.png)  
+     ![fileschanged003.png](fileschanged003.png)  
 4. **Kommentare und Vorschläge:**  
    - **Toggle View:** Überblick behalten und Dateien einklappen.  
-     ![fileschanged004.png](/guide/github/pullrequest/fileschanged004.png)  
+     ![fileschanged004.png](fileschanged004.png)  
    - **Inline-Kommentare:** Per Hover an jeder Zeile.  
-     ![fileschanged005.png](/guide/github/pullrequest/fileschanged005.png)  
+     ![fileschanged005.png](fileschanged005.png)  
    - **Editor-Buttons:** Zusätzliche Funktionen, z. B. Formatierung.  
-     ![fileschanged006.png](/guide/github/pullrequest/fileschanged006.png)  
+     ![fileschanged006.png](fileschanged006.png)  
    - **Änderungsvorschläge:** Direkt im Editor erstellen, vom Pull-Requester übernehmbar.  
-     ![fileschanged007.png](/guide/github/pullrequest/fileschanged007.png)  
+     ![fileschanged007.png](fileschanged007.png)  
 5. **Review abschließen:**  
    - **Comment:** Nur Anmerkungen.  
    - **Approve:** Alles in Ordnung.  
    - **Request Changes:** Änderungen notwendig.  
    - **Text:** Eine Zusammenfassung aller Findings oder Protokoll der Tests die durchgeführt wurden
-     ![fileschanged008.png](/guide/github/pullrequest/fileschanged008.png)
+     ![fileschanged008.png](fileschanged008.png)
 
 ## 5. Merge
 

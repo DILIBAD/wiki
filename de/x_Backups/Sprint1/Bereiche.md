@@ -68,4 +68,4 @@ Bevor mit der technischen Umsetzung gestartet wird, sind folgende kreative und k
 | **E: Kampfsystem** | Skills, Waffen, Muster, Schaden                                  | Teammitglied D     | Feature-lastig, kann gut mit C und D kombiniert werden                         |
 
 
-![image.png](/image.png)
+![image.png](image.png)

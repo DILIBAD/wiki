@@ -211,7 +211,7 @@ Zu beginn des Spielers kann dieser aus einer Auswahl von Klassen auswählen welc
 ---
 
 ## 🧽 Benutzeroberfläche & Feedbackelemente
-![hauptmenu06.png](/hauptmenu06.png)
+![hauptmenu06.png](hauptmenu06.png)
 
 - Ressourcenanzeige (Kristalle)
 - Upgradebuttons mit Status
@@ -223,10 +223,10 @@ Bei der Findung und Validierung der anfänglichen UI-Elemente im Projekt DILIBAD
 Für die Ansicht, die der Spieler nach dem Öffnen des Spiels zu Gesicht bekommt, hat man sich für eine Begrüßung des Spielers inklusive dem Spielnamen „DILIBAD“ und einem Hauptmenü mit folgenden Unterpunkten entschieden: „Neues Spiel“, „Spiel laden“, „Einstellungen“ und „Spiel verlassen“.
 
 Über das Menü, das der Spieler während des Spielens aufrufen kann, sollten die Funktionen „Speichern“, „Upgrades“, „Graphics“-, „Lautstärkeeinstellungen“ und „Spiel verlassen“ aufrufbar sein.
-![menu.png](/menu.png)
+![menu.png](menu.png)
 
 Als essenziell für die grundlegende Spielansicht für den Benutzer haben sich die UI-Elemente „Lebenspunkte“, „Schlüsselkristalle im Inventar“, „globale Anzahl der Schlüsselkristalle im Teambesitzt“, „Anzahl der Hauptkristalle im Inventar mit Tragekapazität“ und „Miniaturansicht der Karte“ mit anliegender „Enmity-Anzeige“ herausgestellt.
 
-![ingame.png](/ingame.png)
+![ingame.png](ingame.png)
 Des Weiteren hat man sich für das Implementieren einer „Fähigkeitenleiste“ mit Tastenkürzeln für die Fähigkeiten des Charakters sowie den Knopf zum Öffnen des Einstellungsmenüs.
 Im weiteren Vorgehen werden die Funktionen auf ihre Benutzerfreundlichkeit getestet und abhängig von den Ergebnissen erweitert, verändert oder entfernt.
