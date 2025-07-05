@@ -63,4 +63,3 @@ Schreib uns über unsere offiziellen Kanäle oder stelle Fragen direkt im Wiki.
 ---
 
 *Danke, dass du Teil von **DILIBAD** bist – entdecke, befreie, baue, automatisiere und verteidige!*
-- [Personas](TechDoku/Analyse/Personas.md)
