@@ -15,4 +15,6 @@ Your content here
 [[GDD-Sprint2]]
 [[GDD-Sprint3]]
 [[GameDesignDocument]]
+[Text anzeigen](GameDesignDocument)
+
 
