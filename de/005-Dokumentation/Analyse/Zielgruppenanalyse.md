@@ -1,11 +1,12 @@
 ---
-title: Zielgruppenanalyse
+title: Zielgruppenanalyse Sprint 2
 description: 
 published: true
-date: 2025-04-28T12:05:14.851Z
+date: 2025-05-13T21:05:27.252Z
 tags: 
 editor: markdown
-dateCreated: 2025-04-27T18:52:10.320Z
+dateCreated: 2025-05-13T21:05:27.252Z
+---
 ---
 
 # Zielgruppenanalyse
