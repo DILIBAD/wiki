@@ -2,7 +2,7 @@
 title: Modulmatrix
 description: 
 published: true
-date: 2025-04-28T19:07:14.013Z
+date: 2025-07-05T14:33:57.270Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T14:41:29.883Z
@@ -40,7 +40,7 @@ Diese Matrix zeigt, welche Personen welche Module besucht haben, um schnell eine
 | Cybersicherheit im Unternehmen       |    X     |          |          |          |          |          |
 | Einführung IT-Security               |    X     |         |          |          |          |   X       |
 | Entwicklung mobiler Applikationen    |				  | 		X		|         |           |          | 				|
-| GEsellschaftliche Verantwortung in der Informatik                  |        |          |         |          |          |  X        |
+| Gesellschaftliche Verantwortung in der Informatik                  |        |          |         |          |          |  X        |
 | Haptische Benutzerschnittstellen                  |        |          |         |          |          |  X        |
 | Interaktive Systeme                  |     X    |     X     |    X     |          |          |  X        |
 | Diskrete Mathematik                  |     X    |         |          |      X    |          |          |
