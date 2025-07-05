@@ -2,10 +2,12 @@
 title: 005-Dokumentation
 description: 
 published: true
-date: 2025-04-28T12:27:34.043Z
+date: 2025-07-05T14:33:20.128Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T18:51:23.831Z
 ---
 
-# Dokumantation
+# Dokumentation
+
+
