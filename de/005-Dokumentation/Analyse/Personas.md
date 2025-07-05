@@ -9,6 +9,12 @@ dateCreated: 2025-05-15T13:29:32.360Z
 ---
 
 ---
+
+[[Persona IP2.pdf]]
+[PersonasPDF](obsidian://open?vault=wiki&file=de%2F005-Dokumentation%2FAnalyse%2FPersona%20IP2.pdf)
+
+
+
 ## 🎮 Persona 1 – Jonas (21) „Team-Student“ 
 - [ ] Wird genutzt
 
