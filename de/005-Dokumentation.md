@@ -2,7 +2,7 @@
 title: 005-Dokumentation
 description: 
 published: true
-date: 2025-07-05T14:45:16.931Z
+date: 2025-07-05T14:45:40.157Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-27T18:51:23.831Z
@@ -24,7 +24,7 @@ Kurzer Abschnitt, wofür die Funktion gedacht ist
 - Wichtigste Klassen oder Dateien
 - Ablauf / Interaktionen
 - Besondere Entscheidungen
--Reflektion
+- Reflektion
 
 ## Screenshots / Diagramme
 Bildbeispiele oder Skizzen
