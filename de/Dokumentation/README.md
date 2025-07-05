@@ -3,7 +3,7 @@
 
 > *Discover. Liberate. Build. Automate. Defend.*
 
-[GDDReadme](GDDReadme.md)
+[GDDReadme](GDD/GDDReadme.md)
 [TechDokuReadme](TechDokuReadme.md)
 [ToolsReadme](ToolsReadme.md)
 [ThirdPartyReadme](ThirdPartyReadme.md)
