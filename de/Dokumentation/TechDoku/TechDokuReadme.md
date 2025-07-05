@@ -8,5 +8,6 @@ editor: markdown
 dateCreated: 2025-07-05T15:36:32.688Z
 ---
 
-# Header
-Your content here
+# Technische Dokumentation
+
+Dies ist die Technische Dokumentation.

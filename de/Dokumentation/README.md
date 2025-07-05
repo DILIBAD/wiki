@@ -1,12 +1,3 @@
----
-title: Tools
-description: 
-published: true
-date: 2025-07-05T15:38:36.801Z
-tags: 
-editor: markdown
-dateCreated: 2025-07-05T15:38:36.801Z
----
 
 # 🎮 Willkommen im offiziellen Wiki von **DILIBAD**
 
@@ -72,3 +63,4 @@ Schreib uns über unsere offiziellen Kanäle oder stelle Fragen direkt im Wiki.
 ---
 
 *Danke, dass du Teil von **DILIBAD** bist – entdecke, befreie, baue, automatisiere und verteidige!*
+- [Personas](TechDoku/Analyse/Personas.md)
