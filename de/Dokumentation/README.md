@@ -3,11 +3,11 @@
 
 > *Discover. Liberate. Build. Automate. Defend.*
 
-[GDDReadme](GDD/GDDReadme.md) <br>
-[TechDokuReadme](TechDoku/TechDokuReadme.md)<br>
-[ToolsReadme](ToolsReadme/ToolsReadme.md)<br>
-[ThirdPartyReadme](ThirdParty/ThirdPartyReadme.md)<br>
-[GlossarReadme](Glossar/GlossarReadme.md)<br>
+[GDD](GDD/GDDReadme.md) <br>
+[TechDoku](TechDoku/TechDokuReadme.md)<br>
+[Tools](ToolsReadme/ToolsReadme.md)<br>
+[ThirdParty](ThirdParty/ThirdPartyReadme.md)<br>
+[Glossar](Glossar/GlossarReadme.md)<br>
 
 
 
