@@ -2,7 +2,7 @@
 title: Game Design Document - Sprint 3
 description: 
 published: true
-date: 2025-07-04T15:01:47.369Z
+date: 2025-07-05T14:30:38.057Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-04T15:01:47.369Z
@@ -97,4 +97,63 @@ Einzigartige Fähigkeiten, z.B.:
 Diese vielfältigen Skilltypen bieten ein breites taktisches Spektrum und sorgen für abwechslungsreiche, dynamische Kampfmechaniken. Jeder Boss besitzt einzigartige Fähigkeiten, die seine Herausforderung und Persönlichkeit unterstreichen.
 
 ---
+
+
+## 5. Map Design
+
+### 5.1 Verwendete Assets
+
+Für die Kartenlayouts wurde das Asset-Paket **„The Depths v1.5.1“** von Rafael Matos verwendet. Dieses bietet modulare Plattform- und Höhlenstrukturen, die sich für verwinkelte, mehrstufige Level mit vertikalen und horizontalen Elementen eignen.
+
+### 5.2 Kartenübersicht
+
+Das Spiel verwendet zwei Hauptkarten mit jeweils einer Variante, um Abwechslung und unterschiedliche Spielerfahrungen zu ermöglichen:
+
+- **Great Depths** (horizontaler Fokus)  
+- **Smaller Depths** (vertikaler Fokus)
+
+### 5.3 Great Depths
+
+#### Aufbau und Zielsetzung
+
+Diese Karte legt den Fokus auf horizontale Erkundung. Der Spieler wird durch bewusst gesetzte Pfade und Plattformverbindungen durch die Umgebung geführt. Dabei sollen Neugier und Entdeckerlust durch das Leveldesign belohnt werden.
+
+#### Designmerkmale
+
+- **Erkundungspfadstruktur:** Spieler können zwischen mehreren Pfaden wählen, was ein gewisses Maß an Entscheidungsfreiheit erlaubt.  
+- **Ressourcenverteilung:** Wer Erkundung betreibt, wird mit Ressourcen (z. B. Heilung, Upgrades oder Währung) belohnt.  
+- **Backtracking-Möglichkeiten:** Schlaufen und alternative Routen erlauben Rückkehr zu früheren Abschnitten.  
+- **Plattformgestaltung:** Es gibt sowohl größere Plattformen für Kampf- und Ruhebereiche als auch kleinere Übergangsplattformen.
+
+#### Bossstruktur
+
+- **Hauptboss** auf der obersten Plattform (Endpunkt der Karte).  
+- **Mini-Boss** auf einer kleineren Plattform darunter als optionaler Zwischengegner.
+
+#### Kartenvariation
+
+- **Veränderte Wege:** In dieser Variation sind einige Verbindungswege und Plattformzugänge unterbrochen oder blockiert.  
+- **Ziel:** Den Spieler zwingen, neue Routen zu wählen und so die Wiederholung von Durchläufen abwechslungsreicher zu gestalten.
+
+### 5.4 Smaller Depths
+
+#### Aufbau und Zielsetzung
+
+Diese Karte besitzt einen stärkeren vertikalen Aufbau und ist kompakter als die *Great Depths*. Die Erkundungsmöglichkeiten sind eingeschränkter, das Level fokussiert sich stärker auf Kampfintensität und vertikale Progression.
+
+#### Designmerkmale
+
+- **Vertikale Struktur:** Der Spielfortschritt erfolgt überwiegend von oben nach unten.  
+- **Begrenzte Erkundung:** Es gibt nur wenige alternative Pfade.  
+
+##### Gegnerdichte
+
+- Im **unteren Bereich** konzentrieren sich vermehrt Gegnerhorden, was die Schwierigkeit steigert.  
+- Im **oberen Bereich** befinden sich drei kleinere Plattformen, auf denen entweder ein Boss oder ein Mini-Boss platziert werden kann.
+
+#### Kartenvariation
+
+- **Startpunkt in der Kartenmitte:** Der Spieler beginnt in der Mitte der Karte, wobei der Zugang zum unteren Bereich blockiert ist.  
+- **Ziel:** Diese verkürzte Variante ermöglicht einen schnellen Bosskampf mit minimaler Erkundung.  
+- **Einsatz:** Ideal für Speedruns, Herausforderungsläufe oder Storyabschnitte mit Zeitdruck.
 
