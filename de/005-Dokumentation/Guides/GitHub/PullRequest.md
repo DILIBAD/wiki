@@ -12,6 +12,8 @@ dateCreated: 2025-05-11T09:42:01.363Z
 
 Pull Requests dienen dazu, Änderungen aus einem Branch in den zentralen Branch zu übernehmen. Um einheitliche Abläufe und eine hohe Qualität sicherzustellen, gelten folgende Regeln:
 
+[test](../../Analyse/Persona.pdf)
+
 ## 1. Zweck
 
 Ein standardisierter Pull-Request-Prozess gewährleistet:
