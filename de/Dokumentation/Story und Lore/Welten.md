@@ -1,7 +1,8 @@
 # Welten und Dimensionen
 
-## Uitta
 
+## Uitta
+![Map vom Uitta](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/uitta.png)
 Uitta stellt eine interdimensionale Zwischenwelt dar, die durch gravitative und temporale Instabilitäten geprägt ist. Ursache hierfür ist der einzigartige Kristallkern des Planeten. Diese instabilen Kristalle entstammen ursprünglich dem Urknall und dienen in allen verbundenen Dimensionen als bedeutende Energiequellen. Keiner hat je die Gesamtfläche von Uitta kartographieren können, weshalb einige vermuten, dass Uittas Größe Schwankungen unterliegt.
 
 Zwei Monde verursachen zusätzliche Ungleichgewichte in Gravitation und Wetter, wodurch variierende und dynamische Biome entstehen. Neben wunderschönen Gras- und Waldlandschaften existieren lebensfeindliche Zonen voller Lava und tiefstem Eis. Die Flora und Fauna ist vielfältig und verändert sich stark mit der Umgebung.
@@ -15,17 +16,17 @@ Legenden besagen, dass es vor Jahrtausenden einen mächtigen Magier gab, der die
 Die Erde ist in zwei verschiedene Zeitlinien eingebunden: das späte 18. Jahrhundert und das Jahr 3500. Beide existieren an unterschiedlichen Orten im Universum zur selben Zeit. Die Formung der Kristalle verlief hier sehr ähnlich, was zu vergleichbaren Raumzeitverhältnissen führte.
 
 ### 18. Jahrhundert
-
+![Artwork von der Erde](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/erde%20vergangenheit.png)
 Diese Epoche ist geprägt durch Monarchien, höfische Machtspiele und die beginnende Aufklärung. Magische Praktiken und okkulte Wissenschaften existieren als verborgene Strömungen innerhalb der Gesellschaft. Artefakte und Legenden deuten auf frühe Dimensionseinflüsse hin. Politische Instabilität und geheime Orden tragen zur Öffnung von Dimensionsrissen bei.
 
 ### Jahr 3500
-
+![Artwork von der Erde](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/erde%20zukunft.png)
 In dieser dystopischen Zukunft hat sich die Menschheit einem effizienzgetriebenen System untergeordnet. Technokratische Kontrolle, künstliche Intelligenz und soziale Punktesysteme dominieren den Alltag. Biotechnologische Eingriffe sind allgegenwärtig, Menschlichkeit hingegen Mangelware. Dimensionsrisse entstehen hier meist durch Systemüberlastung oder defekte KI-Logiken.
 
 ---
 
 ## Xarion
-
+![Artwork von Xarion](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/xarion.png)
 Xarion ist eine ehemals hochtechnologisierte Welt. Nach Kriegen, Energiekrisen und Infrastrukturkollaps fiel sie in einen Zustand prätechnologischer Rückentwicklung. Die Oberfläche ist von Ruinen und alten Maschinen durchzogen. Die wenigen Überlebenden leben in isolierten Kollektiven, welche Bruchstücke vergessener Technologien nutzen.
 
 In den tieferen Schichten verbergen sich mächtige Energiespeicher. Sie werden von rivalisierenden Fraktionen kontrolliert, die versuchen, ihre Welt neu zu formen oder durch Portale zu verlassen.
@@ -33,7 +34,7 @@ In den tieferen Schichten verbergen sich mächtige Energiespeicher. Sie werden v
 ---
 
 ## Dyrelis
-
+![Artwork von Dyrelis](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/dyrelis.png)
 Dyrelis ist eine schwebende Kristallwelt aus fliegenden Inseln, verbunden durch natürliche Energiebrücken. Die Flora und Fauna schwingt harmonisch mit magischen Flüssen, Lichtwesen und Resonanzpflanzen. Die Gesellschaft basiert auf Heilung, metaphysischem Gleichgewicht und Kristallweberkunst.
 
 Ihre Manipulation kristalliner Strukturen macht Dyrelis zu einem Schlüsselpunkt interdimensionaler Energieflüsse. Die Welt gilt als spirituelle Quelle des Kristallwissens.
