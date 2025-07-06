@@ -2,7 +2,7 @@
 title: Community
 description: 
 published: true
-date: 2025-04-20T09:51:04.823Z
+date: 2025-07-06T18:22:29.338Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-20T08:40:42.461Z
@@ -25,6 +25,7 @@ Auch wenn der Community-Aufbau ein wichtiges Teilziel ist, soll der dafür aufge
 ## Plattformen
 
 Zur Kommunikation mit der Community werden verschiedene Social-Media-Kanäle wie Instagram, X (ehemals Twitter), Threads und ähnliche Plattformen genutzt, um die gewünschte Zielgruppe zu erreichen.
+Die Integration des Plattform X wurde im Verlauf des Projektes reevaluiert und nnicht als nützlich erachtet, da die Reichweite auf dieser strark eingeschränkt wird und der textuelle Content wänig Synergie mit dem Prozess der Spieleentwicklung geboten hatte.
 
 Alle Inhalte und Informationen laufen zentral auf der offiziellen Webseite [https://dilibad.de](https://dilibad.de) zusammen. Diese wird initial mithilfe von [Loveable](https://lovable.dev/) über Prompts generiert, wodurch ein React-basiertes Frontend entsteht. Die Seite ist mit GitHub verbunden und kann zusätzlich manuell bearbeitet werden.
 
