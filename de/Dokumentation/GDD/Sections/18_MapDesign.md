@@ -59,12 +59,8 @@ Die Map ist **horizontal** orientiert, mit sukzessiver Freischaltung von **Querv
 - **Zentrales Portal** als Zugang zu anderen Karten
 - **Freischaltbare Rückverbindungen** zur Förderung von Backtracking und non-linearem Fortschritt
 
-### 7. Kartenbeispiele
 
-- Frühe Skizzen der Weltaufteilung
-- Finale Top-Down-Karte mit Biomen und Pfaden
-
-### 8. Zusammenhang mit Spielmechaniken
+### 7. Zusammenhang mit Spielmechaniken
 
 Das Leveldesign fördert einen explorativen Spielstil, ohne Spieler zu überfordern. Die Wege sind so konzipiert, dass verschiedene Spielweisen möglich sind – etwa vorsichtiges Erkunden, gezieltes Voranschreiten oder das gezielte Suchen nach versteckten Inhalten.
 
@@ -108,12 +104,8 @@ Das Layout besteht aus **verzweigten Gassen mit Kreuzungen und Sackgassen**, die
 - **Kooperatives Szenario** möglich: Spieler starten getrennt und müssen sich in der Mitte treffen
 - **Dynamische Routenöffnung**: Neue Wege erscheinen durch Spielfortschritt oder Umwelteinflüsse
 
-### 7. Kartenbeispiele
 
-- Skizzen mit vier Einstiegspunkten
-- Finales Leveldiagramm mit alternativen Routen und Begegnungszonen
-
-### 8. Zusammenhang mit Spielmechaniken
+### 7. Zusammenhang mit Spielmechaniken
 
 Die Karte nutzt instanziierte Herausforderungen, um gezielt Wiederspielwert zu erzeugen. Durch variierende Pfade und sich verändernde Spielbedingungen passt sich das Level verschiedenen Spielstilen an (z. B. stealth vs. actionorientiert).
 
@@ -157,12 +149,8 @@ Die Struktur folgt einem **spiralförmigen Aufbau** mit klar getrennten Zonen. D
 - **Dynamische Wegführung**: Blockierungen können rotieren oder verschwinden
 - **Später freischaltbare Startpunkte** erlauben gezieltere Einstiege in spätere Runs
 
-### 7. Kartenbeispiele
 
-- Erste Skizzen mit Spiralstruktur
-- Finale Map mit Pfadverläufen, Interaktionspunkten und Blockerzonen
-
-### 8. Zusammenhang mit Spielmechaniken
+### 7. Zusammenhang mit Spielmechaniken
 
 Die Karte kombiniert **Timing, Rätsel, Exploration** und sorgt dafür, dass kein Durchlauf dem anderen gleicht. Ideale Grundlage für spielmechanische Vertiefung, z. B. durch Modifikatoren oder Zeitdruck.
 
@@ -259,9 +247,6 @@ Die Lava-Kammer ist eine geschlossene Boss-Arena im Inneren eines aktiven Vulkan
 - **Natürlich wirkende Begrenzung:** Spieler wissen intuitiv, wo sie sich bewegen dürfen
 - Fokus auf **Skill-lastigen Kampf** ohne Fluchtmöglichkeit oder Pausen
 
-### 6. Kartenbeispiel
-
-**Bildreferenz:**
 
 Die Arena besteht aus:
 
@@ -269,13 +254,13 @@ Die Arena besteht aus:
 - Südlicher Einstiegspunkt über eine glühende Brücke
 - Zahlreiche kleinere Lavaelemente und Gestein, die als taktische Zonen dienen
 
-### 7. Zusammenhang mit Spielmechaniken
+### 6. Zusammenhang mit Spielmechaniken
 
 - Arena ist auf **Mobility, Timing und Raumkontrolle** ausgelegt
 - Der Boss kann Fähigkeiten besitzen, die die **Bewegung des Spielers einschränken** oder **Lavaelemente aktivieren**
 - (Optional): Lavaränder könnten bei bestimmten Bossphasen überfluten
 
-### 8. Visuelles Thema / Atmosphäre
+### 7. Visuelles Thema / Atmosphäre
 
 - **Feuer, Zerstörung, Endkampf-Stimmung**
 - Farbkontrast zwischen dunklem Gestein und gleißend roter Lava
@@ -327,9 +312,7 @@ Das Barbarenlager ist eine eigenständige Boss-Arena mit dem Fokus auf einen dir
 - Bosskampf startet automatisch bei Betreten
 - (Optional) Triggerzonen für Zuschauer-Animationen, Throninteraktion oder Kampfbeginn
 
-### 7. Kartenbeispiel
 
-**Bildreferenz:**
 
 Die Arena besteht aus:
 
@@ -338,13 +321,13 @@ Die Arena besteht aus:
 - Rechte Seite: Barbarenzelt mit Lagerfeuer
 - Nord-Süd-Achse: Inszenierter Kampfeinzug des Spielers
 
-### 8. Zusammenhang mit Spielmechaniken
+### 7. Zusammenhang mit Spielmechaniken
 
 - Der Bosskampf basiert auf Mechaniken wie **Aggro-Management, Nahkampfreichweite und Ausweichverhalten**
 - Kein Terrain-Schaden, keine Plattformgefahren – das Risiko liegt allein in der Boss-KI
 - Klare Struktur erlaubt es, **Angriffsmuster und Phasenwechsel** deutlich erkennbar darzustellen
 
-### 9. Visuelles Thema / Atmosphäre
+### 8. Visuelles Thema / Atmosphäre
 
 - **Grasfläche mit martialischer Symbolik**: Schwerter, Schädel, Banner, Thron
 - **Farbkontrast** zwischen warmem Laub und kaltem, totem Geäst schafft mystische Kriegsstimmung
