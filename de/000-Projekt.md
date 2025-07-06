@@ -12,8 +12,6 @@ dateCreated: 2025-04-27T19:58:03.255Z
 
 Entwickelt wird ein Spiel, das auf einem Multiplayer-First-Ansatz basiert und auf Unity 6 umgesetzt wird. Ziel ist es, ein stabiles, testbares Produkt zu entwickeln und parallel dazu eine engagierte Community aufzubauen, die aktiv in den Entwicklungs- und Testprozess eingebunden wird.
 
-[Game Design Dokument für Sprint 1](/de/001-GDD/Sprint1/GDD-Sprint1)
-
 
 ## Technologie
 - **Engine:** Unity 6

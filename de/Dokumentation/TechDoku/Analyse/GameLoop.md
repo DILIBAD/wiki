@@ -24,7 +24,7 @@ dateCreated: 2025-04-17T21:49:27.280Z
 
 ### 1. ⛏️ Ressourcen sammeln
 Der Spieler beginnt damit, **Rohstoffe in der Welt abzubauen** – z. B. Holz, Stein oder Metalle.  
-Diese Materialien dienen als Grundlage für den Aufbau der eigenen [Basis](./features/Bauen/Bausystem.md), neue [Ausrüstungen](./features/Entitaeten/Spieler.md) oder [Verteidigungsanlagen](./features/Bauen/Bausystem.md).
+Diese Materialien dienen als Grundlage für den Aufbau der eigenen [Basis](Bausystem.md), neue [Ausrüstungen](Spieler.md) oder [Verteidigungsanlagen](Bausystem.md).
 
 > **Hinweis:** Je mehr Rohstoffe gesammelt werden, desto stärker und schneller werden Gegnerwellen aktiviert.
 
@@ -35,8 +35,8 @@ Jede Ressourcengewinnung zieht **eine neue Gegnerwelle** an.
 Sobald die Welle ausgelöst wird, muss der Spieler seine Erkundung abbrechen und sich auf die Verteidigung konzentrieren.
 
 - Aktives Kampfsystem mit Bewegung, Blocken, Skills
-- Unterstützung durch [Tower](./features/Bauen/Bausystem.md) und automatisierte Abwehrsysteme
-- Ressourcenmanagement und [Aktionen](./features/Aktionen/Aktionen.md) entscheidend für das Überleben
+- Unterstützung durch [Tower](Bausystem.md) und automatisierte Abwehrsysteme
+- Ressourcenmanagement und [Aktionen](Aktionen.md) entscheidend für das Überleben
 
 ---
 
@@ -53,7 +53,7 @@ Mit jedem Zyklus vergrößert sich der **zugängliche Bereich der Karte**, neue 
 ### 4. 🔍 Hinweise & Bosskampf-Vorbereitung
 Durch Erkundung kann der Spieler **Hinweise** auf den Standort des Boss-Monsters finden.  
 Gleichzeitig bereitet er sich vor:
-- Verbessert seine Ausrüstung (Waffen, Rüstung, [Fähigkeiten](./features/Entitaeten/Spieler.md))
+- Verbessert seine Ausrüstung (Waffen, Rüstung, [Fähigkeiten](Spieler.md))
 - Stärkt die Basis, um letzte Wellen zu überstehen
 - Optional: Automatisierung für spätere Phasen aufbauen
 
