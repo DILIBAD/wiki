@@ -3,11 +3,13 @@
 
 > *Discover. Liberate. Build. Automate. Defend.*
 
-[GDD](GDD/GDDReadme.md) <br>
-[TechDoku](TechDoku/TechDokuReadme.md)<br>
-[Tools](ToolsReadme/ToolsReadme.md)<br>
-[ThirdParty](ThirdParty/ThirdPartyReadme.md)<br>
-[Glossar](Glossar/GlossarReadme.md)<br>
+## Inhalt
+
+- [GDD](GDD/GDDReadme.md) – Spielkonzept und Mechaniken
+- [TechDoku](TechDoku/TechDokuReadme.md) – technische Dokumentation
+- [Tools](Tools/ToolsReadme.md) – Entwicklungswerkzeuge
+- [ThirdParty](ThirdParty/ThirdPartyReadme.md) – genutzte Bibliotheken
+- [Glossar](Glossar/GlossarReadme.md) – Begriffserklärungen
 
 
 
