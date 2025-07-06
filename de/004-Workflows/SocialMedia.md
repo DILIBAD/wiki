@@ -2,7 +2,7 @@
 title: Dokumentation Social Media Konzept Sprint 1
 description: 
 published: true
-date: 2025-04-28T12:20:39.852Z
+date: 2025-07-06T18:54:47.866Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T12:19:16.104Z
@@ -79,6 +79,14 @@ Krisenkommunikation
 Grundlegend wurde festgelegt, dass mit Fehlern offen umgegangen werden soll und die
 Community mit Ehrlichkeit behandelt wird.
 
+## Fazit nach Sprint 3
+
+Nach kurzer Evaluation innerhalb einer Teambesprechunng wurde sich beschlossen von der Plattform X zu trennen, da der für sie übliche Textuelle Code nicht genung tiefe Einblicke in den Entwicklungsprozess eines Spieles bietet. Außerdem erfordert ein kontinuierlicher Reichweitenzuwachs auf der Plattform bei uneingeschränkter Reichweite eine Rate von 4-5 Posts am Tag erfordert [4], wass für den Worklfow und die zeitlichen Einschränkungen in dem Projekt sich eher als finderlich- als als förderlich herausgestellt hatte.
+Aus den initiativ auf der Plattform Instagram https://www.instagram.com/dilibad/ angedachten Formaten:  **„Shared Screen“**,
+**„Shared Code“** und **„DEVS IRL“** wurden im Verlaufe des Projektes die Formate **„Shared Code“** und **„DEVS IRL“** gestrichen.
+**„DEVS IRL“** hatte keinen Anklang in der Develloper Community außerdem hatte es sich als schwierig umzusetzen herausgestellt, da zu ca. 95% remote gearbeitet wurde. 
+Das Format **„Shared Code“** hatte sich als nicht beliebt bei der erreichten Zielgruppe gerausgestellt, da diese eher auf die visuellen Reize, wie beim Format **„Shared Screen“** angesprungen ist und dieses Format auch besser den Entwicklungsprozess des Spieles auf einfache und eingängige Weise darstellen konnte. 
+
 
 ## Quellenverzeichnis:
 
@@ -91,3 +99,4 @@ https://de.statista.com/statistik/daten/studie/290890/umfrage/altersverteilung-v
 [3] Statista Consumer Insights: Messenger: Discord-Nutzer:innen in Deutschland, in:
 Statista.
 https://de.statista.com/statistik/studie/id/98918/dokument/messenger-discordnutzerinnen-in-deutschland/ (28.04.2025)
+[4] https://braverytechnology.com/de/twitter-statistiken/?utm_source=chatgpt.com (06.07.2025)
