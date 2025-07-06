@@ -13,4 +13,4 @@ dateCreated: 2025-07-05T15:41:11.389Z
 Einstiegspunkt zum Game Design von DILIBAD.
 
 ## Inhalt
-- [Game Design Document](GameDesignDocument.md)
+- [Game Design Document](GameDesignDocument.md) – vollständiges Spieldesign

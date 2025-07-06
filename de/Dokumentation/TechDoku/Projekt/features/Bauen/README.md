@@ -1,6 +1,16 @@
+---
+title: Bauen
+description:
+published: true
+date: 2025-07-05T15:41:11.389Z
+tags:
+editor: markdown
+dateCreated: 2025-07-05T15:41:11.389Z
+---
+
 # Bauen
 
 Informationen zum Bausystem.
 
 ## Inhalt
-- [Bausystem](Bausystem.md)
+- [Bausystem](Bausystem.md) – Grundlagen des Bauens
