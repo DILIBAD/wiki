@@ -338,7 +338,7 @@ Das Spiel verwendet **zwei Inventararten**, die unterschiedliche Funktionen erf�
 
 Aktuell sind drei unterschiedliche Gegnerfraktionen implementiert:
 
-### Northmarchborn
+### Rauktar
 
 Barbarenartige Gegner mit Fokus auf Nahkampf und Fernkampfangriffe:
 
@@ -346,7 +346,7 @@ Barbarenartige Gegner mit Fokus auf Nahkampf und Fernkampfangriffe:
 - Miniboss: Oger
 - Hauptboss: Großer, golemartiger Barbar
 
-### Graveborn
+### Mortifican
 
 Skelett-basierte Gegner mit vielfältigen Klassen:
 
@@ -355,7 +355,7 @@ Skelett-basierte Gegner mit vielfältigen Klassen:
 - Miniboss: Skelett-Ritter
 - Hauptboss: Großes, brutales Skelett
 
-### Soulforge
+### Venari 
 
 Dunkle Skelettfraktion mit besonderen Fähigkeiten:
 
