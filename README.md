@@ -18,6 +18,9 @@ Interne Lern Videos:
 https://www.youtube.com/watch?v=9t9rUWjLIWk&list=PLzrn-QPaJam31ZmHYc9Uanu3P3LaABRRb
 
 
+Teile der technischen Dokumentation zum Podcast wurden ebenfalls KI-generiert. Diese Abschnitte lieferten nützliche Einstiegshilfen und ergänzte textuelle Erläuterungen, waren jedoch nicht immer in allen Details vollständig akkurat. Zudem konnten nicht alle Dokumenteninhalte automatisiert erstellt werden, weshalb fehlende Abschnitte manuell ergänzt wurden. Den vollständigen Stand der Podcast-Doku finden Sie hier:
+https://github.com/DILIBAD/wiki/tree/main/de/PodcastDocu
+
 
 ## Übersicht der DILIBAD Repositories
 
