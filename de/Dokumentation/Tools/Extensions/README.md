@@ -13,9 +13,9 @@ dateCreated: 2025-07-05T15:41:11.389Z
 Hilfsklassen und Erweiterungen für Unity.
 
 ## Inhalt
-- [Collection Extensions](Collection Extensions.md) – Hilfen für Listen
-- [Collider2D Extensions](Collider2D Extensions.md) – zusätzliche Collider-Funktionen
-- [Network-Cooldown Extensions](Network-Cooldown Extensions.md) – Netzwerk-Zeitsteuerung
-- [Stable-HashCode Erweiterung](Stable-HashCode Erweiterung.md) – konstante Hashes
-- [Transform Extensions](Transform Extensions.md) – Komfortfunktionen fürs Transform
-- [Vector2 Extensions](Vector2 Extensions.md) – Erweiterte Vektoroperationen
+- [Collection Extensions](Collection%20Extensions.md) – Hilfen für Listen
+- [Collider2D Extensions](Collider2D%20Extensions.md) – zusätzliche Collider-Funktionen
+- [Network-Cooldown Extensions](Network-Cooldown%20Extensions.md) – Netzwerk-Zeitsteuerung
+- [Stable-HashCode Erweiterung](Stable-HashCode%20Erweiterung.md) – konstante Hashes
+- [Transform Extensions](Transform%20Extensions.md) – Komfortfunktionen fürs Transform
+- [Vector2 Extensions](Vector2%20Extensions.md) – Erweiterte Vektoroperationen
