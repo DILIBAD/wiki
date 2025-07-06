@@ -56,7 +56,7 @@ Dieser Bot ist Teil der Continuous Integration und Deployment Pipeline. Er gibt 
 
 ➡️ Ideal für QA und Playtests, um sicherzustellen, dass alle dieselbe Version spielen.
 
-![[Pasted image 20250706180400.png]]
+
 
 ---
 
@@ -90,12 +90,7 @@ Dieser Bot dient dazu, Bugs direkt im Discord zu erfassen und automatisiert als 
 
 ➡️ Verlinkung zwischen Discord und GitHub ist bidirektional. Entwickler können direkt im Issue weiterarbeiten.
 
-![[Pasted image 20250706180415.png]]
 
-![[Pasted image 20250706180420.png]]
-
-
-![[Pasted image 20250706182134.png]]
 
 ---
 
