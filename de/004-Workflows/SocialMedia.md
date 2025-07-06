@@ -2,13 +2,13 @@
 title: Dokumentation Social Media Konzept Sprint 1
 description: 
 published: true
-date: 2025-07-06T19:02:05.568Z
+date: 2025-07-06T19:25:27.559Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T12:19:16.104Z
 ---
 
-# Dokumentation Social Media Konzept Sprint 1
+# Dokumentation Social Media Konzept 
 
 Aufgrund der Ergebnisse der Zielgruppenanalyse und dem Betrachten des aktuellen
 Zeitgeistes wurde die Entscheidung getroffen, das Projekt „DILIBAD“ und seine
