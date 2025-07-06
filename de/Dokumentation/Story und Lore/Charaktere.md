@@ -3,6 +3,7 @@
 Im Zentrum der narrativen Struktur stehen vier spielbare Protagonisten, die aus unterschiedlichen Dimensionen und Zeitebenen stammen. Jeder Charakter repräsentiert eine eigene kulturelle und physikalische Weltprägung, was sowohl narrative Diversität als auch ein breites Spektrum an Fähigkeiten und Spielmechaniken ermöglicht. Die Charaktere verkörpern die jeweiligen kulturellen Besonderheiten ihrer Herkunftsdimensionen in Bezug auf technologisches Wissen, Magie, Ideologie und persönliche Geschichte.
 
 ## Glorbo – *der Knight*
+![Ingame Bild des Knight](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/knight.png)
 
 In einer Zeit zwischen höfischer Pracht und aufkeimender Aufklärung, als die Burgen Europas noch über sanfte Täler wachten und Mozarts Musik durch die Hallen der Adelshäuser klang, wurde Glorbo geboren. Als einziger Sohn des Kurfürsten Georg von Hannover wuchs er inmitten von Prunk, Pflicht und alten Legenden auf. Schon früh zeigte er einen scharfen Verstand, Tapferkeit im Umgang mit dem Schwert und ein Herz, das sich nach Gerechtigkeit sehnte. Gelehrte sagten ihm eine große Zukunft voraus. Sein Vater, ein strenger, jedoch prinzipientreuer Herrscher, bereitete ihn mit harter Hand auf die Thronfolge vor. Doch hinter dem Glanz des Hofes formte sich ein dunkler Schatten. Frilue, Glorbos älterer Bruder, blieb stets im Hintergrund. Er verbarg seine wahren Absichten hinter einem Lächeln, das seine Augen nie erreichte.
 
@@ -13,6 +14,7 @@ Mithilfe dieses Artefakts wollte Frilue die Realität selbst nach seinem Willen 
 Als er erwachte, lag er in einer fremden, chaotischen Landschaft. Er erkannte nichts wieder, doch ein Gefühl blieb. Tief in seinem Inneren war etwas, das nicht gebrochen werden konnte. Eine brennende Entschlossenheit. Er wusste nicht, was genau ihm genommen worden war, doch spürte, dass er es zurückholen musste. Der Name Frilue sagte ihm nichts mehr, aber die Wut, die sich in ihm regte, war real. Sie war alt, tief und voller Bedeutung. So beginnt Glorbos Reise in einer Welt, die aus den Fugen geraten ist. Er sucht nicht nur nach einem Weg zurück, sondern auch nach der Wahrheit über sich selbst. Seine Erinnerungen kehren Stück für Stück langsam zurück. Er ist ein Prinz ohne Königreich, ein Erbe ohne Thron, aber in seinem Herzen lebt ein unerschütterlicher Wille weiter. Denn manche Bestimmungen lassen sich selbst vom Chaos nicht auslöschen.
 
 ## Zotshi – *die Archerin*
+![Ingame Bild der Archerin](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/Archer.png)
 
 Im Jahr 3500 war die Menschheit längst über ihre biologische Begrenzung hinausgewachsen. Riesige Megastädte schwebten über den Ozeanen, während künstliche Intelligenzen ganze Kontinente verwalteten. Die Welt hatte sich von Nationen verabschiedet und war nun in Sektoren unterteilt, sortiert nach Effizienz und Funktion. In dieser radikal technisierten Gesellschaft gab es keinen Raum für Schwäche, keinen Platz für Fehler. Jeder Mensch war nur so viel wert, wie er zum Funktionieren des Systems beitrug.
 
@@ -25,6 +27,7 @@ Der Verhandlungssaal war grell erleuchtet, steril, von schwebenden Drohnen über
 Zotshi wurde von einer unsichtbaren Kraft mitgerissen. Ihre Gedanken verschwammen, ihr Bewusstsein taumelte in einem Strudel aus Licht, Geräuschen und Erinnerungen. Als sie die Augen wieder öffnete, war alles anders. Der metallene Glanz ihrer alten Welt war verschwunden. Über ihr wölbte sich kein Betonhimmel, sondern ein echtes Firmament. Unter ihr lag Erde, wild und fremd. Die Maschinen waren verstummt. Ihre Erinnerung war brüchig. Sie erinnerte sich an Hunger. An kalte Augen aus Stahl. An das Gefühl, unerwünscht zu sein. Doch hier war sie nun. In einem Ort jenseits aller Systeme. Ohne Regeln, ohne Zuteilung. Zum ersten Mal verspürte sie etwas, das ihr nie erlaubt worden war: die Möglichkeit, selbst zu entscheiden. Es war keine Sicherheit. Aber es war Freiheit.
 
 ## Esnikel – *der Mage*
+![Ingame Bild des Mage](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/mage.png)
 
 In einer fernen Dimension voller Licht und Harmonie, hoch über dem Grund der bekannten Welt, schwebte Dyrelis. Diese Welt bestand aus kristallenen Inseln, durchzogen von leuchtender Energie und durchdrungen von einem feinen Klang, der niemals verstummte. Ihre Bewohner lebten im Einklang mit ihrer Umgebung und webten Magie nicht aus Zaubersprüchen, sondern aus Farben, Licht und Resonanz. Ihre Kunst war eine Melodie aus Heilung und Gleichgewicht.
 
@@ -40,6 +43,7 @@ Esnikel wurde zu einem ruhenden Pol. Ein Wanderer, der nicht mit dem Schwert, so
 
 
 ## Reifper – *der Engineer*
+![Ingame Bild des Engineers](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/engi.png)
 
 In einer Zukunft, deren Datum längst im Dunkel vergangener Zeitalter verschwunden ist, trieb Xarion durch die Leere eines vergessenen Sonnensystems. Dieser gigantische, künstlich geschaffene Planet war einst der letzte Hoffnungsschimmer der Menschheit gewesen. Nach Kriegen, Umweltkollaps und dem Zusammenbruch aller bekannten Gesellschaften hatten die Überlebenden sich in dieses technische Wunderwerk gerettet.
 
