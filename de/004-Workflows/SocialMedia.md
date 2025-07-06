@@ -2,7 +2,7 @@
 title: Dokumentation Social Media Konzept Sprint 1
 description: 
 published: true
-date: 2025-07-06T19:25:37.306Z
+date: 2025-07-06T19:39:58.369Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T12:19:16.104Z
