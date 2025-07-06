@@ -63,4 +63,4 @@ Ein Bot automatisiert Feedback-Prozesse und leitet Eingaben direkt weiter. Die P
 ➡️ Eskalationen = Weitere Person einbeziehen → ggf. ins Meeting bringen  
 ➡️ **Ziel:** Klarer Überblick & effiziente Kommunikation im Team
 
-👉 [Zum vollständigen Workflow-Dokument](Dokumentation.md)
+👉 [Zum vollständigen Workflow-Dokument](Verifikationsprozess.md)

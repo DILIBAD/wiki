@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2025-07-05T15:40:08.613Z
 ---
 
-# ## Entscheidung für Frameworks: Mirror & Master Server Toolkit (MST)
+# Entscheidung für Frameworks: Mirror & Master Server Toolkit (MST)
 
 Für das Projekt DILIBAD wurde die Entscheidung getroffen, Mirror als primäre Netzwerkbibliothek und das Master Server Toolkit (MST) zur Ergänzung der Serverfunktionalitäten zu nutzen. Diese Wahl basiert auf den Anforderungen aus dem Game Design Document (GDD), insbesondere den kooperativen Multiplayer-Mechaniken, der Flexibilität bei der Spielerzahl sowie dem Bedarf an dedizierten Serverlösungen.
 
