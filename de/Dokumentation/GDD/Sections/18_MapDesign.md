@@ -1,16 +1,16 @@
 # Map Design
 
-## 5. Map Design
+## Map Design
 
-### 5.2 Kartenübersicht
+### Kartenübersicht
 
 Das Spiel verwendet fünf Karten teils mit Varianten, um Abwechslung und unterschiedliche Spielerfahrungen zu ermöglichen:
 
 - **Der Zweigwald**
 - **Die Verfallene Stadt**
 - **Das Sonnenlabyrinth**
-- **Great Depths** (horizontaler Fokus)
-- **Smaller Depths** (vertikaler Fokus)
+- **Great Depths** 
+- **Smaller Depths** 
 - **Lava-Kammer**
 - **Barbarenlager**
 
@@ -166,7 +166,7 @@ Die Struktur folgt einem **spiralförmigen Aufbau** mit klar getrennten Zonen. D
 
 Die Karte kombiniert **Timing, Rätsel, Exploration** und sorgt dafür, dass kein Durchlauf dem anderen gleicht. Ideale Grundlage für spielmechanische Vertiefung, z. B. durch Modifikatoren oder Zeitdruck.
 
-### 5.3 Great Depths
+### Great Depths
 
 verwendete Asseets:
 
@@ -193,7 +193,7 @@ Diese Karte legt den Fokus auf horizontale Erkundung. Der Spieler wird durch bew
 - **Veränderte Wege:** In dieser Variation sind einige Verbindungswege und Plattformzugänge unterbrochen oder blockiert.
 - **Ziel:** Den Spieler zwingen, neue Routen zu wählen und so die Wiederholung von Durchläufen abwechslungsreicher zu gestalten.
 
-### 5.4 Smaller Depths
+### Smaller Depths
 
 verwendete Asseets:
 
