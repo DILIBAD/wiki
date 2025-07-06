@@ -1,12 +1,12 @@
-# 4. In-Game Interface & Spielerinteraktion
+# In-Game Interface & Spielerinteraktion
 
-## 4.1 Überblick
+## Überblick
 
 Die Benutzeroberfläche (UI) ist ein zentraler Bestandteil des Spielerlebnisses. Sie wurde so gestaltet, dass alle relevanten Informationen intuitiv auffindbar sind, ohne das Spielgeschehen zu überfrachten. Dabei wurde auf klare Strukturen, schnelle Rückmeldung und visuelle Hierarchie geachtet.
 
 ---
 
-## 4.2 Ressourcenanzeige (oben rechts)
+## Ressourcenanzeige (oben rechts)
 
 In der oberen rechten Ecke des Bildschirms werden die gesammelten **Ressourcen** angezeigt.
 Diese umfassen:
@@ -22,7 +22,7 @@ Die Position oben rechts wurde gewählt, um während des Spielens einen schnelle
 
 ---
 
-## 4.3 Spieleranzeige (unten mittig)
+## Spieleranzeige (unten mittig)
 
 Unten in der Mitte befindet sich das **Spielerinterface**, bestehend aus:
 
@@ -34,7 +34,7 @@ Das Interface wurde mittig platziert, um maximale Kontrolle und Übersicht im Ge
 
 ---
 
-## 4.4 Inventar & Wave-Anzeige (unten rechts)
+## Inventar & Wave-Anzeige (unten rechts)
 
 Im rechten unteren Bereich werden zwei zentrale Elemente kombiniert:
 
@@ -46,7 +46,7 @@ Die Kombination aus beiden Elementen schafft Übersichtlichkeit. Das Wave-System
 
 ---
 
-## 4.5 Interaktive Objekte
+## Interaktive Objekte
 
 ### Upgrade-Tisch
 
@@ -81,7 +81,7 @@ Der Teleporter eröffnet taktische Optionen und erlaubt, sich **zwischen Basis u
 
 ---
 
-## 4.6 Ausblick
+## Ausblick
 
 Die UI ist modular aufgebaut und wird künftig um neue Anzeigen (z. B. Gruppenanzeige im Multiplayer) erweitert. Auch Tooltip-Systeme und kontextabhängige Hinweise sind in Planung.
 
