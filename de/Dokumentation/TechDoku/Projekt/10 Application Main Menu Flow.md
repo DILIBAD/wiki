@@ -55,20 +55,6 @@ Dieses Teilsystem wurde entwickelt, um die Logik zur Anzeige und zum Verbergen d
     - **DevMode-Ausnahmen**: Spezielle Pfade für Editor-Modus müssen separat getestet und dokumentiert werden.
         
 
-## Screenshots / Diagramme
-
-- **Sequenzdiagramm**: Darstellung der Event-Kette von `Mst.Connection.OnStatusChanged` → `ApplicationStateService` → `ApplicationMainMenuFlow.Process` → `UIService`-Aufrufe.
-    
-- **Zustandsdiagramm**: Visualisierung der `ApplicationStates` (Offline, Loading, MainMenu, InGameSession) und Übergänge.
-    
-- **UI-Screenshot-Vorschläge**:
-    
-    - Login-Screen vor Authentifizierung
-        
-    - Initial-Load-Gates während des Ladevorgangs
-        
-    - Vollständiges Main Menu mit Party-, Chat- und Matchmaking-Fenstern
-        
 
 ## Tests
 

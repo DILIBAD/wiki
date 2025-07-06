@@ -30,13 +30,6 @@ Die Erweiterung dient dazu, GameSession-spezifische Logik beim Starten eines Spi
   - Kein direkter Bezug auf Spielmodi oder zusätzliche Logiken; Erweiterbarkeit über `CustomProperties` möglich.  
   - Potenzielle Race-Conditions bei gleichzeitigen Spielerbeitritten werden implizit durch Events behandelt, jedoch nicht explizit abgesichert.
 
-## Screenshots / Diagramme  
-- Ablaufdiagramm:  
-  - Ereignis: Raumregistrierung → Setzen der Raumoptionen → Speichern im MST  
-  - Ereignis: Spieler betritt/verlässt → Zählen der Spieler → Aktualisieren der Option „OnlineCount“ → Speichern im MST
-
-- Datenflussdiagramm:  
-  - `RoomServerManager` ⇆ `GameSessionServer` ⇆ `Mst.Server.Rooms`
 
 ## Tests  
 Manuelle Testfälle zur Verifikation:

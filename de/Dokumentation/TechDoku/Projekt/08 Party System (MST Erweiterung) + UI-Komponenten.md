@@ -62,15 +62,6 @@ Das System soll die Gruppierung von Spielern zu Partys erleichtern – als Vorbe
 - Keine Drag&Drop- oder Sortiermöglichkeiten für Mitglieder  
 - Ready-State nur visuell erkennbar, keine Interaktion darüber möglich  
 
-## Screenshots / Diagramme  
-- Vorschläge:  
-  - `UIPartyWindow` mit Party-Infos, Mitgliedsliste und Buttons  
-  - `UIPartyPromotionWindow` mit angezeigter Party und Aktionsbuttons  
-  - Mockup eines `UIPartyMemberDisplayElement` mit Ready-Status-Anzeige  
-- Zustandsdiagramm:  
-  - User nicht in Party → `Create` oder `Join`  
-  - User in Party → Anzeige Mitglieder, Leave möglich  
-  - UI wechselt abhängig von Events (`OnPartyJoined`, `OnPartyLeft` usw.)  
 
 ## Tests  
 

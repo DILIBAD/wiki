@@ -59,16 +59,6 @@ Dieses Teilsystem wurde entwickelt, um
     - Unimplementierte Methode `SERVER_AddDrop` signalisiert Erweiterungsbedarf für dynamische Drops (z. B. besondere Gegenstände).
         
 
-## Screenshots / Diagramme
-
-- **Inspector-Ansicht LootTable**: Konfiguration mehrerer `LootProbabilityEntry`-Assets mit Wahrscheinlichkeiten und Mengen.
-    
-- **Sequenzdiagramm**:
-    
-    1. `OnDeath` / `OnDisconnect` → 2. `LootDropHandler.SERVER_HandleDropEvent()` → 3. `LootTable.GetEntry()` → 4. `SpawnService.Server_Spawn(...)`.
-        
-- **Datenflussdiagramm**: Veranschaulicht die Pathway von Scriptable Objects über Service Locator bis zum Mirror-Spawner.
-    
 
 ## Tests
 

@@ -58,13 +58,7 @@ Diese Klasse regelt die Grundfunktionen von Health:
     - – Potenzielle Speicherlecks bei mehrfacher CancellationSource-Erzeugung
         
 
-## Screenshots / Diagramme
-
-- **Zustandsmaschine**: Full → Damage → Delay → Regen → Full
-    
-- **Ablaufdiagramm**: `SERVER_Modify` → Hook → Event → (Regen-Setup) → `RegenerateAsync`
-    
-
+## 
 ##  Tests Manuell oder durch Code ensurance
 
 1. **Health-Clamp**

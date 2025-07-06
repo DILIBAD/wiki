@@ -33,10 +33,6 @@ Der `PurchaseService` wurde geschaffen, um Kaufentscheidungen und -vorgänge kon
   - **Nachteil**: Duplizierte Methoden für Client und Server erhöhen Pflegeaufwand.  
   - **Risiko**: Fehlende Transaktionssicherheit bei Teilausführungen, keine Rollback-Mechanismen bei Teilfehlern.
 
-## Screenshots / Diagramme  
-- **Sequenzdiagramm**: Ablauf von `CLIENT_CanFulfill` → `CLIENT_Purchase` → Event-Callbacks.  
-- **Flussdiagramm**: Entscheidungsbaum für Lokale vs. Globale Entnahme.  
-- **Komponentenübersicht**: Klasse PurchaseService mit Events und Partnern.
 
 ## Tests  
 1. **Validierungsprüfung**  

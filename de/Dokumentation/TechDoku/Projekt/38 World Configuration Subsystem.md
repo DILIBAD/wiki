@@ -62,16 +62,7 @@ Das World Configuration Subsystem fasst sämtliche ScriptableObject-basierten Ko
     - _Contra_: Nur eine Config aktiv, kein Lazy-Loading, fehlendes Pooling, Editor-Validierung unvollständig, keine Mehrseiten-Lokalisierung.
         
 
-## Screenshots / Diagramme
 
-- **Inspector-Screenshot** von AssetNexusConfigTemplate mit allen Referenzfeldern.
-    
-- **Inspector-Screenshot** von FactionConfigTemplate mit BossMap, Kartenliste und NPC-Entries.
-    
-- **Sequenzdiagramm**: WarmUp → Load Config → SetupResources → Laufzeit-Getter → SpawnService.
-    
-- **Klassendiagramm**: AssetNexusService ↔ ConfigTemplates ↔ Interfaces; FactionConfigTemplate ↔ FactionEntityConfigEntry.
-    
 
 ## Tests
 

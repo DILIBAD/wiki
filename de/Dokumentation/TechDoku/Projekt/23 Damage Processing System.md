@@ -62,12 +62,7 @@ Dieses Subsystem wurde entwickelt, um die reine Gesundheitsverwaltung von allen 
     - – Abhängigkeit von Service Locator erschwert Unit-Tests
         
 
-## Screenshots / Diagramme
-
-- **Sequenzdiagramm**: Aufruf `SERVER_ApplyDamage` → `CanReceiveDamage` → `SERVER_ApplyDefenseOnIncomingDamage` → `Health.SERVER_Modify` → Event
-    
-- **Datenflussdiagramm**: Ursprung (Angreifer) → `DamagePayload` → Prozessor → Health
-    
+## 
 
 ## Tests
 

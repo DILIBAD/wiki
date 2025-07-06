@@ -58,14 +58,6 @@ Anstatt mehrere Singletons direkt anzusprechen, existiert ein zentraler ServiceL
 - Die Abstraktion durch Interfaces erhöht die Komplexität bei der initialen Einrichtung, verbessert langfristig jedoch die Wartbarkeit und Flexibilität.
     
 
-## Screenshots / Diagramme
-
-- **Diagramm 1**: Service-Lifecycle-Ablauf (WarmUp → Start → AfterStart → AfterSceneLoaded → Stop)
-    
-- **Diagramm 2**: Architektur-Übersicht mit `ServiceLocator`, `ServiceManager` und Services
-    
-- **Screenshot**: Beispielkonfiguration eines Services im Unity-Editor
-    
 
 ## Tests
 

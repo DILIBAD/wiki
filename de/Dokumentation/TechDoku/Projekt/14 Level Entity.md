@@ -72,18 +72,6 @@ Die `LevelEntity` wurde entwickelt, um den bisherigen, zeitaufwändigen Editor-W
     - Die Validierung in dieser Version zeigte signifikante Performancesteigerung, erlaubt aber gezielte Identifikation von Refactor-Punkte.
         
 
-## Screenshots / Diagramme
-
-- **Inspector-Ansicht**: Kategorien-Dropdown mit validierten Schlüsseln.
-    
-- **Sequenzdiagramm**:
-    
-    1. `SERVER_SetupLevel` → `InitialSetup` → `SetupCategory`
-        
-    2. `OnTriggerEnter2D` → Spieler-Tracking → Map-Visibility → AudioZone-Tracking
-        
-- **Datenfluss**: Kategorie → Parent-Transform → Child-Marker → SpawnManager → SpawnEntities
-    
 
 ## Tests
 

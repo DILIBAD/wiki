@@ -87,11 +87,6 @@ Dieser Topic fasst sämtliche Verantwortlichkeiten der Game-Loop-Infrastruktur z
 - **Editor-Assets vs. Runtime-Daten**  
   ScriptableObjects sind Editor-freundlich, aber JSON-basiertes Nachladen und Dashboard-Steuerung fehlen bisher.
 
-## Screenshots / Diagramme  
-- **Inspector-Ansicht** von `GameLoopConfigTemplate`: Alle Parameter-Gruppen (Wave, Boss, Danger, Rewards, Respawn).  
-- **Sequenzdiagramm**: Darstellend alle Phasen (WarmUp → DangerTick → WaveStart/End → BossFight → EndGame) und MST-Interactions.  
-- **Datenflussdiagramm**: `GameLoopService` greift via ServiceLocator auf Subsysteme zu und kommuniziert mit MST (RoomOptions / CustomProperties).
-
 ## Tests  
 1. **Asset-Erstellung & -Laden**  
    - Neues `GameModeConfig` anlegen, im Editor befüllen, beim Start prüfen, ob `WarmUp()` das richtige Asset lädt.  

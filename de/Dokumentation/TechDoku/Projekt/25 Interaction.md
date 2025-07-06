@@ -65,14 +65,6 @@ Dieses Subsystem wurde entwickelt, um sämtliche Interaktionslogiken (Sammeln, T
     - **Fehlerbehandlung:** Rückfallmechanismen bei fehlgeschlagenen SyncVars oder abgebrochenen Commands sind minimal – zukünftige Erweiterungen könnten robustere Retries oder Fehlerlogs erfordern.
         
 
-## Screenshots / Diagramme
-
-- **Sequenzdiagramm**: Ablauf vom `CLIENT_TryInteract` über Cmds bis `SERVER_Interact` und zurück via RPC.
-    
-- **Datenflussdiagramm**: Zeigt SyncVar-Hooks, Commands und RPCs im Mirror-Netzwerk.
-    
-- **UI-Mockup**: Beispiel eines konfigurierbaren Interaktionsfensters mit Platz für Icon, Text und Zusatzinfos (über `Icon` und `Text` der InteractableBase).
-    
 
 ## Tests
 

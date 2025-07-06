@@ -31,11 +31,6 @@ Dieses Teilsystem wurde entwickelt, um einen gemeinsamen Rohstoffpool bereitzust
   - **Nachteil**: Zusätzliche Abstraktionsschicht erhöht Komplexität und Potenzial für Synchronisations-Race-Conditions.  
   - **Alternative**: Direkte Integration in lokalem Inventar, aber dadurch weniger Flexibilität und höhere Kopplung.
 
-## Screenshots / Diagramme  
-- **Service-Lifecycle**: Diagramm der Phasen WarmUp → ServerInitialize → OnStartServer/OnStartClient → OnStop…  
-- **Datenfluss**: Flowchart vom Netzwerk-Event bis zur Aktualisierung des globalen Containers und Auslösen von `OnInventoryUpdated`.  
-- **Komponentenübersicht**: UML-Klassendiagramm mit ServiceLocator, ServiceBase, IItemContainer und GlobalInventoryService.
-
 ## Tests  
 1. **Prefab-Spawn**  
    - Konfiguration ändern, Spiel starten → globales Inventory-Objekt erscheint im Netzwerk.  

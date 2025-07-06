@@ -38,10 +38,6 @@ Das System erlaubt eine sichere, aber einfache Benutzer-Authentifizierung zur Sp
 - UI ist bewusst minimalistisch gehalten für Entwicklungszwecke, nicht produktionsreif.
 - Die vollständige Steuerung durch `AuthBehaviour.Instance.SignIn(...)` ist zwar elegant, aber ein Blackbox-Risiko bei Debugging.
 
-## Screenshots / Diagramme  
-- Screenshot der Loginmaske mit Username-, Passwort- und RememberMe-Feldern.  
-- Ablaufdiagramm: Button „Login“ → `AuthBehaviour.SignIn` → MST Auth → AccountService → Spielbeitritt.  
-- Diagramm: `UILoginScreen` wechselt dynamisch zwischen `_connectedPanel` und `_notConnectedPanel`.
 
 ## Tests  
 

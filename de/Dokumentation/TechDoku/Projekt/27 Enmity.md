@@ -57,14 +57,7 @@ Dieses Teilsystem wurde entwickelt, um NPCs eine intelligente Zielwahl zu ermög
     - **Server-only Ausführung**: Konsistenz über Clients garantiert, erfordert aber eigenen Mechanismus, wenn Zielanzeige clientseitig nötig ist.
         
 
-## Screenshots / Diagramme
 
-- **Datenflussdiagramm**: Darstellung von OnDamage → LogDamage → Tick → Detect/Decay → SortAndNotify → OnPrimaryTargetChanged
-    
-- **Sequenzdiagramm** für den Zielwechsel: Spieler betritt Radius → Mindestbedrohung gesetzt → Bedrohungswert überholt Gebäude → Event „PrimaryTargetChanged“
-    
-
-> _Vorschlag:_ Ein einfaches Ablaufdiagramm in PlantUML oder ein Unity-Screenshot der Physik-OverlapCircle-Einstellungen.
 
 ## Tests
 

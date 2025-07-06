@@ -78,19 +78,6 @@ Dieses Subsystem wurde entwickelt, um die Bewegung von Agents in einer 2D-Welt m
     - **Entkoppelung**: Interfaces ermöglichen, das Subsystem bei einem Refactor unkompliziert gegen eine reine 2D-Lösung auszutauschen.
         
 
-## Screenshots / Diagramme
-
-- **UI-Screenshot**: Inspector-Ansicht eines Agents mit `NavMeshAgent2D` und `NetworkNavMeshAgent2D`.
-    
-- **Ablaufdiagramm**:
-    
-    - Client-Input → CmdMove → Server setzt Agent → NetworkNavMeshAgent2D-Serialize → Clients apply Velocity/Destination.
-        
-- **Datenflussdiagramm**:
-    
-    - Mehrere `NavMeshSurface` → NavMeshData (per Level) → `NavMeshAgent2D` → Sync (Mirror) → Clients.
-        
-
 ## Tests
 
 1. **Level-Laden & NavMeshSurface**

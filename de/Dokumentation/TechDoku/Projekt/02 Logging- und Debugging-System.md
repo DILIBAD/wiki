@@ -48,28 +48,6 @@ Die Wahl einer flachen Struktur für Systeme wurde zunächst getroffen, um eine 
 
 Die Implementierung einer Subsystem-Logik sollte strategisch erfolgen, sobald das Projekt insgesamt ausgereifter ist und eine detailliertere Nachverfolgung verschiedener Unterbereiche notwendig wird.
 
-## Screenshots / Diagramme
-
-Empfohlene Ergänzungen:
-
-- Screenshot des aktuellen **LoggerConfiguratorWindow**.
-    
-- Konzeptuelles Diagramm der geplanten hierarchischen Struktur für zukünftige Subsysteme.
-    
-
-Beispiel:
-
-```
-Core
-├── Initialization
-├── StateManagement
-└── DataManagement
-
-AI
-├── Pathfinding
-├── DecisionMaking
-└── BehaviorTrees
-```
 
 ## Tests
 

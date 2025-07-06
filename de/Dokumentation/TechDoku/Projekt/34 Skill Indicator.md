@@ -84,28 +84,6 @@ Das Indicator Subsystem wurde entwickelt, um in einem Mirror-basierten Unity-Pro
     - **Transform-Manipulation** kann mit anderen Komponenten kollidieren, wenn mehrere Skripte `localScale` ändern
         
 
-## Screenshots / Diagramme
-
-- **Inspector-Setup**:
-    
-    - Zuweisung des Indicator-Transforms und der Achsen-Flags
-        
-    - Referenz zum AbilityManager für Skill-Radius
-        
-- **Sequenzdiagramm**:
-    
-    ```
-    Server       Client A       Client B
-       |              |               |
-       |---Trigger--->|               |
-       |              |--RpcTrigger-->|
-       |              |               |
-       |              |--ShowLoopAsync()
-       |              |               |
-    ```
-    
-- **Transform-Hierarchie**: Darstellung der Child-Beziehung zwischen Skill-Objekt und Indikator
-    
 
 ## Tests
 

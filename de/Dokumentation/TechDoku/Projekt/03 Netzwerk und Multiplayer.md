@@ -45,13 +45,7 @@ Die Klassen DilibadNetworkManager und GameNetworkService verwalten die Netzwerkv
     
 - Die Nutzung von Events zur Kommunikation zwischen Klassen ermöglicht eine lose Kopplung und gute Wartbarkeit, erhöht jedoch die Komplexität im Debugging.
     
-
-## Screenshots / Diagramme
-
-- Ablaufdiagramm zur Client-Server-Verbindung und Event-Kommunikation.
-    
-- Diagramm der Interaktion zwischen MST und NetworkManager.
-    
+   
 
 ## Tests
 

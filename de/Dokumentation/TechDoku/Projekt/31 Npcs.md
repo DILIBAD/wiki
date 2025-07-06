@@ -76,16 +76,7 @@ Durch die Zusammenführung dieser drei Komponenten wird ein konsistentes und erw
 - **Determinismus vs. Varianz**: Zufällige Skill-Auswahl fördert Varianz im Verhalten, erschwert jedoch reproduzierbares Balancing.
     
 
-## Screenshots / Diagramme
 
-- **Sequenzdiagramm**: HealthUpdate → PhaseManagement → PhaseEffect-Ausführung.
-    
-- **Ablaufdiagramm SkillPicker**: Cooldown-Prüfung → Filter → Skill-Auswahl → Trigger.
-    
-- **State Transition Graph**: Visualisierung aller `NpcState`-Implementierungen und ihrer Evaluierungsbedingungen.
-    
-- **Inspector-Screenshots**: Konfiguration von `PhaseEffect`, `SkillsComponent` und State-Definitionen als ScriptableObjects.
-    
 
 ## Tests (Manuell)
 

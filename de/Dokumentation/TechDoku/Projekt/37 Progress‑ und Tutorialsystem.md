@@ -54,14 +54,6 @@ Ziel ist es, durch lose Kopplung über Event‑IDs und eine klare Trennung von L
     - **Nachteile**: String‑IDs und leere Exception‑Blöcke erschweren Debugging; keine Kontext‑Payloads; fehlende Persistenz.
         
 
-## Screenshots / Diagramme
-
-- **Event‑Flow‑Diagramm**: Visualisierung, wie ein Game‑Event vom Bus über `ProgressEntry` zu den Tasks gelangt.
-    
-- **Sequenzdiagramm**: Vergleich paralleler vs. sequentieller Task‑Bearbeitung und Tutorial‑Übergang.
-    
-- **Komponenten‑Diagramm**: Darstellung der Module `TutorialService`, `ProgressEntry`, Task‑Implementierungen, UI‑ und Audio‑Komponenten.
-    
 
 ## Tests
 

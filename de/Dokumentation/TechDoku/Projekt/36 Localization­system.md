@@ -56,14 +56,6 @@ Das Subsystem wurde entwickelt, um mehrsprachige Benutzeroberflächen in Unity-P
     - **Schlüsselverwaltung**: Automatische Reflection erleichtert Konsistenz, erhöht aber Build-Zeit im Editor und setzt auf korrekte Attribut-Dekoration in Scripts.
         
 
-## Screenshots / Diagramme
-
-- **Sequenzdiagramm**: Ablauf beim Sprachwechsel (Service → API → Persistenter Speicher → UI)
-    
-- **Datenflussdiagramm**: Key-Erfassung im Editor (ScriptableObjects/Reflection → JSON)
-    
-- **UI-Mockup**: EditorWindow „Export Missing Keys“ mit Fortschrittsanzeige und Log-Ausgabe
-    
 
 ## Tests
 

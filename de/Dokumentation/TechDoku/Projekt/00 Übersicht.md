@@ -1,1 +1,0 @@
-# Service-Verwaltung und Systeminitialisierung

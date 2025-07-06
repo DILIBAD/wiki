@@ -48,17 +48,7 @@ Durch die Implementierung von `ILootingEntity` werden Loot-Mechaniken wie zufäl
     - – **Netzwerk-Overhead**: Zusätzliche Commands/SyncList-Events für Loot-Operationen.
         
 
-## Screenshots / Diagramme
 
-- **Inspector-View**: Felder `_maxItems`, `_canStore`, Loot-Tabelle-Referenz.
-    
-- **Sequenzdiagramm**:
-    
-    ```text
-    Server startet → OnStartServer() → PopulateLoot() → SyncList initialisiert  
-    Client öffnet Loot-UI → Cmd_LootItem(slot) → SERVER_Remove → SyncList.OnRemove → OnLooted() → UI-Update
-    ```
-    
 
 ## Tests
 

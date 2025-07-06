@@ -56,12 +56,7 @@ Diese Komponente bündelt die Client-seitige Interaktionslogik und das Dialog-Ma
     - _Nachteile_: Kein serverseitiges Backup oder Validierung des Dialog-Zustands, hoher Speicherbedarf beim großen Dialogumfang
         
 
-## Screenshots / Diagramme
 
-- **Sequenzdiagramm**: Spieler-Interaktion → DialogWindow-Methoden → Interaktionsende
-    
-- **Klassendiagramm**: Beziehungen zwischen DialogInteractable, DialogFactory, Dialog und DialogEntry
-    
 
 ## Tests
 

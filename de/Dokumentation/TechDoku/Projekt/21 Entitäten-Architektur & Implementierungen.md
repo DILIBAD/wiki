@@ -82,13 +82,7 @@ Sicherstellen, dass Entitäten über einfache Interface-Abfragen gefunden werden
     - Innerhalb einer Entity sorgt sie dafür, dass Komponenten nicht untereinander, sondern nur über die Entity kommunizieren (z.B. Health löst Death-Event, Entity fängt es und delegiert an SpawnService und UI).
         
 
-## Screenshots / Diagramme
-
-- Klassendiagramm der Interface-Hierarchie und Zuweisung der konkreten Klassen
-    
-- Sequenzdiagramm: Interface-Lookup (`Get<T>()`) → ComponentCache → konkrete Implementierung
-    
-
+## 
 ## Tests
 
 1. **Interface-Lookup**

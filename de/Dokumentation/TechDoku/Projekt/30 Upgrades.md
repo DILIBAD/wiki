@@ -34,10 +34,6 @@ Dieses Teilsystem stellt eine einheitliche Möglichkeit bereit, beliebige Objekt
   - **Performance**: Dynamische Kostenberechnung pro Anfrage kann Overhead verursachen, ist jedoch meist vernachlässigbar.  
   - **Fehlerbehandlung**: Aktuell minimal; Rollback-Mechanismen bei fehlgeschlagenem Kauf könnten ergänzt werden.  
 
-## Screenshots / Diagramme  
-- **UI-Screenshot**: Upgrade-Panel mit Icon, Name, Beschreibung und Kostenliste für das nächste Level  
-- **Sequenzdiagramm**: Ablauf von CLIENT_CanUpgrade → Server-Request → SERVER_Upgrade → Replikation  
-- **Datenflussdiagramm**: Von ScriptableObject → Kosten-Curve → ScaledItemTemplateMapper → PurchaseService  
 
 ## Tests  
 1. **Verfügbare Upgrades laden**  

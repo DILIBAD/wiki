@@ -78,16 +78,6 @@ Der „Player Services“-Topic fasst drei Hauptaufgaben zusammen:
     - Aktuell keine Fallback-Mechanismen oder Hot-Reload für Klassen-Configs.
         
 
-## Screenshots / Diagramme
-
-- **Klassendiagramm** aller drei Services mit ihren wichtigsten Abhängigkeiten (NetworkService, SpawnService, ConfigTemplate).
-    
-- **Sequenzdiagramm** eines Spieler-Connect-Ablaufs inklusive `RegisterLocalPlayer` und UI-Aktualisierung.
-    
-- **Datenflussdiagramm** des Basis-Tick-Loops: Gruppierung nach Tick-Rate, Ausführung, Deregistrierung bei Tod.
-    
-- **Flussdiagramm** des WarmUp-Prozesses im Class Selection Service.
-    
 
 ## Tests
 

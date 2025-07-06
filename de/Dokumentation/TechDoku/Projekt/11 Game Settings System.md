@@ -100,28 +100,6 @@ Dieses Teilsystem stellt eine einheitliche Infrastruktur bereit, um alle globale
     - **Inkonsistente Vorschau:** Nur Lautstärke hat Live-Feedback, andere Settings warten bis Save
         
 
-## Screenshots / Diagramme
-
-- **UI-Screenshot:** Vollständiges Settings-Fenster mit Dropdowns, Slider, Toggles, Save/Cancel
-    
-- **Sequenzdiagramm:**
-    
-    ```
-    AfterStart → Load Defaults → ApplySettings → OnSettingsChanged
-                  ↑                           ↓
-           SettingsWindow.Show() ← OnSaveClicked/OnCancelClicked
-    ```
-    
-- **Datenflussdiagramm:**
-    
-    ```
-    PlayerPrefs ↔ GameSettingsService ↔ Engine-APIs (Screen, Audio, Quality)
-                             ↓
-                    LocalizationService
-                             ↓
-                       SettingsWindow
-    ```
-    
 
 ## Tests
 

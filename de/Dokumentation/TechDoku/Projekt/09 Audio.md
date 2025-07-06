@@ -113,17 +113,6 @@ Das Sound-System verbessert die Spielerfahrung spürbar, auch ohne aufwändige V
 
   
 
-## Screenshots / Diagramme
-
-- Aufbau des `AudioService`-Pools  
-
-- AudioConfigEditorWindow im Editor  
-
-- Beispielhafte Nutzung von `AudioLevelTheme`  
-
-- Ansicht der Mixer-Gruppen im AudioMixer
-
-  
 
 ## Tests
 

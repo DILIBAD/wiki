@@ -33,10 +33,6 @@ Damit löst er das Problem, dass verschiedene Subsysteme uneinheitlich Terrain u
   - **Zentralisierte Kontrolle vs. Modularität**: Hohe Kopplung an ServiceLocator ermöglicht schnellen Zugriff, erschwert aber Unit-Tests ohne Mocking.  
   - **Fehlerbehandlung**: Exceptions geben eindeutige Fehlerursache, erfordern aber überall Callbacks oder Try-Catch bei Aufrufern.
 
-## Screenshots / Diagramme  
-- **Ablaufdiagramm „WorldService → WorldGridService → SpawnService → LevelEntity“**  
-- **Datenflussdiagramm „Rasterbelegung und Freigabe“**  
-- **UI-Mockup für Debug-Overlay: Belegte versus freie Zellen im WorldGrid**  
 
 ## Tests  
 Manuelle Prüf- und Verifikationsschritte:  

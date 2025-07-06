@@ -46,12 +46,6 @@ Ursprünglich war eine dynamische Verwaltung der Spielmodi über Supabase vorges
 - Die modulare Trennung erlaubt jedoch einen späteren, schrittweisen Ausbau.
 - Realtime-Integration kann langfristig operative Prozesse (z.B. automatische Deaktivierung bei Fehlern) erheblich vereinfachen.
 
-## Screenshots / Diagramme
-- **UI-Vorschlag**: Modus-Auswahl-Liste mit Statusanzeige (verfügbar/nicht verfügbar)
-- **Diagramm**:  
-  - Datenfluss: Client → Request → Server → [lokale Ressourcen oder Supabase] → Response  
-  - Supabase: DB → SupabaseClient → RealtimeListener → GameModesCache  
-
 ## Tests
 
 ### Manuelle Prüf- und Verifikationsschritte

@@ -57,14 +57,6 @@ Die EffectComponent wurde entwickelt, um dem Spieler unmittelbares, visuelles Fe
     - **Fehlerfall**: Fehlende Templates führen zu Ausnahmen; erweiterte Fallback-Logik könnte stabiler sein.
         
 
-## Screenshots / Diagramme
-
-- **UI-Screenshot** einer typischen Treffer-Flash-Animation auf dem Charakter.
-    
-- **Sequenzdiagramm**: OnDamageReceived → SERVER_TriggerParticle → SyncDictionary.Add → OnChange → CLIENT_SpawnParticleEffect → Particle-Instanziierung.
-    
-- **Komponentendiagramm**: EffectComponent, IDamageableEntity, VisualEntityEffectTemplate, SyncDictionary, UniTask.
-    
 
 ## Tests
 

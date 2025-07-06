@@ -66,16 +66,6 @@ Das Subsystem wurde entwickelt, um die Verteilung und Anpassung von Basiswerten 
     - – Keine explizite Fehler- oder Last-Limitierung für SyncDictionary oder Modifier-Listen
         
 
-## Screenshots / Diagramme
-
-- **Sequenzdiagramm**: Stat-Abfrage vom Client bis zur Rückgabe des finalen Wertes.
-    
-- **Datenflussdiagramm**: Aufbau einer Query, Dispatch im Mediator, Verarbeitung in StatModifiern, finaler Wert.
-    
-- **UML-Klassendiagramm**: Beziehungen zwischen StatusComponent, StatsMediator, StatModifier, TemplateStatModifier und Query.
-    
-- **Event-Flow-Diagramm**: Lifecycle eines Modifiers (Anwendung, Timer-Tick, Disposal).
-    
 
 ## Tests
 

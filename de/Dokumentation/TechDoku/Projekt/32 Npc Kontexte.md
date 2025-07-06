@@ -49,14 +49,6 @@ Dieses Teilsystem wurde entwickelt, um sämtliche per AI-Logik benötigten Konte
     - _Kopplung von Memory-Einträgen und Kontexten_: Prüfung nötig, ob `BlackboardKey`-Werte stärker mit Kontext-Objekten verknüpft werden können, um Modali­tät und Wiederverwendbarkeit in anderen Projekten zu verbessern.
         
 
-## Screenshots / Diagramme
-
-- **Inspector-Screenshot** des Runtime-Panels (`NPCProvideContextComponentEditor`) mit allen Raw- und Derived-Fields.
-    
-- **Sequenzdiagramm**: Vom Server-Tick über `PushAllContexts` bis zum State-Leseaufruf.
-    
-- **Datenflussdiagramm**: Von `INpcEntity`-Events → Memory → States.
-    
 
 ## Tests
 

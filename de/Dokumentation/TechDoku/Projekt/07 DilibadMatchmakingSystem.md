@@ -29,18 +29,6 @@ Das System wurde entwickelt, um den Matchmaking-Prozess im Coop-Modus effizient,
 - **Live-Feedback**: `UIMatchmakingWindow` zeigt Status visuell und in Echtzeit  
 - **Kein Scroll- oder Auswahlsystem im UI**: Moduswahl erfolgt vorher, Fenster zeigt nur aktuellen Fortschritt  
 - **Schlanker Ablauf**: `UIMatchmakingWindow` ist rein anzeigend und delegiert alle Logik an Services  
-
-## Screenshots / Diagramme  
-- UI Screenshot:  
-  - `UIMatchmakingWindow` mit:  
-    - Spielmodus: z. B. "Verteidigung", "Bosskampf"  
-    - Wartezeit: z. B. "00:01:15"  
-    - Abbrechen-Button  
-- Ablaufdiagramm:  
-  - Matchmaking gestartet → Queue joined → Fenster geöffnet → Match gefunden → Fenster geschlossen  
-- Zustandsdiagramm:  
-  - Init → Wartend → Match gefunden → Übergabe → oder → Abgebrochen  
-
 ## Tests  
 ### Manuelle Prüf- und Verifikationsschritte  
 - [ ] Klick auf Start-Button öffnet `UIMatchmakingWindow`  

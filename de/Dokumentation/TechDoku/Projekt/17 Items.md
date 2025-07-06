@@ -75,14 +75,6 @@ Es erlaubt neue Items ohne Code-Änderungen anzulegen, minimiert Laufzeit-Overhe
 - **– Netzwerk-Bandbreite**: Viele SyncList-Änderungen bei großen Inventaren können zu Traffic-Spitzen führen.
     
 
-## Screenshots / Diagramme
-
-- **Inspector-Views** für `ItemTemplate`, `WearableItemTemplate`, `ItemCostTemplate`
-    
-- **Sequenzdiagramm**: Client → Cmd_AddById → SERVER_AddById → SyncList.OnAdd → OnItemAdded → UI
-    
-- **Datenflussdiagramm**: ScriptableObject Cache → ItemData/ItemInstance → ItemContainer → Mirror
-    
 
 ## Tests
 

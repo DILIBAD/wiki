@@ -64,14 +64,6 @@ Es löst das Problem der dezentralen Rezeptverwaltung und garantiert Konsistenz 
     - **Erweiterbarkeit:** Platz für Account- oder Questbasierte Freischaltungen ist eingebaut, aber derzeit nicht implementiert.
         
 
-## Screenshots / Diagramme
-
-- **Sequenzdiagramm Crafting-Workflow:** Client → CanCraft → Cmd_RequestCraft → Server_CanCraft → SERVER_Craft
-    
-- **Datenflussdiagramm:** SyncList → CachedKnownRecipes → OnKnownRecipesChanged → UI
-    
-- **UI-Mockup:** Crafting-Fenster mit Filter für bekannte/geblockte Rezepte, Fortschrittsanzeige der Vorbereitung
-    
 
 ## Tests
 
