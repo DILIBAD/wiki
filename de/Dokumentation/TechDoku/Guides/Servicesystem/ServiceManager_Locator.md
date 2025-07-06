@@ -154,8 +154,8 @@ public static class GlobalServiceLocator
 ---
 
 ## 🔗 Verwandte Themen
-- [Service Lifecycle (Init, Shutdown, Dependencies)](service-lifecycle.md)
-- [Bootstrapping & Unity Lifecycle](bootstrapping-unity-lifecycle.md)
+- [Service Lifecycle (Init, Shutdown, Dependencies)](Service-Lifecycle.md)
+- [Bootstrapping & Unity Lifecycle](Bootstrapping-unity-lifecycle.md)
 
 Letzte Aktualisierung: April 2025
 

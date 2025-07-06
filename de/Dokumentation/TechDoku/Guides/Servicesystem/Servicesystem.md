@@ -176,7 +176,7 @@ Services durchlaufen folgende Phasen:
 3. **Laufzeitnutzung** – Zugriff über ServiceLocator oder Injection
 4. **Shutdown** durch explizite Deinitialisierung
 
-Mehr Details dazu findest du in: [Service Lifecycle](service-lifecycle.md)
+Mehr Details dazu findest du in: [Service Lifecycle](Service-Lifecycle.md)
 
 ---
 
@@ -187,7 +187,7 @@ Das Servicesystem wird vom `Bootstrapper` in mehreren Unity-Phasen verwendet:
 - `BeforeSceneLoad`: Core-Services, Server/Client-Kontext
 - `AfterSceneLoad`: szenenbezogene Services (UI, Spawner, Game-World)
 
-Siehe: [Bootstrapping & Unity Lifecycle](bootstrapping-unity-lifecycle.md)
+Siehe: [Bootstrapping & Unity Lifecycle](Bootstrapping-unity-lifecycle.md)
 
 ---
 

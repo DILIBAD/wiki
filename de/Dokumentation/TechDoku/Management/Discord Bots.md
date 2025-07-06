@@ -94,8 +94,8 @@ Dieser Bot dient dazu, Bugs direkt im Discord zu erfassen und automatisiert als 
 
 ![[Pasted image 20250706180420.png]]
 
-![[Pasted image 20250706180439.png]]
 
+![[Pasted image 20250706182134.png]]
 
 ---
 

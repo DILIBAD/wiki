@@ -89,7 +89,7 @@ public class InventoryService : IService
 
 ## 📌 Siehe auch
 - [Servicesystem](servicesystem-overview.md)
-- [Bootstrapping & Unity Lifecycle](bootstrapping-unity-lifecycle.md)
+- [Bootstrapping & Unity Lifecycle](Bootstrapping-unity-lifecycle.md)
 
 Letzte Aktualisierung: April 2025
 
