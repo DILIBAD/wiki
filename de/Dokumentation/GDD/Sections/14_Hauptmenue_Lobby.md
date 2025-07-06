@@ -1,12 +1,12 @@
-# 3. Hauptmenü & Lobby-UI
+# Hauptmenü & Lobby-UI
 
-## 3.1 Überblick
+## Überblick
 
 Die Menü-UI bildet den Einstiegspunkt in das Spiel **„DILIBAD“** und ist zentral für die Navigation, das Matchmaking und die soziale Interaktion. Sie vereint ein **stimmungsvolles Pixel-Art-Design** mit klar strukturierten Interaktionsflächen. Ziel ist eine intuitive Benutzerführung und die optische Einarbeitung in die Spielwelt.
 
 ---
 
-## 3.2 Hauptmenüstruktur (Startscreen)
+## Hauptmenüstruktur (Startscreen)
 
 Beim Spielstart landet der Spieler im **Hauptmenü**, das folgende Kernbereiche bietet:
 
@@ -20,7 +20,7 @@ Die visuelle Aufteilung erlaubt eine gleichzeitige Orientierung über Spielfunkt
 
 ---
 
-## 3.3 Spielmodus-Auswahl
+## Spielmodus-Auswahl
 
 Durch Klick auf „**SEARCH MATCH**“ öffnet sich ein Dropdown-Menü mit folgenden Modi:
 
@@ -35,7 +35,7 @@ Das Dropdown reduziert UI-Clutter und erlaubt dennoch schnellen Zugriff. Die lin
 
 ---
 
-## 3.4 Partysystem
+## Partysystem
 
 In der unteren Mitte kann der Spieler:
 
@@ -48,7 +48,7 @@ Die zentrale Platzierung signalisiert die Bedeutung von Koop-Gameplay. Die Einga
 
 ---
 
-## 3.5 Chatfenster
+## Chatfenster
 
 Der rechte Bereich des Bildschirms ist dem **globalen Chat („General“) gewidmet**.  
 
@@ -63,7 +63,7 @@ Die klare Trennung vom Spielfeld fördert Konzentration auf soziale Interaktion,
 
 ---
 
-## 3.6 Einstellungen (Optionsmenü)
+## Einstellungen (Optionsmenü)
 
 Zugänglich über das **Zahnrad-Symbol unten rechts**.
 
@@ -82,7 +82,7 @@ Das Optionsmenü bleibt bewusst schlicht und kompakt, um nicht vom Stil der Pixe
 
 ---
 
-## 3.7 Visuelle und funktionale Konsistenz
+## Visuelle und funktionale Konsistenz
 
 - UI-Elemente nutzen eine **einheitliche Farbpalette** (dunkle Hintergründe, leuchtende Highlights)
 - Schaltflächen sind **klar abgegrenzt und animiert**
@@ -93,7 +93,7 @@ Durch Pixel-Art und reduzierte Icons bleibt die Oberfläche optisch konsistent z
 
 ---
 
-## 3.8 Ausblick
+## Ausblick
 
 Geplante Erweiterungen der Menü-UI:
 
