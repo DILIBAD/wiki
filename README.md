@@ -9,7 +9,7 @@ Zentrale Wissenssammlung zum Projekt **DILIBAD** (Discover. Liberate. Build. Aut
 - [ThirdParty](de/Dokumentation/ThirdParty/README.md) – verwendete Bibliotheken
 - [Glossar](de/Dokumentation/Glossar/README.md) – Begriffe und Definitionen
 
-
+Im Verlauf dieses Projekts kamen KI-gestützte Methoden zum Einsatz. Insbesondere wurden KI-Modelle und -Tools zur Unterstützung beim Scripting, bei der Generierung von Artwork sowie bei der Erstellung von Texten verwendet. Alle von der KI gelieferten Ergebnisse wurden kritisch geprüft, von den Projektbeteiligten überarbeitet und in den finalen Projektoutput eingearbeitet.
 
 
 ## Übersicht der DILIBAD Repositories
