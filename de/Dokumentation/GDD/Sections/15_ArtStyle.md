@@ -1,10 +1,10 @@
 # Art Style & Asset-Nutzung
 
-3.1 Stilistische Ausrichtung
+Stilistische Ausrichtung
 
 Für das Projekt wurde bewusst ein **2,5D-Artstyle** gewählt. Diese Entscheidung basiert auf der Zielsetzung, einen stilisierten, aber ressourcenschonenden Look zu erreichen, der sowohl atmosphärisch als auch technisch gut skalierbar ist.
 
-### 3.2 Asset-Auswahl und -Strategie
+### Asset-Auswahl und -Strategie
 
 Um Entwicklungszeit und -aufwand effizient zu nutzen, wurde auf **bestehende Asset-Pakete aus dem Unity Asset Store** zurückgegriffen. Das erlaubt es dem Team, sich stärker auf Gameplay, Level-Design und Systementwicklung zu konzentrieren, ohne große Kapazitäten für eigene grafische Inhalte aufbringen zu müssen.
 
@@ -48,7 +48,7 @@ Der Charakter-Editor wurde getestet und bietet viel Potenzial für zukünftige E
 
 - Die Turret-Grafiken des Engineer-Charakters wurden in Eigenarbeit von **Pascal Meier** erstellt.
 
-### 3.3 Konvertierung von 3D in 2D – Proof of Concept
+### Konvertierung von 3D in 2D – Proof of Concept
 
 Um das grafische Repertoire zu erweitern, wurde experimentell getestet, ob **3D-Assets in 2D-Pixelstil konvertiert** werden können. Dies geschah mithilfe des Tools:
 
@@ -68,17 +68,17 @@ Nach eingehender Recherche wurde festgestellt, dass die Bone-Zuweisung in Unity 
 
 In **Blender** können Waffen direkt einem bestimmten Bone (z. B. der Hand) zugewiesen werden, was das Problem behebt. Dieses Vorgehen wurde aus Zeitgründen jedoch nicht weiterverfolgt und wird für einen späteren Entwicklungszeitpunkt aufgeschoben.
 
-### 3.4 Ausblick
+### Ausblick
 
 Die bisherigen Tests zeigen, dass mit der Kombination aus bestehenden 2D-Paketen und konvertierten 3D-Modellen **eine große visuelle Vielfalt** erreicht werden kann. Insbesondere für zukünftige Charaktererweiterungen und Boss-Designs bietet sich die Kombination aus Shader-Techniken, Bone-Anpassung und Stilangleichung als praktikabler Weg an, um konsistenten Content im gewählten Artstyle zu generieren.
 
-## 3. Art Style & Asset-Nutzung
+## Art Style & Asset-Nutzung
 
-### 3.1 Stilistische Ausrichtung
+### Stilistische Ausrichtung
 
 Für das Projekt wurde bewusst ein **2D-Artstyle** gewählt. Diese Entscheidung basiert auf der Zielsetzung, einen stilisierten, aber ressourcenschonenden Look zu erreichen, der sowohl atmosphärisch als auch technisch gut skalierbar ist.
 
-### 3.2 Asset-Auswahl und -Strategie
+### Asset-Auswahl und -Strategie
 
 Um Entwicklungszeit und -aufwand effizient zu nutzen, wurde auf **bestehende Asset-Pakete aus dem Unity Asset Store** zurückgegriffen. Das erlaubt es dem Team, sich stärker auf Gameplay, Level-Design und Systementwicklung zu konzentrieren, ohne große Kapazitäten für eigene grafische Inhalte aufbringen zu müssen.
 
@@ -117,7 +117,7 @@ Für die spielbaren Charaktere und Gegner wurden mehrere Pakete von **SmallScale
 **Eigene Assets:**
 - Die Turret-Grafiken des Engineer-Charakters wurden in Eigenarbeit von **Pascal Meier** erstellt.
 
-### 3.3 Konvertierung von 3D in 2D – Proof of Concept
+### Konvertierung von 3D in 2D – Proof of Concept
 
 Um das grafische Repertoire zu erweitern, wurde experimentell getestet, ob **3D-Assets in 2D-Pixelstil konvertiert** werden können. Dies geschah mithilfe des Tools:
 
@@ -135,7 +135,7 @@ Nach eingehender Recherche wurde festgestellt, dass die Bone-Zuweisung in Unity 
 **Lösung (nicht final implementiert):**  
 In **Blender** können Waffen direkt einem bestimmten Bone (z. B. der Hand) zugewiesen werden, was das Problem behebt. Dieses Vorgehen wurde aus Zeitgründen jedoch nicht weiterverfolgt und wird für einen späteren Entwicklungszeitpunkt aufgeschoben.
 
-### 3.4 Ausblick
+### Ausblick
 
 Die bisherigen Tests zeigen, dass mit der Kombination aus bestehenden 2D-Paketen und konvertierten 3D-Modellen **eine große visuelle Vielfalt** erreicht werden kann. Insbesondere für zukünftige Charaktererweiterungen und Boss-Designs bietet sich die Kombination aus Shader-Techniken, Bone-Anpassung und Stilangleichung als praktikabler Weg an, um konsistenten Content im gewählten Artstyle zu generieren.
 
