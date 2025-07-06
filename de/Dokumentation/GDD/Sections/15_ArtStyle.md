@@ -47,6 +47,8 @@ Der Charakter-Editor wurde getestet und bietet viel Potenzial für zukünftige E
 **Eigene Assets:**
 
 - Die Turret-Grafiken des Engineer-Charakters wurden in Eigenarbeit von **Pascal Meier** erstellt.
+- Diverse Partikel Effekte im Spiel
+- Das Hintergrundbild im Hauptmenü ( generiert durch KI )
 
 ### Konvertierung von 3D in 2D – Proof of Concept
 
