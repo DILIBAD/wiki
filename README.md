@@ -12,6 +12,11 @@ Zentrale Wissenssammlung zum Projekt **DILIBAD** (Discover. Liberate. Build. Aut
 Im Verlauf dieses Projekts kamen KI-gestützte Methoden zum Einsatz. Insbesondere wurden KI-Modelle und -Tools zur Unterstützung beim Scripting, bei der Generierung von Artwork sowie bei der Erstellung von Texten verwendet. Alle von der KI gelieferten Ergebnisse wurden kritisch geprüft, von den Projektbeteiligten überarbeitet und in den finalen Projektoutput eingearbeitet.
 
 
+Interne Lern Videos:
+https://www.youtube.com/watch?v=9t9rUWjLIWk&list=PLzrn-QPaJam31ZmHYc9Uanu3P3LaABRRb
+
+
+
 ## Übersicht der DILIBAD Repositories
 
 Dieses Dokument bietet eine zentrale Übersicht der wichtigsten Repositories des DILIBAD-Projekts.
