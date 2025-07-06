@@ -14,6 +14,13 @@ Für das Projekt DILIBAD wurden drei unterschiedliche Discord-Bots eingesetzt, u
 
 ---
 
+## Link zu Discord
+
+[https://discord.gg/8K56rrC3gF](https://discord.gg/8K56rrC3gF "https://discord.gg/8K56rrC3gF")
+
+
+---
+
 ## 1. Updates-Bot – „Daily Dev Summary“
 
 ### Zweck  
