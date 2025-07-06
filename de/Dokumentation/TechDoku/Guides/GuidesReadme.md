@@ -8,6 +8,13 @@ editor: markdown
 dateCreated: 2025-04-19T13:43:50.081Z
 ---
 
+## Inhalt
+- [Naming](Naming/README.md)
+- [Servicesystem](Servicesystem/README.md)
+- [YouTrack](YouTrack/README.md)
+- [Dilemma](Dilemma/README.md)
+- [GitHub](GitHub/README.md)
+
 # Zielsetzung dieses Dokuments
 
 Dieses Dokument dient als zentraler Ausgangspunkt für die Definition von Rahmenbedingungen. Es stellt zentrale Fragestellungen vor, beantwortet diese in kompakter Form (TL;DR) und verweist auf weiterführende Inhalte, in denen die Themen ausführlich behandelt werden.
