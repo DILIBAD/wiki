@@ -5,11 +5,11 @@
 
 ## Inhalt
 
-- [GDD](GDD/GDDReadme.md) – Spielkonzept und Mechaniken
+- [GDD](de/Dokumentation/GDD/README.md) – Spielkonzept und Mechaniken
 - [TechDoku](TechDoku/TechDokuReadme.md) – technische Dokumentation
 - [Tools](Tools/ToolsReadme.md) – Entwicklungswerkzeuge
-- [ThirdParty](ThirdParty/ThirdPartyReadme.md) – genutzte Bibliotheken
-- [Glossar](Glossar/GlossarReadme.md) – Begriffserklärungen
+- [ThirdParty](de/Dokumentation/ThirdParty/README.md) – genutzte Bibliotheken
+- [Glossar](de/Dokumentation/Glossar/README.md) – Begriffserklärungen
 
 
 
