@@ -435,3 +435,121 @@ Dieses System unterstützt das Platzieren von Deployables (z. B. Türme) durch S
 - Fehlende Fehlermeldung bei nicht zugewiesenem Turret-Prefab
     
 - Vorschau und effektive Platzierung teilen sich nicht dieselbe Range-Logik
+# Offensive Skill-Datenvorlagen
+
+# TLDR  
+Implementierung und Ablauf von zwei offensiven Skills („Dash Attack“ & „Arrow Spin“), die Gegner im Nah- und Fernkampf treffen.
+
+## Zweck / Ziel  
+Dieses Teilsystem wurde entwickelt, um im Mehrspieler-Setting offensive Fähigkeiten auszuführen:  
+- **Dash Attack** (ArenaDashSkillDataTemplate): Schnellangriffe im Nahkampf mit verzögerter Flächenschadens-Anzeige und mechanischem Heranspringen.  
+- **Arrow Spin** (ArrowSpinDataTemplate): Rotierender Fernkampfangriff, der eine fixe Anzahl an Projektilen in alle Richtungen abfeuert.
+
+## Umsetzung  
+- **Relevante Kooperationspartner**  
+  - `SkillDataTemplateBase` (Basisklasse aller Skills)  
+  - `ICombatEntity` / `IMovingCombatEntity` (Benutzer der Fähigkeit)  
+  - `PhysicsOverlapScanner` (Radius-Scans nach Zielen)  
+  - `ServiceLocator.SpawnService` (Netzwerk-Spawn von Prefabs)  
+  - `DelayedAoeField` (AOE-Anzeige beim Dash)  
+  - `IProjectileDataTemplate`, `IProjectile` / `Projectile` (Definition & Abwurf von Projektilen)  
+  - `UniTask` vs. `Coroutine` (asynchrone Abläufe)  
+
+- **Ablauf und Interaktionen (Unity & Networking)**  
+  1. **Dash Attack**  
+     - Skill-Lock─ und Entity-Lock setzen  
+     - Mehrfach-Scans im Umkreis: nächste Schadensziele ermitteln  
+     - AOE-Indikator prefab-basiert spawnen, hide/show via DelayedAoeField  
+     - Nach Delay Skill-Animation → temporärer Speed-Boost + Teleport zum Ziel  
+     - Nach Abschluss Locks aufheben  
+  2. **Arrow Spin**  
+     - Höhe korrigieren (Offset um Kopfbereich)  
+     - Basis-Winkel aus Blickrichtung ermitteln  
+     - 8 Projektil-Spawns im Kreis mit Zwischenpause  
+     - Jede Kugel über Netzwerk instanziieren, statelesses SERVER_Fly  
+
+- **Architektur- oder Designentscheidungen**  
+  - **Asynchronität**: Kombination aus UniTask (Dash) und Coroutine (Arrow) für Performance- und Legacy-Gründe  
+  - **Locking**: Entity und Skill werden gesperrt, um unerwünschte Bewegungen/Interaktionen während der Animation zu vermeiden  
+  - **Modularität**: Trennung von Scan-Logik (`PhysicsOverlapScanner`) und Spawn/Animation  
+  - **Netzwerk-Spawn**: Nutzung des Master Server Toolkit über `ServiceLocator` zur Autorisierung und Replikation  
+
+- **Reflektion: wichtige Überlegungen und Trade-offs**  
+  - **Performanz vs. Genauigkeit**: Mehrfach-Scans im Dash können bei vielen Entities teuer werden  
+  - **Fehleranfälligkeit**: Mischung aus UniTask und Coroutine erschwert Debugging  
+  - **Netzwerklatenz**: Spawn-Timing kann variieren, evtl. Abkoppelung von Animation und tatsächlichem Schaden nötig  
+
+
+## Tests  
+1. **Dash Attack**  
+   - Skill ausrüsten, im Editor Range & Radius prüfen  
+   - Auf mindestens 3 Gegner setzen, Ausführung beobachten  
+   - AOE-Anzeige korrekt rotiert/spawnt?  
+   - Nach Delay Animation, Teleport und zurückgesetzte Geschwindigkeit  
+   - Skill-Lock verhindert andere Aktionen während Ausführung  
+2. **Arrow Spin**  
+   - In ruhiger Szene ohne Gegner testen: 8 Projektile im Kreis sichtbar?  
+   - Delay zwischen Schüssen spürbar?  
+   - Jedes Projectile erhält korrekte Daten aus IProjectileDataTemplate  
+   - Netzwerk-Replikation: alle Clients sehen Spawns simultan  
+3. **Allgemein**  
+   - Bei fehlenden Zielen (Dash) keine Ausnahme, nur Early-Exit  
+   - Unter hoher Latenz: Spawn-Timing konsistent?  
+
+## Offene Punkte / Probleme  
+- **Dash**: In seltenen Fällen bleibt Entity im Lock hängen, wenn UniTask-Exception auftritt  
+- **Performance**: ScanAll bei vielen Entities kann FPS-Einbruch verursachen  
+- **Projektile**: Arrow Spin nutzt feste Anzahl (8), keine Konfigurierbarkeit zur Laufzeit  
+- **Testabdeckung**: Keine automatisierten Unit-Tests für Netzwerksynchronisation vorhanden  
+
+---
+
+# BuffSkillDataTemplate
+
+# TLDR  
+SkriptableObject für Support-Fähigkeit, die statische Statusänderungen (Buffs) auf benachbarte Einheiten anwendet.
+
+## Zweck / Ziel  
+Die `BuffSkillDataTemplate` ermöglicht es, innerhalb eines definierten Bereichs (Radius & Range) ausgewählten Verbündeten positive Statuseffekte (z. B. erhöhten Schaden, Bewegungsgeschwindigkeit) auf Serverseite aufzulegen.
+
+## Umsetzung  
+- **Relevante Kooperationspartner**  
+  - `IModifyStatsDataTemplate` (Definition der Modifikationen)  
+  - `PhysicsOverlapScanner` (Zielsuche im Kreis um Benutzer)  
+  - `IDamageableEntity` / `HealthComponent` (Filter: lebende Einheiten, Fraktionen)  
+  - `ModifyStatsComponent.SERVER_Apply()` (Anwendung der Buff-Daten)  
+  - `FactionService` (Überprüfung erlaubter Fraktionen)  
+
+- **Ablauf und Interaktionen (Unity & Networking)**  
+  1. Mittelpunkt = Benutzer-Position + Blickrichtung × Range  
+  2. `ScanInCircleAll` findet alle `IDamageableEntity` im Radius  
+  3. Filterung:
+     - nur lebende Einheiten  
+     - Fraktion entspricht Konfiguration oder Default  
+     - optional Selbst-Ausschluss  
+  4. Bis zu `AffectedTargets` Entities auswählen  
+  5. Für jedes:
+     - Über alle `_modifyStatsData` iterieren  
+     - `SERVER_Apply(stats, true)` aufrufen – Netzwerk-RPC  
+
+- **Architektur- oder Designentscheidungen**  
+  - **Synchroner Loop**: Direkte Server-Methode ohne Coroutine/UniTask, da sofortige Anwendung gewünscht  
+  - **Fraktionstrennung**: Ermöglicht nur positive Effekte für Verbündete  
+  - **Konfigurierbarkeit**: Anzahl Ziele, Radius, Reichweite & Selbst-Buff schaltbar  
+
+- **Reflektion: wichtige Überlegungen und Trade-offs**  
+  - **Determinismus**: Auswahlreihenfolge nicht festgelegt (Liste → ElementAt)  
+  - **Performance**: Einmaliger Scan ist günstig, aber bei großen Radius viele Entities  
+  - **Netzwerktraffic**: Mehrere RPC-Anwendungen pro Ziel  
+
+## Tests  
+1. Positionieren eines Charakters und eines Verbündeten im und außerhalb der Range  
+2. Auslösen des Buffs → Verbündeter erhält Modifikationen (Werte prüfen)  
+3. `AffectedTargets` überschritten → nur erste N Einheiten betroffen  
+4. Fraktionstest: gegnerische Fraktion wird nicht beeinflusst  
+5. Selbst-Buff ein/aus schalten und Verhalten verifizieren  
+
+## Offene Punkte / Probleme  
+- **Selection-Order** nicht dokumentiert, kann zu inkonsistenten Zielgruppen führen  
+- Keine **Visuelle Rückmeldung** für Buff-Area im Spiel implementiert  
+- **Keine Unit-Tests** für Fraktionsfilter und AffectedTargets-Limit  
