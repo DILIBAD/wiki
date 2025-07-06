@@ -33,20 +33,6 @@ Dieses Dokument bietet eine zentrale Übersicht der wichtigsten Repositories des
 
 Das Hauptprojekt enthält die Kernkomponenten und -Module von DILIBAD. Hier befindet sich das Backend, die Business-Logik und gegebenenfalls das Frontend.
 
-**Installation & Nutzung:**
-
-```bash
-# Repository klonen
-`git clone https://github.com/DILIBAD/DILIBAD.git`
-# In das Verzeichnis wechseln
-`cd DILIBAD`
-# Abhängigkeiten installieren (Beispiel Node.js)
-`npm install`
-# Anwendung starten
-`npm start`
-```
-
----
 
 ### 2. Wiki
 
@@ -76,16 +62,3 @@ Asset-Forge stellt Skripte und Tools bereit, um Assets (Bilder, Sounds, Modelle 
 
 Der Discord-Bot automatisiert Aufgaben und Interaktionen auf dem DILIBAD-Discord-Server. Er kann Befehle verarbeiten, Benachrichtigungen senden und vieles mehr.
 
-**Installation & Nutzung:**
-
-```bash
-# Repository klonen
-`git clone https://github.com/DILIBAD/Discord-Bot.git`
-# In das Verzeichnis wechseln
-`cd Discord-Bot`
-# Abhängigkeiten installieren
-`npm install`
-# Bot konfigurieren (.env)
-# Bot starten
-`node bot.js`
-```
