@@ -1,0 +1,19 @@
+# Hintergrund
+
+## Geschichte
+
+Der Urknall wird von Gelehrten nicht als Startpunkt, sondern als Teil eines Zyklus betrachtet, bei dem durch Kristallkollaps ein wiedergeborener Kosmos entsteht. Die Spieler bewegen sich womöglich in einem Übergangsstadium zwischen zwei „Urknallen“, jedoch gibt es keine Möglichkeit, diese Theorie zu verifizieren. Kurz nach dem Urknall existierten Gravitationspunkte, die für die Bildung unzähliger Dimensionen verantwortlich waren. Diese verteilten sich über nahezu unendliche Weiten im Raum. Anschließend bildeten sich die ersten Planeten aus dem kosmischen Chaos.  
+
+Vermutlich zeitgleich begann die Bildung der ersten Kristalle, in Form von verlangsamten Teilchenbewegungen dunkler Materie. Eine daraus resultierende Bindung erzeugt auf diese Weise mystische Energie und materialisiert sich in Form von Urkristallen. Je nach Beschaffenheit ihrer jeweiligen Geburtsdimension besitzen sie unterschiedliche Farbnuancen und Energiepotenziale. Diese Unterschiede beeinflussen ihre Funktion: Während einige Kristalle Portale stabilisieren oder aktivieren können, wirken instabile Varianten verstärkend auf Magie, lösen Zeitanomalien aus oder sind sogar in der Lage, Erinnerungen und Energie zu speichern. Über die Jahrtausende haben Handel und Kriege dafür gesorgt, dass sich die unterschiedlichen Kristalle über den gesamten bekannten Kosmos verbreitet haben.  
+
+Ein Teil der dunklen Materie wurde durch den Urknall ungleichmäßig beschleunigt und formte keinen stabilen Kern, sondern einen instabilen Planeten namens Uitta, der eine unerklärliche Verbindung über Zeit und Raum hinweg besitzt. Diese Anomalie begünstigt das Entstehen von Portalen zwischen verschiedenen Dimensionen und Zeitaltern. Neben der aktiven Manipulation dieser Besonderheit durch starke Magie oder durch den Einsatz besonderer Kristalle an bestimmten Orten, tauchen auch ohne verständlichen Grund zufällige Portale auf. Diese sind unberechenbar und verschwinden ebenso plötzlich, wie sie erscheinen.  
+
+Aus diesem Grund setzt sich die Bevölkerung dieses Planeten aus unterschiedlichsten Wesen zusammen. Viele befürchten, dass der Planet instabil wird, wenn zu viele Kristalle entfernt werden. Nicht alle verfolgen gute Absichten. Bösartige Fraktionen haben immer wieder versucht, auf räuberische und gewalttätige Weise an Kristallenergie zu gelangen, was von den Bewohnern nicht vollständig verhindert, jedoch zumindest eingeschränkt verteidigt werden konnte.  
+
+In zahlreichen Welten entwickelten sich unabhängig voneinander Methoden, mit Kristallenergie zu interagieren. In technologisch geprägten Dimensionen wie Xarion oder der Zukunftsgesellschaft auf der Erde, aus der Zotshi stammt, wurden die Kristalle in Generatoren und kybernetische Systeme eingebunden, bis ihre instabile Natur katastrophale, unvorhergesehene Rückkopplungen erzeugte. In magisch dominierten Welten wie Dyrelis oder Felgrath hingegen wurden sie durch Runen, Rituale und Blutopfer kanalisiert. Erst durch die kombinierte Anwendung von Technologie und Magie an mehreren Brennpunkten wurde ein kritischer Schwellenwert überschritten, der die Dimensionsgrenzen aufriss und den Übergang nach Uitta ermöglichte. Die Spielercharaktere sind letztlich Überreste eines globalen Rückstoßes – das Produkt eines Systemfehlers im Gewebe der Realitäten.
+
+---
+
+## Multidimensionales Grundverständnis
+
+Das Spieluniversum basiert auf einem multidimensionalen Konzept, bei dem mehrere Realitäten durch instabile Portale miteinander verbunden sind. Diese Portale entstehen primär durch Kristallinstabilitäten in Uitta, welches als zentrale Knotenwelt fungiert. Die miteinander verknüpften Dimensionen unterscheiden sich teils drastisch in Bezug auf Technologie, Kultur, Ökologie und temporale Dynamik. Jede dieser Welten weist einzigartige physikalische Bedingungen und eigene narrative Prägungen auf, die sich sowohl in der Spielmechanik als auch in der Lore des Spiels niederschlagen.

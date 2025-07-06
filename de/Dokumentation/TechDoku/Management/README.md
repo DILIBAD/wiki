@@ -16,6 +16,7 @@ Organisatorische Unterlagen und Protokolle.
 - [Arbeitsgruppen](Arbeitsgruppen.md) – Zuständigkeiten der Teams
 - [Aufgaben](Aufgaben.md) – To-Do-Übersicht
 - [Discord Bots](Discord%20Bots.md) – Automatisierung in unserem Chat
+- [Discord Bots](Discord Bots.md) – Automatisierung in unserem Chat
 - [Dilibad Wiki](DilibadWiki.md) – Informationen zum Wiki selbst
 - [Management Leitfaden](Management.md) – organisatorische Best Practices
 - [Meetings](Meetings/README.md) – Protokolle vergangener Treffen
