@@ -16,5 +16,5 @@ In zahlreichen Welten entwickelten sich unabhängig voneinander Methoden, mit Kr
 ---
 
 ## Multidimensionales Grundverständnis
-![Bild der Hauptcharakterwelten](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/Welten.png)
+![Bild der Hauptcharakterwelten](https://github.com/DILIBAD/wiki/blob/refactorWiki/de/Dokumentation/Story%20und%20Lore/images/karte.png)
 Das Spieluniversum basiert auf einem multidimensionalen Konzept, bei dem mehrere Realitäten durch instabile Portale miteinander verbunden sind. Diese Portale entstehen primär durch Kristallinstabilitäten in Uitta, welches als zentrale Knotenwelt fungiert. Die miteinander verknüpften Dimensionen unterscheiden sich teils drastisch in Bezug auf Technologie, Kultur, Ökologie und temporale Dynamik. Jede dieser Welten weist einzigartige physikalische Bedingungen und eigene narrative Prägungen auf, die sich sowohl in der Spielmechanik als auch in der Lore des Spiels niederschlagen.
