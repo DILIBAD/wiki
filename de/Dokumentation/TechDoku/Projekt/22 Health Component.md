@@ -65,7 +65,7 @@ Diese Klasse regelt die Grundfunktionen von Health:
 - **Ablaufdiagramm**: `SERVER_Modify` → Hook → Event → (Regen-Setup) → `RegenerateAsync`
     
 
-## Tests
+##  Tests Manuell oder durch Code ensurance
 
 1. **Health-Clamp**
     
