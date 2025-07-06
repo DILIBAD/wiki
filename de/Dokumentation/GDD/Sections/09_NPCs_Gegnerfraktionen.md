@@ -1,4 +1,6 @@
 # NPCs
+# Freundliche NPCs
+Derzeit treten freundliche NPCs im Spiel ausschließlich als interaktive Elemente auf. Sie nehmen nicht aktiv am Kampfgeschehen teil, bieten dem Spieler jedoch humorvolle und atmosphärische Dialoge. Ihre Hauptfunktion besteht darin, durch charakteristische Monologe und Gespräche Hintergrundwissen zur Spielwelt sowie zu den miteinander verbundenen Universen zu vermitteln. Insgesamt sind 25 dieser NPCs umgesetzt worden.
 
 # Gegnerfraktionen
 
