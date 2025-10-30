@@ -1,8 +1,6 @@
 
 # Broker Chain Pattern
 
-> _Hinweis: Hier wurde angenommen, dass mit „Broker Chain Pattern“ das klassische Chain-of-Responsibility-Pattern gemeint ist. Falls du etwas anderes meinst, gib bitte Bescheid!_
-
 **Was ist das?**  
 Ein Entwurfsmuster, bei dem eine Anfrage durch eine Kette von Bearbeitern („Handlern“) läuft, bis einer sie verarbeitet. Jeder Handler kann die Anfrage abarbeiten oder weiterreichen.
 
